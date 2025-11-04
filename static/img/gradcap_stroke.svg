@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 566.9 566.9">
+<g stroke-linecap="round" stroke-linejoin="round">
+  <!-- Cap body/base (round cylindrical part) - bottom ellipse -->
+  <ellipse cx="283.5" cy="330" rx="130" ry="60"
+           fill="#B3D9F2" stroke="#0064A0" stroke-width="14"/>
+
+  <!-- Cap body/base - top ellipse (smaller, shows perspective) -->
+  <ellipse cx="283.5" cy="280" rx="95" ry="40"
+           fill="#E6F2FA" stroke="#0064A0" stroke-width="12"/>
+
+  <!-- Mortarboard flat top (square rotated 45°) - dark blue fill -->
+  <path d="M70,230 L283.5,80 L497,230 L283.5,380 Z"
+        fill="#0064A0" stroke="#0064A0" stroke-width="14"/>
+
+  <!-- 3D depth/thickness of mortarboard - left side darker -->
+  <path d="M70,230 L70,255 L283.5,405 L283.5,380 Z"
+        fill="#004a7a" stroke="#0064A0" stroke-width="10"/>
+
+  <!-- 3D depth/thickness of mortarboard - right side lighter -->
+  <path d="M283.5,380 L283.5,405 L497,255 L497,230 Z"
+        fill="#00669e" stroke="#0064A0" stroke-width="10"/>
+
+  <!-- Center button/knob on top of mortarboard -->
+  <circle cx="283.5" cy="230" r="25"
+          fill="#B3D9F2" stroke="#0064A0" stroke-width="10"/>
+
+  <!-- Tassel string (from center button to side) -->
+  <line x1="283.5" y1="230" x2="410" y2="360"
+        stroke="#0064A0" stroke-width="14"/>
+
+  <!-- Tassel knot (thicker circle) -->
+  <circle cx="410" cy="360" r="22"
+          fill="#0064A0" stroke="#0064A0" stroke-width="10"/>
+
+  <!-- Tassel threads (hanging decorative strands) -->
+  <g>
+    <line x1="395" y1="382" x2="387" y2="470" stroke="#0064A0" stroke-width="9"/>
+    <line x1="402" y1="382" x2="397" y2="476" stroke="#0064A0" stroke-width="9"/>
+    <line x1="410" y1="382" x2="410" y2="480" stroke="#0064A0" stroke-width="9"/>
+    <line x1="418" y1="382" x2="423" y2="476" stroke="#0064A0" stroke-width="9"/>
+    <line x1="425" y1="382" x2="433" y2="470" stroke="#0064A0" stroke-width="9"/>
+  </g>
+</g>
+</svg>

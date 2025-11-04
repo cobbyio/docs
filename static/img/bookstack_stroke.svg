@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 566.9 566.9">
+<g fill="none" stroke="#0064A0" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Bottom book (horizontal) -->
+  <rect x="80" y="420" width="400" height="80" rx="5"/>
+  <line x1="80" y1="450" x2="480" y2="450"/>
+  <line x1="130" y1="420" x2="130" y2="500"/>
+
+  <!-- Middle book (horizontal) -->
+  <rect x="100" y="320" width="380" height="90" rx="5"/>
+  <line x1="100" y1="355" x2="480" y2="355"/>
+  <line x1="160" y1="320" x2="160" y2="410"/>
+
+  <!-- Top book (horizontal) -->
+  <rect x="120" y="220" width="360" height="90" rx="5"/>
+  <line x1="120" y1="255" x2="480" y2="255"/>
+  <line x1="190" y1="220" x2="190" y2="310"/>
+
+  <!-- Very top book (slightly tilted) -->
+  <path d="M140,110 L460,130 L460,200 L140,180 Z"/>
+  <line x1="140" y1="145" x2="460" y2="165"/>
+  <line x1="210" y1="115" x2="210" y2="185"/>
+</g>
+</svg>

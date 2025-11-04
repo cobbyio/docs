@@ -1,0 +1,107 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #0064a0;
+  /* --ifm-color-primary-dark: rgb(33, 175, 144);
+  --ifm-color-primary-darker: rgb(31, 165, 136);
+  --ifm-color-primary-darkest: rgb(26, 136, 112); */
+  --ifm-color-primary-light: rgb(18, 130, 199);
+  --ifm-color-primary-lighter: rgb(27, 144, 216);
+  --ifm-color-primary-lightest: rgb(25, 143, 216);
+  --ifm-code-font-size: 95%;
+}
+
+.docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.1);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+/* html[data-theme="dark"] .docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.3);
+} */
+
+@layer components {
+  .heroBanner {
+    @apply px-4 text-center relative overflow-hidden;
+  }
+  .buttons {
+    @apply flex items-center justify-center;
+  }
+
+  .features {
+    @apply flex items-center p-4 w-full;
+  }
+
+  .featureSvg {
+    @apply h-20 mb-1 w-16;
+  }
+
+  .flexCenter {
+    @apply flex flex-col justify-center items-center;
+  }
+
+  .flexStart {
+    @apply flex flex-col justify-start items-start;
+  }
+
+  .btns {
+    @apply text-white font-semibold rounded-md px-8 py-2 bg-primary capitalize text-sm;
+  }
+
+  .title-lg {
+    @apply text-xl font-bold;
+  }
+
+  footer .container {
+    @apply lg:px-16 px-8;
+  }
+  .yt-lite {
+    @apply w-[675px] h-[380px];
+  }
+}
+
+.features {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.featureSvg {
+  height: 80px;
+  width: 80px;
+  margin-bottom: 1rem;
+}
+
+.breadcrumb {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.breadcrumb-item {
+  margin-right: 0.5rem;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  content: ">";
+  margin-right: 0.5rem;
+}
+
+.breadcrumb-item a {
+  text-decoration: none;
+}
+
+.breadcrumb-item a:hover {
+  text-decoration: underline;
+}

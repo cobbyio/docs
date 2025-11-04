@@ -1,0 +1,10 @@
+{
+  "label": "How-To Guides",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "title": "How-To Guides",
+    "description": "Problem-solving guides that show you how to achieve specific goals. These guides assume you have some basic knowledge of cobby.",
+    "slug": "/how-to"
+  }
+}

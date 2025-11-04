@@ -1,0 +1,10 @@
+{
+  "label": "Reference",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "title": "Reference",
+    "description": "Technical documentation that provides detailed information about cobby's features, APIs, error codes, and settings. Use this for looking up specific information.",
+    "slug": "/reference"
+  }
+}

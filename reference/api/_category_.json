@@ -1,0 +1,8 @@
+{
+  "label": "API Reference",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Complete technical reference for cobby's API endpoints, events, and parameters."
+  }
+}

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 566.9 566.9">
+<g stroke-linecap="round" stroke-linejoin="round">
+  <!-- Outer circle (filled with light blue) -->
+  <circle cx="283.5" cy="283.5" r="210" fill="#B3D9F2" stroke="#0064A0" stroke-width="8"/>
+
+  <!-- Second circle (white/empty) -->
+  <circle cx="283.5" cy="283.5" r="160" fill="white" stroke="#0064A0" stroke-width="8"/>
+
+  <!-- Third circle (filled with light blue) -->
+  <circle cx="283.5" cy="283.5" r="110" fill="#B3D9F2" stroke="#0064A0" stroke-width="8"/>
+
+  <!-- Fourth circle (white/empty) -->
+  <circle cx="283.5" cy="283.5" r="60" fill="white" stroke="#0064A0" stroke-width="8"/>
+
+  <!-- Center bullseye (filled) -->
+  <circle cx="283.5" cy="283.5" r="25" fill="#0064A0" stroke="#0064A0" stroke-width="8"/>
+
+  <!-- Arrow hitting center -->
+  <g fill="none" stroke="#0064A0">
+    <!-- Arrow shaft (thick line) -->
+    <line x1="50" y1="50" x2="245" y2="245" stroke-width="16"/>
+
+    <!-- Arrow fletching (back of arrow, V shapes) -->
+    <path d="M65,65 L40,50 L55,35" stroke-width="12"/>
+    <path d="M75,75 L55,65 L65,55" stroke-width="12"/>
+  </g>
+
+  <!-- Arrow head (triangular, filled) - drawn last so it's on top -->
+  <path d="M245,245 L275,230 L260,275 Z" fill="#0064A0" stroke="#0064A0" stroke-width="8"/>
+</g>
+</svg>
