@@ -33,6 +33,7 @@ const config = {
         path: "tutorials",
         routeBasePath: "tutorials",
         sidebarPath: require.resolve("./sidebars.js"),
+        editUrl: "https://github.com/cobbyio/docs/tree/main/",
       }),
     ],
     [
@@ -43,6 +44,7 @@ const config = {
         path: "how-to",
         routeBasePath: "how-to",
         sidebarPath: require.resolve("./sidebars.js"),
+        editUrl: "https://github.com/cobbyio/docs/tree/main/",
       }),
     ],
     [
@@ -53,6 +55,7 @@ const config = {
         path: "reference",
         routeBasePath: "reference",
         sidebarPath: require.resolve("./sidebars.js"),
+        editUrl: "https://github.com/cobbyio/docs/tree/main/",
       }),
     ],
     [
@@ -63,6 +66,7 @@ const config = {
         path: "explanation",
         routeBasePath: "explanation",
         sidebarPath: require.resolve("./sidebars.js"),
+        editUrl: "https://github.com/cobbyio/docs/tree/main/",
       }),
     ],
     tailwindPlugin,
@@ -73,6 +77,7 @@ const config = {
       {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
+          editUrl: "https://github.com/cobbyio/docs/tree/main/",
         },
         blog: {
           path: "release-notes",
