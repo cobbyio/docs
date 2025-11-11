@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 
-export default function Storylane({ src }) {
+export default function Storylane({ id, src, title }) {
     useEffect(() => {
         const script = document.createElement('script');
         script.src = 'https://js.storylane.io/js/v1/storylane.js';
@@ -8,9 +8,12 @@ export default function Storylane({ src }) {
         document.body.appendChild(script);
     }, []);
 
+    // Generate the full Storylane embed URL from the ID or use provided src
+    const embedSrc = src || `https://app.storylane.io/demo/${id}`;
+
     const containerStyle = {
         position: 'relative',
-        paddingBottom: 'calc(45.26% + 27px)',
+        paddingBottom: 'calc(75% + 27px)', // Increased for better visibility
         width: '100%',
         height: 0,
         transform: 'scale(1)',
@@ -29,12 +32,13 @@ export default function Storylane({ src }) {
     };
 
     return (
-        <div>
+        <div style={{ margin: '1.5rem 0' }}>
             <div className="sl-embed" style={containerStyle}>
                 <iframe
                     className="sl-demo"
-                    src={src}
+                    src={embedSrc}
                     name="sl-embed"
+                    title={title || 'Storylane interactive demo'}
                     allow="fullscreen"
                     allowFullScreen
                     style={iframeStyle}
