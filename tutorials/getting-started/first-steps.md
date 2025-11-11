@@ -17,6 +17,9 @@ In this tutorial, we will:
 4. View your changes
 5. Save changes back to your shop
 6. Explore the most important columns in cobby
+sadf
+adsf
+dsf
 
 **Time to complete:** About 10-15 minutes
 
