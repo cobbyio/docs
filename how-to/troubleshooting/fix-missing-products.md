@@ -40,7 +40,7 @@ cobby's product filter may be hiding disabled products:
 
 **Expected result:** Disabled products should now be visible in cobby.
 
-For detailed filter instructions, see [The Product Filter](/reference/features/filter).
+For detailed filter instructions, see [The Product Filter](/reference/features/filtering-capabilities).
 
 **If this doesn't work:** Continue to Solution 2.
 

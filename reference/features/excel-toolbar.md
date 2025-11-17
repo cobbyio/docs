@@ -46,7 +46,7 @@ With "Load Products," you can download all your product data from your shop into
 
 **Available Options:**
 
-**2.1 Filter:** To load only selected products, e.g., those from a specific manufacturer or a specific SKU, you can filter them beforehand. Learn more about the [Filter](/reference/features/filter).
+**2.1 Filter:** To load only selected products, e.g., those from a specific manufacturer or a specific SKU, you can filter them beforehand. Learn more about the [Filter](/reference/features/filtering-capabilities).
 
 **2.2 Preset:** In this selection, you can see presets you've created. A preset is an Excel view that you can create and save yourself.
 
@@ -161,7 +161,7 @@ With "Open Admin Panel," you can access your Magento backend with a single click
 
 **8.1 Copy Product:** With "Copy product," you can duplicate existing products. Great for creating new products.
 
-**8.2 Copy Selection for Filter:** With this function, you can copy a large amount of data from your table, which you can then paste into the filter. Here, we have taken advantage of Excel's powerful filter function. Learn more about the [Filter](/reference/features/filter).
+**8.2 Copy Selection for Filter:** With this function, you can copy a large amount of data from your table, which you can then paste into the filter. Here, we have taken advantage of Excel's powerful filter function. Learn more about the [Filter](/reference/features/filtering-capabilities).
 
 **8.3 Convert Text to HTML:** With this, you can convert text into HTML code at the push of a button.
 

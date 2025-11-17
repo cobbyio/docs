@@ -101,6 +101,5 @@ Custom product views help you:
 
 ## Related Documentation
 
-- [Reference: Presets](/reference/features/presets) - Detailed documentation on preset functionality
-- [Reference: Filters](/reference/features/filters) - Complete filter options and advanced filtering
+- [Reference: Filters](/reference/features/filtering-capabilities) - Complete filter options and advanced filtering
 - [How to Use Autofilter](/how-to/excel-formulas/use-autofilter) - Excel's built-in filtering capabilities

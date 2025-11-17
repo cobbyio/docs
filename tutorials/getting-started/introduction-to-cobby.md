@@ -702,7 +702,7 @@ Now that you've mastered the basics, explore more cobby features:
 
 ### Optimize Your Workflow
 - **[Using Excel formulas](/how-to/excel-formulas/use-formulas-in-cobby)** - Automate calculations with cobby formulas
-- **[Filtering products](/reference/features/filter)** - Load only what you need
+- **[Filtering products](/reference/features/filtering-capabilities)** - Load only what you need
 - **[Creating presets](/explanation/features/presets)** - Customize your column views
 - **[Creating auxiliary columns](/how-to/product-management/create-auxiliary-columns)** - Create custom columns for your workflow
 
