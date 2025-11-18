@@ -68,11 +68,19 @@ When repacking the ZIP file, maintain the same folder structure. All files must 
 This method disables sync by removing all cobby-related custom properties from the open workbook. You control which data to keep.
 
 1. Open the Excel workbook.
+
+   ![Open Excel File menu](/img/remove-cobby-worksheets/remove-1.png)
+
 2. Go to **File** → **Info** → **Properties** → **Advanced Properties**.
+
+   ![Advanced Properties dialog](/img/remove-cobby-worksheets/remove-2.png)
+
 3. Click on the **Custom** tab.
 4. Look for any properties related to cobby (e.g., properties with "cobby" in the name).
 5. Select each cobby-related property.
 6. Click **Delete**.
+
+   ![Delete custom properties](/img/remove-cobby-worksheets/remove-3.png)
 7. Repeat steps 5-6 for all cobby properties.
 8. Click **OK** to close the dialog.
 9. Save the workbook.
