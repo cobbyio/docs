@@ -110,7 +110,7 @@ In the context of cobby's role as an integration platform, tier pricing represen
      ┌────┴────────────────┐
      ↓                     ↓
 ┌──────────┐        ┌──────────┐
-│ Shopify  │        │ Magento  │
+│ Shopware │        │ Magento  │
 │          │        │          │
 │ Customer │        │ Customer │
 │ sees     │        │ sees     │
