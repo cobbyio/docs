@@ -184,7 +184,7 @@ Configure Excel to automatically include new rows in tables:
 
 If problems persist after trying these solutions:
 
-- Email cobby support at info@cobby.io with:
+- Email cobby support at support@cobby.io with:
   - Which scenario you're experiencing
   - Excel version (File > Account > About Excel)
   - Windows version
