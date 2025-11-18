@@ -115,4 +115,3 @@ Choose the method that best fits your goal:
 
 - [How to Fix Excel Add-In Not Showing](fix-excel-addin-not-showing.md)
 - [How to Fix Connection Issues](fix-connection-issues.md)
-- [How to Work with Saved Workbooks](work-with-saved-workbooks.md)
