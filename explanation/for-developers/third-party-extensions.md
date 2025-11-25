@@ -1,9 +1,9 @@
 ---
 sidebar_position: 1
-title: Understanding Third-Party Extension Integration
+title: Third-Party Extension Integration
 ---
 
-# Understanding Third-Party Extension Integration
+# Third-Party Extension Integration
 
 cobby is designed to work seamlessly with the Magento/Adobe Commerce ecosystem, including third-party extensions. Understanding how cobby interacts with extensions helps you make informed decisions about compatibility and integration approaches.
 

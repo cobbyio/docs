@@ -1,9 +1,9 @@
 ---
 sidebar_position: 1
-title: Understanding Configurable Products
+title: Configurable Products
 ---
 
-# Understanding Configurable Products
+# Configurable Products
 
 Configurable products are one of the most powerful yet complex product types in e-commerce. They represent a parent product that has multiple variations (simple products) based on attributes like color, size, or material. Understanding how cobby handles configurable products helps you manage product catalogs more effectively.
 

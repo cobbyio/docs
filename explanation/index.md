@@ -35,11 +35,20 @@ Understand how cobby works internally: data storage, synchronization, notificati
 ### 💭 Concepts
 Learn about key concepts: user tracking, change attribution, performance optimization, and how different parts work together.
 
+### 📦 Product Types
+Understand different product types in cobby: simple products, configurable products, bundles, and how they work in your e-commerce system.
+
 ### ⭐ Best Practices
 Discover recommended approaches: SEO optimization strategies, quality assurance workflows, formula performance optimization.
 
+### ⚙️ Features
+Deep dive into cobby's core features and understand how they work under the hood to support your product management workflows.
+
 ### 👨‍💻 For Developers
 Developer-focused explanations: creating extensions, handling custom product types, and understanding migration paths.
+
+### ⚖️ Regulatory Compliance
+Understand the regulatory landscape affecting e-commerce: EU safety requirements, GPSR compliance, data protection, and how cobby supports your compliance efforts.
 
 ---
 

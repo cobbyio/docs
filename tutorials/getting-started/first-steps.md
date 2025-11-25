@@ -1,11 +1,15 @@
 ---
 sidebar_position: 1
-title: Your First Steps with cobby
+title: Quick Start - Your First Product Edit
 ---
 
-# Your First Steps with cobby
+# Quick Start: Your First Product Edit
 
-Welcome! In this tutorial, you'll learn the basics of cobby by completing your first product edit. By the end, you'll understand how to load products, make changes, and save them back to your online shop.
+Welcome! In this quick start tutorial, you'll learn the basics of cobby by completing your first product edit in just 10-15 minutes. By the end, you'll understand how to load products, make changes, and save them back to your online shop.
+
+:::tip Want the Complete Guide?
+This is a quick start for immediate results. For a comprehensive understanding of cobby's Portal and Excel interfaces, continue with our [Onboarding: Introduction to cobby](/tutorials/getting-started/introduction-to-cobby) tutorial after completing this quick start.
+:::
 
 ## What You'll Learn
 
@@ -196,7 +200,15 @@ In this tutorial, you've learned:
 
 ## Next Steps
 
-Now that you understand the basics, you can explore more features and advanced techniques in cobby.
+Now that you understand the basics, you can:
+
+### Continue Your Learning Journey
+- **[Onboarding: Introduction to cobby](/tutorials/getting-started/introduction-to-cobby)** - Get the complete picture with our comprehensive onboarding that covers both the cobby Portal and Excel in depth (20-25 minutes)
+
+### Explore More Features
+- **[Working with categories](/explanation/features/categories)** - Organize products into categories
+- **[Managing images](/how-to/images/add-images)** - Upload and arrange product images
+- **[Update prices in bulk](/how-to/prices/update-prices)** - Change multiple product prices
 
 :::info Need Help?
 If you encounter any issues, contact our support team.

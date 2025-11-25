@@ -74,6 +74,28 @@ The "Copy Selection for Filter" feature enables rapid transfer of selected Excel
 
 **Use Case:** Quickly filter products based on a specific subset of SKUs or attribute values already present in the current worksheet or another data source.
 
+### Keyboard Navigation
+
+The cobby filter dialog supports full keyboard-based operation, enabling filter configuration without mouse interaction. This capability accelerates filter setting for users who prefer keyboard navigation workflows.
+
+**Supported Operations:**
+- Direct attribute search via keyboard input
+- Suggestion navigation using arrow keys (`↑`/`↓`)
+- Value selection with `Enter` or `Tab`
+- Dialog cancellation with `ESC`
+- Automatic focus advancement to next input field
+- Universal dropdown list support
+
+**Keyboard Shortcuts:**
+- **Ctrl + Q**: Cancel and close filter dialog
+- **Ctrl + Enter**: Apply filter and load products
+
+The keyboard navigation system applies to all dropdown lists and input fields within the filter dialog, providing consistent interaction patterns across all filter attribute types (store views, text attributes, selection attributes).
+
+![Filter dialog showing keyboard navigation shortcuts](/img/filtering-capabilities/filter-keyboard-navigation.png)
+
+**Target Users:** Power users managing high-volume product catalogs who require rapid navigation through multiple filter criteria.
+
 ### Performance Impact
 
 Pre-loading filtration significantly reduces data transfer requirements. For example, filtering 10,000 products to 100 matching items transfers only 100 rows from Magento, rather than transferring all 10,000 rows and hiding 9,900 of them in Excel.
