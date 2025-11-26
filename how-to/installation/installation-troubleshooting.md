@@ -210,7 +210,7 @@ Configure your .htaccess to exclude API routes from authentication:
 - Magento 2: Exclude `/rest/`
 
 :::warning Image Preview Requires Media Access
-If you want to use image preview features in cobby, you must also exclude the `/media/import` directory from .htaccess authentication.
+If you want to use image preview features in cobby, you must also exclude the `/media` directory from .htaccess authentication.
 :::
 
 ---
