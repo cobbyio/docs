@@ -167,10 +167,9 @@ cobby uses different API URLs depending on your version:
 
 ### Magento 1
 
-- **cobby versions up to 1.40**: `Protocol://ShopURL/index.php/api/mash2/json`
 - **cobby versions after 1.40**: Either:
-  - `Protocol://ShopURL/index.php/api/mash2/json`, or
-  - `Protocol://ShopURL/api/mash2/json`
+  - `Protocol://ShopURL/index.php/api/cobby/json`, or
+  - `Protocol://ShopURL/api/cobby/json`
 
 ### Magento 2
 
@@ -207,7 +206,7 @@ Add these IP addresses to your .htaccess whitelist:
 ### Option 2: Exclude API Routes
 
 Configure your .htaccess to exclude API routes from authentication:
-- Magento 1: Exclude `/api/mash2/`
+- Magento 1: Exclude `/api/cobby/`
 - Magento 2: Exclude `/rest/`
 
 :::warning Image Preview Requires Media Access
