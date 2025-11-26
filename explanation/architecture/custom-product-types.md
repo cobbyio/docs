@@ -1,9 +1,9 @@
 ---
 sidebar_position: 3
-title: Understanding Custom Product Types
+title: Custom Product Types
 ---
 
-# Understanding Custom Product Types
+# Custom Product Types
 
 Magento/Adobe Commerce supports multiple product types out of the box (simple, configurable, grouped, bundle, virtual, downloadable). Some stores extend this with custom product types to handle specialized business requirements. Understanding how cobby handles these custom types is essential for maintaining data integrity during synchronization.
 

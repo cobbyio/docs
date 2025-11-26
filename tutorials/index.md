@@ -28,12 +28,12 @@ Use tutorials when you:
 
 ## Available Tutorials
 
-### 🚀 Getting Started Tutorial
+### 🚀 Getting Started Tutorials
 
 Build foundational knowledge by learning the basics:
 
-- **[Introduction to cobby - Your First Product Update](/tutorials/getting-started/introduction-to-cobby)** - Discover what cobby is, explore the interface, and complete your first product update from start to finish
-- **[Your First Steps with cobby](/tutorials/getting-started/first-steps)** - Learn how to log in, load products, make your first edits, and save changes
+- **[Quick Start: Your First Product Edit](/tutorials/getting-started/first-steps)** - Jump right in and complete your first product edit in just 10-15 minutes (Excel only)
+- **[Onboarding: Introduction to cobby](/tutorials/getting-started/introduction-to-cobby)** - Comprehensive onboarding covering both Portal and Excel interfaces (20-25 minutes)
 
 ---
 

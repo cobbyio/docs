@@ -1,7 +1,7 @@
 ---
 title: The Economics of Tier Pricing Strategy
 description: Understanding margin dynamics, profitability tradeoffs, and the strategic decision-making behind successful volume-based pricing structures
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 # The Economics of Tier Pricing Strategy

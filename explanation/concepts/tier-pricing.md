@@ -1,7 +1,7 @@
 ---
 title: Tier Pricing in E-Commerce
 description: Understanding the business logic, strategic value, and economic principles behind volume-based pricing strategies in e-commerce integration
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 # Tier Pricing in E-Commerce

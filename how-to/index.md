@@ -52,11 +52,23 @@ Master VLOOKUP, CONCATENATE, IF functions, INDEX-MATCH, and other formulas for c
 ### ✅ Quality Control
 Find errors before customers do, use conditional formatting, and maintain data quality.
 
-### 👥 Workspace & Account
+### 📊 Inventory
+Manage stock levels, track inventory across multiple warehouses, and synchronize inventory data.
+
+### 👥 Workspace Management
 Connect new shops, set up multiple users, manage licenses, and configure your workspace.
 
 ### 🔧 Troubleshooting
 Solve common issues like missing attributes, products not showing, slow saving, and more.
+
+### 💻 Developer Guides
+Integrate with cobby's API, develop custom extensions, and automate workflows programmatically.
+
+### 🔍 SEO
+Optimize product URLs, meta descriptions, and search engine visibility for your e-commerce content.
+
+### 📈 Reporting
+Generate reports, analyze product data, export information, and gain insights into your catalog.
 
 ---
 

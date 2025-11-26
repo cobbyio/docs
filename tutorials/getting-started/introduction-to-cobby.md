@@ -1,11 +1,15 @@
 ---
 sidebar_position: 0
-title: Introduction to cobby - Your First Product Update
+title: Onboarding - Introduction to cobby
 ---
 
-# Introduction to cobby - Your First Product Update
+# Onboarding: Introduction to cobby
 
-Welcome! In this tutorial, you'll discover what cobby is, learn the interface, and successfully update your first product. By the end, you'll understand how cobby transforms product management from a tedious task into an efficient workflow.
+Welcome! In this comprehensive onboarding tutorial, you'll discover what cobby is, learn both the Portal and Excel interfaces, and successfully update your first product. By the end, you'll understand how cobby transforms product management from a tedious task into an efficient workflow.
+
+:::tip Want to Jump Right In?
+If you prefer a quick start (10-15 minutes), try our [Quick Start: Your First Product Edit](/tutorials/getting-started/first-steps) first, then return here for the complete picture.
+:::
 
 import YoutubeVideo from '@site/src/components/YoutubeVideo';
 import Storylane from '@site/src/components/Storylane';
@@ -693,7 +697,7 @@ Congratulations! In this tutorial, you've:
 
 ## Next Steps
 
-Now that you've mastered the basics, explore more cobby features:
+Now that you've completed the comprehensive onboarding and mastered both the cobby Portal and Excel, explore more cobby features:
 
 ### Learn More Product Management
 - **[Working with categories](/explanation/features/categories)** - Organize products into categories

@@ -1,5 +1,5 @@
 ---
-title: Understanding the General Product Safety Regulation (GPSR)
+title: General Product Safety Regulation (GPSR)
 description: Explore the EU's General Product Safety Regulation, why it matters for e-commerce businesses, and how it transforms product safety requirements in the digital marketplace
 ---
 

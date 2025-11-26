@@ -1,9 +1,9 @@
 ---
 sidebar_position: 4
-title: Understanding Category Management
+title: Categories
 ---
 
-# Understanding Category Management
+# Categories
 
 Categories are the organizational backbone of any e-commerce catalog. Understanding how cobby handles categories - particularly the difference between replacing and adding categories - is crucial for maintaining catalog integrity at scale.
 
