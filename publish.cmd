@@ -1,12 +1,8 @@
 @echo off
 setlocal enabledelayedexpansion
 
-REM Get today's date in YYYY.MM.DD format
-for /f "tokens=2 delims==" %%I in ('wmic os get localdatetime /value ^| find "="') do set datetime=%%I
-set year=%datetime:~0,4%
-set month=%datetime:~4,2%
-set day=%datetime:~6,2%
-set today=%year%.%month%.%day%
+REM Get today's date in YYYY.MM.DD format using PowerShell
+for /f %%I in ('powershell -NoProfile -Command "Get-Date -Format \"yyyy.MM.dd\""') do set today=%%I
 
 REM Find the highest existing tag number for today
 set max_num=0
