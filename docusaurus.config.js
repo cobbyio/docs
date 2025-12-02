@@ -133,7 +133,6 @@ const config = {
         { to: "/reference", label: "Reference", position: "left" },
         { to: "/explanation/architecture/how-cobby-works", label: "Explanation", position: "left" },
         { to: "/release-notes", label: "Release Notes", position: "right" },
-        { to: "https://customer.cobby.io/en/slides", label: "Academy", position: "right", target: "_blank" },
         { to: "https://documenter.getpostman.com/view/26334176/2sAYBPoFPm#d1f79765-6a40-4bd4-bd8a-41f171144558", label: "Open API", position: "right", target: "_blank" },
       ],
     },
