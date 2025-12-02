@@ -3,6 +3,7 @@ import Layout from "@theme/Layout";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import FeatureCardList from "../components/FeatureCardList";
 import Header from "../components/Header";
+import Snowflakes from "../components/Snowflakes";
 
 const FeatureListDE = [
   {
@@ -177,6 +178,7 @@ export default function Home() {
   const featureList = currentLocale === "de" ? FeatureListDE : FeatureListEN;
   return (
     <Layout title={`${siteConfig.title}`} description="cobby Help Docs">
+      <Snowflakes />
       <Header title={siteConfig.title} />
       <main className="bg-gray-light md:px-36 px-8">
         <FeatureCardList featureList={featureList} />
