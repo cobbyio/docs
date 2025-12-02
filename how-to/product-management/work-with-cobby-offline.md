@@ -115,7 +115,7 @@ Saved workbooks are disconnected from your shop and won't show these indicators.
 
 ## Critical Warning: Avoiding Data Overwrites
 
-:::danger
+:::warning
 **You must understand the risks when working with saved workbooks**
 :::
 
