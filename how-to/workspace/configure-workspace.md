@@ -133,7 +133,6 @@ Configure how you receive cobby notifications:
 ## Related Tasks
 
 - [How to Manage Multiple Workspaces](./manage-multiple-workspaces.md)
-- [How to Generate API Keys](./generate-api-keys.md)
 - [How to Invite Team Members](./invite-team-members.md)
 
 ## More Information

@@ -171,3 +171,10 @@ This approach is much faster than editing products individually in the Magento b
 **URLs not including categories:** Verify that URL rewrites are enabled in Magento configuration.
 
 **Changes not appearing in search results:** Search engines need time to re-index your pages. This can take days or weeks.
+
+---
+
+## Related Resources
+
+- [How to Optimize Product Metadata for Search Engines - Part 1](/how-to/seo/optimize-metadata-part-1): Understanding how search engines evaluate your pages
+- [Understanding SEO for E-Commerce](/explanation/concepts/understanding-seo-for-e-commerce): Deep dive into how search engines evaluate and rank product pages

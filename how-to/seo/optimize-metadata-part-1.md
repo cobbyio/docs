@@ -115,3 +115,10 @@ To rank well in search engines:
 ## Next Steps
 
 Continue to Part 2 to learn where to maintain this information in Magento and how to efficiently update it using cobby and Excel.
+
+---
+
+## Related Resources
+
+- [How to Optimize Product Metadata for Search Engines - Part 2](/how-to/seo/optimize-metadata-part-2): Where to maintain SEO information in Magento and cobby
+- [Understanding SEO for E-Commerce](/explanation/concepts/understanding-seo-for-e-commerce): Deep dive into how search engines evaluate and rank product pages

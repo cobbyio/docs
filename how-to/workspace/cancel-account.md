@@ -34,7 +34,7 @@ Cancel your cobby subscription and close your account.
    - Email: support@cobby.io
    - Include your workspace name and reason for cancellation
 
-**Result:** Support will process your cancellation request and confirm when it takes effect.
+   Support will process your cancellation request and confirm when it takes effect.
 
 ## After Cancellation
 
@@ -54,7 +54,6 @@ Cancel your cobby subscription and close your account.
 
 - **Downgrade:** Switch to a lower-tier plan to reduce costs
 - **Pause:** Contact support about temporary suspension options
-- **Feature adjustment:** Reduce usage to stay within a lower plan tier
 
 ## Common Issues
 
@@ -62,17 +61,7 @@ Cancel your cobby subscription and close your account.
 - Account cancellation must be processed through support
 - This ensures proper data handling and prevents accidental cancellation
 
-**Want to cancel immediately?**
-- Contact support to discuss immediate cancellation
-- Refunds are handled on a case-by-case basis
-
 **Need to export data first?**
 - Save all Excel workbooks with your product data
 - Export any custom templates or configurations
 - Document any custom attributes or settings
-
-## Related Tasks
-
-- [How to Change Your Subscription](./change-subscription.md)
-- [How to Manage Billing](./manage-billing.md)
-- How to Export Data (coming soon)
