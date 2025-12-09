@@ -1,5 +1,5 @@
 ---
-sidebar_position: 7
+sidebar_position: 11
 title: How to Use INDEX-MATCH for Flexible Data Lookups
 ---
 
@@ -205,22 +205,38 @@ Use 1 instead of 0 for the largest value less than or equal to search value.
 
 ## Troubleshooting
 
-**Getting #N/A error?**
+<details>
+<summary>**Getting #N/A error?**</summary>
+
 - The search value wasn't found in the search column
 - Check for exact match (extra spaces, different formats)
-- Use TRIM to clean spaces: MATCH(TRIM([@SKU]);...)
+- Use TRIM to clean spaces: `MATCH(TRIM([@SKU]);...)`
 
-**Getting #REF! error?**
+</details>
+
+<details>
+<summary>**Getting #REF! error?**</summary>
+
 - The matched position is outside the INDEX range
 - Ensure both ranges have the same number of rows
 
-**Getting #VALUE! error?**
+</details>
+
+<details>
+<summary>**Getting #VALUE! error?**</summary>
+
 - Data type mismatch (text vs numbers)
 - Use VALUE or TEXT to convert formats (coming soon)
 
-**Formula not calculating?**
+</details>
+
+<details>
+<summary>**Formula not calculating?**</summary>
+
 - Set cell format to "Standard" instead of "Text"
 - Right-click > Format Cells > Standard
+
+</details>
 
 ## Performance Considerations
 

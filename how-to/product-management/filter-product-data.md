@@ -189,6 +189,8 @@ Control whether deactivated products are included.
 Keep "Only active products" enabled unless you specifically need to work with deactivated products.
 :::
 
+---
+
 ## Choosing the Right Filter Method
 
 Use this guide to decide which filtering approach works best for your task:
@@ -210,31 +212,39 @@ Use this guide to decide which filtering approach works best for your task:
 - Apply cobby filters to load relevant product segments
 - Then use Excel filters to further refine your view within that data
 
-## Tips
-
-- **Combine filtering methods**: Use cobby filters to load a product segment, then use Excel filters for quick refinements
-- **Save filter configurations**: Document frequently used cobby filter combinations for consistency
-- **Check filter indicators**: Blue row numbers in Excel indicate active filters
-- **Clear filters regularly**: Remove Excel filters when done to avoid confusion
-- **Start broad, then narrow**: Load a broader dataset with cobby filters, then use Excel filters to find specific products
+---
 
 ## Troubleshooting
 
-**No products appear after applying cobby filters?**
+<details>
+<summary>**No products appear after applying cobby filters?**</summary>
+
 - Your filter criteria may be too restrictive
 - Check that you've selected at least one store view
 - Verify filter values match actual product data
 
-**Excel filter not showing expected values?**
+</details>
+
+<details>
+<summary>**Excel filter not showing expected values?**</summary>
+
 - cobby filters may have excluded those products during load
 - Clear Excel filters first to see what data is actually loaded
 - Consider reloading with different cobby filter settings
 
-**Performance is slow even with filters?**
+</details>
+
+<details>
+<summary>**Performance is slow even with filters?**</summary>
+
 - Use cobby filters to reduce the initial data load
 - Enable "Hide empty attribute sets" in cobby filters
 - Filter by store view to limit data scope
 - Consider working with smaller product batches
+
+</details>
+
+---
 
 ## Related Topics
 

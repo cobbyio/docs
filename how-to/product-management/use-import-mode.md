@@ -142,20 +142,50 @@ After working in import mode:
 
 ## Troubleshooting
 
-**Products not found:** Verify that the SKU in your import data exactly matches the SKU in your store (including case and spaces).
+<details>
+<summary>**Products not found**</summary>
 
-**Data not updating:** Check that the columns you want to update are visible, not hidden.
+Verify that the SKU in your import data exactly matches the SKU in your store (including case and spaces).
 
-**Store data being overwritten unexpectedly:** You likely forgot to hide columns. Always hide columns with empty or outdated data.
+</details>
 
-**New products in wrong attribute set:** For new products, you must select the exact target attribute set before importing.
+<details>
+<summary>**Data not updating**</summary>
 
-**Job log shows errors:** Check the job log details for specific error messages. Common issues:
+Check that the columns you want to update are visible, not hidden.
+
+</details>
+
+<details>
+<summary>**Store data being overwritten unexpectedly**</summary>
+
+You likely forgot to hide columns. Always hide columns with empty or outdated data.
+
+</details>
+
+<details>
+<summary>**New products in wrong attribute set**</summary>
+
+For new products, you must select the exact target attribute set before importing.
+
+</details>
+
+<details>
+<summary>**Job log shows errors**</summary>
+
+Check the job log details for specific error messages. Common issues:
 - Missing mandatory fields
 - Invalid attribute values
 - Duplicate SKUs
 
-**Excel crashes or becomes slow:** Make sure to close all other Excel workbooks before starting import mode.
+</details>
+
+<details>
+<summary>**Excel crashes or becomes slow**</summary>
+
+Make sure to close all other Excel workbooks before starting import mode.
+
+</details>
 
 ## Best Practices
 

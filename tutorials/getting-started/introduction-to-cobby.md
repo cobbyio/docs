@@ -133,7 +133,7 @@ The Portal displays:
 
 **What is a workspace?** A workspace represents one connected shop. If you manage multiple shops, you'll have multiple workspaces.
 
-<Storylane id="yrkbtc6cxx2c" title="cobby Portal Overview" />
+<Storylane id="jcvi4blm6qto" title="cobby Portal Overview" />
 
 ### Step 3: Navigate the Portal Sections
 
@@ -335,7 +335,7 @@ Notice the worksheet tabs at the bottom of Excel. cobby creates separate workshe
 **The AllProducts Sheet:**
 This special worksheet shows all products regardless of attribute set, making it easy to search your entire catalog at once.
 
-<Storylane id="jcvi4blm6qto" title="cobby Excel Workflow" />
+<Storylane id="yrkbtc6cxx2c" title="cobby Excel Workflow" />
 
 ### Step 13: Understand the Excel Interface Columns
 
@@ -343,6 +343,7 @@ Let's explore the columns you're seeing:
 
 **Column A - Product Status (Colored indicator)**
 This critical column shows synchronization status:
+
 - 🟢 **Green:** Product is synchronized (Excel matches your shop)
 - 🟡 **Yellow:** You've made changes that aren't saved yet
 - 🔴 **Red:** Someone else changed this product in the shop
@@ -565,27 +566,27 @@ This history is invaluable for team coordination and auditing—you can always s
 You've now worked in both the cobby Portal and Excel. Let's clarify when to use each:
 
 ### Use Excel For (Operational Tasks):
-- ✅ **Editing product data** (names, prices, descriptions, attributes)
-- ✅ **Bulk updates** across many products
-- ✅ **Using formulas** to calculate values
-- ✅ **Filtering and searching** products
-- ✅ **Daily product management tasks**
-- ✅ **Creating auxiliary columns** for notes and calculations
-- ✅ **Working with cobby formulas** for advanced operations
+- **Editing product data** (names, prices, descriptions, attributes)
+- **Bulk updates** across many products
+- **Using formulas** to calculate values
+- **Filtering and searching** products
+- **Daily product management tasks**
+- **Creating auxiliary columns** for notes and calculations
+- **Working with cobby formulas** for advanced operations
 
 **Excel is your workspace** - where you spend most of your time.
 
 ### Use the cobby Portal For (Administrative Tasks):
-- ⚙️ **Managing users** and team permissions
-- ⚙️ **Checking connection status** to your shop
-- ⚙️ **Downloading plugins** for your e-commerce platform
-- ⚙️ **Viewing job history** and tracking background tasks
-- ⚙️ **Reviewing product history** to see who changed what
-- ⚙️ **Configuring workspace settings**
-- ⚙️ **Managing presets** (can also be done in Excel)
-- ⚙️ **Updating billing** and subscription information
-- ⚙️ **Executing resynchronization** when needed
-- ⚙️ **Testing connectivity** and updating shop credentials
+- **Managing users** and team permissions
+- **Checking connection status** to your shop
+- **Downloading plugins** for your e-commerce platform
+- **Viewing job history** and tracking background tasks
+- **Reviewing product history** to see who changed what
+- **Configuring workspace settings**
+- **Managing presets** (can also be done in Excel)
+- **Updating billing** and subscription information
+- **Executing resynchronization** when needed
+- **Testing connectivity** and updating shop credentials
 
 **The Portal is your admin dashboard** - where you manage the cobby system itself.
 
@@ -675,21 +676,21 @@ Don't forget cobby's custom formulas:
 
 Congratulations! In this tutorial, you've:
 
-✅ Understood what cobby does and why it exists
-✅ Learned the two-interface architecture (Portal for admin, Excel for operations)
-✅ Explored the cobby Portal and its administrative features
-✅ Navigated the Portal's sections (Jobs, Product History, Settings)
-✅ Checked your shop connection status
-✅ Opened Excel and connected to your workspace
-✅ Loaded products into Excel
-✅ Understood how products are organized (rows, columns, worksheets)
-✅ Learned about special columns (required fields, auxiliary columns)
-✅ Discovered the Task Pane and cobby formulas
-✅ Made your first product edit
-✅ Reviewed your changes before saving
-✅ Saved changes back to your live shop
-✅ Verified changes in both your shop admin and the Portal's Product History
-✅ Learned the distinct roles of Excel and the Portal
+- Understood what cobby does and why it exists
+- Learned the two-interface architecture (Portal for admin, Excel for operations)
+- Explored the cobby Portal and its administrative features
+- Navigated the Portal's sections (Jobs, Product History, Settings)
+- Checked your shop connection status
+- Opened Excel and connected to your workspace
+- Loaded products into Excel
+- Understood how products are organized (rows, columns, worksheets)
+- Learned about special columns (required fields, auxiliary columns)
+- Discovered the Task Pane and cobby formulas
+- Made your first product edit
+- Reviewed your changes before saving
+- Saved changes back to your live shop
+- Verified changes in both your shop admin and the Portal's Product History
+- Learned the distinct roles of Excel and the Portal
 
 **You now understand the complete cobby workflow and architecture!**
 
@@ -714,11 +715,6 @@ Now that you've completed the comprehensive onboarding and mastered both the cob
 - **[Update prices in bulk](/how-to/prices/update-prices)** - Change multiple product prices
 - **[Optimize metadata for SEO](/how-to/seo/optimize-metadata-part-1)** - Improve search rankings
 - **[Import external data](/how-to/product-management/import-data)** - Bring data from other sources
-
-### Master Advanced Features
-- **Task Pane deep dive** - Learn all Task Pane capabilities (coming soon)
-- **cobby formulas reference** - Complete list of custom functions (coming soon)
-- **Understanding worksheets** - Master attribute set organization (coming soon)
 
 ### Troubleshooting
 - **[Fix connection issues](/how-to/troubleshooting/fix-connection-issues)** - Resolve connectivity problems
@@ -753,7 +749,7 @@ If you run into issues or have questions:
 - Check our [How-To Guides](/how-to) for specific tasks
 - Visit our [Reference section](/reference) for technical details
 - Review job status in the Portal's Jobs section
-- Contact support through the cobby Portal
+- Contact support
 :::
 
 **Happy editing with cobby!**

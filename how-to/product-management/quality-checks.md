@@ -13,6 +13,8 @@ Use Excel formulas in cobby to automatically check product data quality and iden
 - Basic Excel formula knowledge
 - Custom columns created in cobby
 
+---
+
 ## Create Quality Check Columns
 
 1. In cobby, create new columns for each quality check you want to perform.
@@ -55,6 +57,8 @@ Returns TRUE if all three image role attributes (image, small_image, thumbnail) 
 
 Returns TRUE if product is assigned to at least 3 categories.
 
+---
+
 ## Steps to Apply Quality Checks
 
 1. Create a new column in cobby for your quality check.
@@ -69,16 +73,14 @@ Returns TRUE if product is assigned to at least 3 categories.
 
 6. Re-run the quality check to verify corrections.
 
+---
+
 ## Tips for Effective Quality Checks
 
-### Build Progressive Checks
-Start with basic checks (manufacturer, name) before moving to complex validations (image counts, category depth).
+- **Build Progressive Checks:** Start with basic checks (manufacturer, name) before moving to complex validations (image counts, category depth).
 
-### Use Color Formatting
-Apply conditional formatting to quality check columns to visually highlight failed checks in red and passed checks in green.
+- **Use Color Formatting:** Apply conditional formatting to quality check columns to visually highlight failed checks in red and passed checks in green.
 
-### Document Your Formulas
-Add comments or create a reference sheet explaining what each quality check validates and the expected results.
+- **Document Your Formulas:** Add comments or create a reference sheet explaining what each quality check validates and the expected results.
 
-### Automate Regular Reviews
-Run quality checks before major catalog updates, seasonal launches, or regular intervals (weekly, monthly).
+- **Automate Regular Reviews:** Run quality checks before major catalog updates, seasonal launches, or regular intervals (weekly, monthly).

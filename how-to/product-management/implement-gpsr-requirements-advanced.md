@@ -210,37 +210,10 @@ The HTML editor is useful for:
 **Note**: Changes made in the HTML editor apply only to the specific product. For consistent changes across all products from a manufacturer, update your reference sheet instead.
 :::
 
-## Best Practices
-
-### Maintain Your Reference Sheet
-
-- **Consistent naming**: Ensure manufacturer names in Column A exactly match those in your product data (including capitalization and spacing)
-- **Complete information**: Include all required GPSR elements in Column B (manufacturer details, responsible person, safety warnings)
-- **Regular reviews**: Periodically review your reference sheet to ensure information remains current
-- **Version control**: Consider maintaining backups of your reference sheet as GPSR requirements evolve
-
-### Optimize for Scale
-
-- **Standardize formats**: Use consistent HTML formatting in your GPSR texts for professional appearance
-- **Document your structure**: Keep notes about which attributes you're using for lookups and why
-- **Test incrementally**: When adding many new manufacturers, test with a small batch first
-- **Plan for exceptions**: For manufacturers with product-specific requirements, consider additional lookup columns or conditional logic
-
-### Handle Edge Cases
-
-- **Missing manufacturers**: If XLOOKUP shows `#N/A`, add the missing manufacturer to your reference sheet
-- **Manufacturer name variations**: If one manufacturer appears with different names (e.g., "ABC Corp" vs "ABC Corporation"), standardize names in either the reference sheet or product data
-- **Multi-language requirements**: For shops in multiple languages, create separate reference sheets per language or include multilingual text in your GPSR column
-
-## Related Information
+## Related Topics
 
 - **[How to Implement GPSR Requirements Quickly](/how-to/product-management/implement-gpsr-requirements)** — Basic GPSR implementation guide for beginners
 - **[Understanding GPSR Requirements](/explanation/regulatory-compliance/understanding-gpsr-requirements)** — Deep dive into the General Product Safety Regulation and why it matters
 - **[How to Create Auxiliary Columns](/how-to/product-management/create-auxiliary-columns)** — Using helper columns for complex data management scenarios
 - **[How to Show Hidden Columns](/how-to/product-management/show-hidden-columns)** — Revealing columns needed for GPSR implementation
 
----
-
-:::tip Scalability Achievement
-With this XLOOKUP approach, you've transformed GPSR compliance from a manual, product-by-product task into an automated, manufacturer-level process. This system scales effortlessly whether you have 10 products or 10,000, and updates that once took hours now take seconds.
-:::

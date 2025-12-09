@@ -18,6 +18,8 @@ Manage your saved presets to keep your workspace organized and efficient. This g
 If you need to create your first custom preset, see [How to Create Custom Product Views](/how-to/product-management/create-custom-product-views).
 :::
 
+---
+
 ## Switch Between Presets
 
 Load a different preset to change your current column configuration and view.
@@ -35,6 +37,8 @@ Load a different preset to change your current column configuration and view.
 :::info
 The reduced preset is loaded by default when you first open products in cobby. All your custom presets appear in the preset menu alongside the default and reduced presets.
 :::
+
+---
 
 ## Manage Presets in the Web Portal
 
@@ -114,6 +118,8 @@ Changes made in the cobby portal require Excel to be restarted before they take 
 Presets are stored in the cobby workspace (cloud), not in local Excel files. You must restart Excel and reload the preset to see changes made in the portal. Simply reloading products without restarting Excel will not apply the changes.
 :::
 
+---
+
 ## Delete Unwanted Presets
 
 Remove custom presets you no longer need to keep your workspace organized.
@@ -141,6 +147,8 @@ Deleting a preset is permanent and cannot be undone. The preset configuration is
 :::info
 You cannot delete the system presets (Default and Reduced). Only custom presets you've created can be deleted.
 :::
+
+---
 
 ## Export and Import Presets
 
@@ -192,6 +200,8 @@ Presets can be imported between workspaces connected to different Magento instal
 - **Multi-store management**: Use the same preset configuration across multiple stores
 - **Backup and recovery**: Export presets before making changes, allowing you to restore them if needed
 
+---
+
 ## Create Product Templates with Presets
 
 Save formulas in the first row of a preset to automatically populate data when creating new products.
@@ -228,7 +238,9 @@ When creating presets for new products, ensure all mandatory Magento fields rema
 Hiding these fields will cause Magento to reject the product import.
 :::
 
-## Related Documentation
+---
+
+## Related Topics
 
 **Conceptual Understanding**:
 - [Understanding Presets](/explanation/features/presets) - Learn why presets improve workflows and their strategic value

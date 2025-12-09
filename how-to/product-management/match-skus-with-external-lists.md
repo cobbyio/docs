@@ -43,6 +43,8 @@ Choose the appropriate method based on your scenario:
 - Reusable approach for recurring updates
 - More control over matching logic
 
+---
+
 ## Method 1: Using cobby Filter
 
 This method is ideal when you have a straightforward list of SKUs to match, such as discontinued products from a manufacturer.
@@ -89,6 +91,8 @@ Always uncheck "only active products" when filtering if you want to see all prod
 1. Check the save confirmation message
 2. Verify the product count matches your expectations
 3. Optionally, check your shop admin to confirm the products are now disabled
+
+---
 
 ## Method 2: Using XLOOKUP Formula
 
@@ -179,6 +183,8 @@ The interpretation of #N/A depends on your scenario:
 4. Update the **Enable Product** column for the filtered products
 5. Click **Save products** in the cobby ribbon
 
+---
+
 ## XLOOKUP Scenario Examples
 
 ### Scenario A: Deactivate Discontinued Products
@@ -236,6 +242,8 @@ Before deactivating products, verify that the manufacturer list is current and c
 If the external list uses different terminology (e.g., "In Stock" vs "Available"), adjust your filter criteria accordingly. You can also use Excel's Find & Replace to standardize values before filtering.
 :::
 
+---
+
 ## Tips and Best Practices
 
 ### Before You Begin
@@ -283,6 +291,8 @@ If you notice products from your inventory are missing from the manufacturer's l
 - Verify that your shop SKUs match the manufacturer's SKU format exactly
 - Consider SKU variations (e.g., with/without hyphens, leading zeros)
 
+---
+
 ## Verification Checklist
 
 After completing your SKU matching and updates, verify:
@@ -296,7 +306,9 @@ After completing your SKU matching and updates, verify:
 - [ ] Shop frontend displays/hides products correctly
 - [ ] Auxiliary columns can be deleted or hidden after process is complete
 
-## Related Documentation
+---
+
+## Related Topics
 
 Learn more about related cobby features:
 

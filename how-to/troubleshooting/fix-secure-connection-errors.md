@@ -89,11 +89,14 @@ This is when malicious software intercepts your secure connections. Learn more i
 
 ## Troubleshooting
 
-**Connection still failing?**
+<details>
+<summary>**Connection still failing?**</summary>
 
 - Verify your system time is correct (incorrect time can cause SSL/TLS errors)
 - Check if your company has SSL inspection enabled on the network
 - Confirm that cobby.io and mash2.com are accessible from your network
+
+</details>
 
 ## Still Having Issues?
 

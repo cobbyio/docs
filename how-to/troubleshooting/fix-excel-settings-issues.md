@@ -168,17 +168,24 @@ Configure Excel to automatically include new rows in tables:
 
 ## Troubleshooting
 
-**Still experiencing issues?**
+<details>
+<summary>**Still experiencing issues?**</summary>
 
 - Ensure you've restarted Excel after making settings changes
 - Try creating a new Excel workbook and loading products fresh
 - Check for Excel add-in conflicts by disabling other add-ins temporarily
 - Verify you're using a supported Excel version
 
-**Multiple issues?**
+</details>
+
+<details>
+<summary>**Multiple issues?**</summary>
+
 - Work through each scenario that applies to your situation
 - Settings are independent, so you may need to fix more than one
 - Always restart Excel after making changes
+
+</details>
 
 ## Still Having Issues?
 

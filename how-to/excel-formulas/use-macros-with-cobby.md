@@ -1,5 +1,5 @@
 ---
-sidebar_position: 15
+sidebar_position: 3
 title: How to Use Macros with cobby
 ---
 
@@ -18,10 +18,10 @@ Macros are useful for:
 ## When to Avoid Macros
 
 Consider alternatives to macros for:
-- Simple calculations ’ Use formulas
-- Repeatable workflows ’ Use cobby templates
-- Data transformations ’ Use Power Query
-- Regular data updates ’ Use formulas with templates
+- Simple calculations ï¿½ Use formulas
+- Repeatable workflows ï¿½ Use cobby templates
+- Data transformations ï¿½ Use Power Query
+- Regular data updates ï¿½ Use formulas with templates
 
 ## Advantages of Formulas Over Macros
 

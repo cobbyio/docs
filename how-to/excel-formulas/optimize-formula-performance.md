@@ -1,5 +1,5 @@
 ---
-sidebar_position: 14
+sidebar_position: 15
 title: How to Optimize Formula Performance
 ---
 
@@ -205,20 +205,32 @@ If you can add cost to cobby first:
 
 ## Troubleshooting
 
-**Still slow after enabling the setting?**
+<details>
+<summary>**Still slow after enabling the setting?**</summary>
+
 - Formulas within rows still calculate normally
 - Complex formulas take time regardless
 - Check if you have other performance issues (large images, many sheets)
 
-**Products not showing as changed?**
+</details>
+
+<details>
+<summary>**Products not showing as changed?**</summary>
+
 - This is expected with "Ignore formula relations" enabled
 - Changes to linked data won't trigger yellow status
 - Manually reload if needed
 
-**Formulas not calculating?**
+</details>
+
+<details>
+<summary>**Formulas not calculating?**</summary>
+
 - Ensure cell format is "Standard", not "Text"
 - Press F9 to force recalculation
 - Check if calculation mode is set to Automatic (Formulas tab)
+
+</details>
 
 ## Related Topics
 

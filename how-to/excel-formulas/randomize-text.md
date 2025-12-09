@@ -1,5 +1,5 @@
 ---
-sidebar_position: 6
+sidebar_position: 9
 title: How to Vary Text with RANDBETWEEN for SEO
 ---
 
@@ -193,20 +193,32 @@ Use different tables for different product categories:
 
 ## Troubleshooting
 
-**Same term appearing multiple times?**
+<details>
+<summary>**Same term appearing multiple times?**</summary>
+
 - This is normal - RANDBETWEEN is truly random
 - Each product gets an independent random selection
 - Terms will vary across your entire catalog
 
-**Terms changing unexpectedly?**
+</details>
+
+<details>
+<summary>**Terms changing unexpectedly?**</summary>
+
 - RANDBETWEEN recalculates every time Excel refreshes
 - Save products quickly after generating to lock in values
 - Consider copying and pasting values to make them permanent
 
-**Getting #N/A error?**
+</details>
+
+<details>
+<summary>**Getting #N/A error?**</summary>
+
 - Check that your RANDBETWEEN range matches your table size
 - Verify the table is sorted by the number column
 - Ensure you're using FALSE for exact match
+
+</details>
 
 ## Making Terms Permanent
 

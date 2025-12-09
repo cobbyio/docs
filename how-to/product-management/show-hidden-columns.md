@@ -13,6 +13,8 @@ Look for gaps in the column header letters. For example, if you see columns A, B
 
 ![](/img/how-to-show-hidden-columns/pic1.png)
 
+---
+
 ## Step-by-Step: Show Hidden Columns
 
 ### Step 1: Find Hidden Columns
@@ -38,6 +40,8 @@ Click and drag to select the two columns on either side of the hidden column(s).
 ![](/img/how-to-show-hidden-columns/pic3.png)
 
 The hidden column(s) now appear.
+
+---
 
 ## Showing All Hidden Columns at Once
 
@@ -70,6 +74,8 @@ All hidden columns in that range will appear.
 
 Each worksheet maintains its own column visibility settings.
 
+---
+
 ## Why Columns Get Hidden
 
 Columns may be hidden to:
@@ -95,24 +101,44 @@ For better control, use cobby presets to save column visibility preferences.
 - **Be careful**: Don't hide critical columns like SKU or Name
 - **Document**: Note why columns are hidden for team members
 
+---
+
 ## Troubleshooting
 
-**Can't select columns?**
+<details>
+<summary>**Can't select columns?**</summary>
+
 - Click directly on the column letter headers, not cells
 - Try clicking once on each column while holding Ctrl
 
-**Unhide is grayed out?**
+</details>
+
+<details>
+<summary>**Unhide is grayed out?**</summary>
+
 - No columns are hidden in the selected range
 - Check you've selected columns on both sides of the hidden ones
 
-**Column still not showing?**
+</details>
+
+<details>
+<summary>**Column still not showing?**</summary>
+
 - The column width might be set to 0
 - Select surrounding columns
 - Drag the column border to make it wider
 
-**Multiple columns hidden?**
+</details>
+
+<details>
+<summary>**Multiple columns hidden?**</summary>
+
 - Ensure you've selected wide enough range
 - Try selecting all columns (Select All button)
+
+</details>
+
+---
 
 ## Alternative: Adjust Column Width
 
@@ -139,6 +165,8 @@ When copying data:
 - This might paste more data than you expect
 - Consider unhiding first, then copying
 
+---
+
 ## cobby-Specific Notes
 
 ### Preset Column Visibility
@@ -149,7 +177,7 @@ The better way to manage column visibility in cobby:
 2. Save configuration as a preset
 3. Apply preset to restore this view
 
-Learn more: [How to hide columns for presets](coming soon)
+Learn more: [How to Manage Presets](/how-to/product-management/manage-presets)
 
 ### Attribute Sets
 
@@ -157,8 +185,10 @@ Each attribute set (worksheet) can have different hidden columns:
 - Simple products might show different columns than configurable
 - Check each sheet if columns are missing
 
+---
+
 ## Related Topics
 
-- **Presets**: Save column visibility settings (coming soon)
-- **Filters**: Show/hide rows based on data (coming soon)
-- **Custom views**: Excel feature for saving display settings
+- [How to Manage Presets](/how-to/product-management/manage-presets) - Save column visibility settings
+- [How to Filter Product Data](/how-to/product-management/filter-product-data) - Show/hide rows based on data
+- [How to Create Custom Product Views](/how-to/product-management/create-custom-product-views) - Create and save custom column layouts

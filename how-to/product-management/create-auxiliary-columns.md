@@ -184,21 +184,37 @@ Perform multi-step calculations using multiple auxiliary columns:
 
 ## Troubleshooting
 
-**Formulas showing as text?**
+<details>
+<summary>**Formulas showing as text?**</summary>
+
 - Data validation is still enabled
 - Follow Step 5 to remove data validation
 
-**Column not yellow?**
+</details>
+
+<details>
+<summary>**Column not yellow?**</summary>
+
 - You may have inserted a regular column instead
 - Auxiliary columns are automatically yellow when created via "Insert cells"
 
-**Auxiliary column disappeared?**
+</details>
+
+<details>
+<summary>**Auxiliary column disappeared?**</summary>
+
 - Auxiliary columns aren't saved between Excel sessions
 - Save as a preset to preserve the column structure
 
-**Can't move auxiliary column?**
+</details>
+
+<details>
+<summary>**Can't move auxiliary column?**</summary>
+
 - Use Cut and "Insert cut characters" method
 - Regular copy/paste won't work for moving columns
+
+</details>
 
 ## Related Topics
 

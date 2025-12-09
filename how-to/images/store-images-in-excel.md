@@ -253,47 +253,75 @@ The same image is now assigned to all selected products.
 
 ## Troubleshooting
 
-**Add button not working**
+<details>
+<summary>**Add button not working**</summary>
+
 - Verify product is selected (Images cell is active)
 - Check cobby Task Pane is open
 - Ensure cobby connection is active
 - Try reloading products
 
-**Images not uploading**
+</details>
+
+<details>
+<summary>**Images not uploading**</summary>
+
 - Check file format is supported (JPG, PNG, GIF)
 - Verify file size isn't too large (check your shop system limits)
 - Check file isn't corrupted (open it in image viewer)
 - Review file permissions
 
-**Copied images not pasting**
+</details>
+
+<details>
+<summary>**Copied images not pasting**</summary>
+
 - Ensure you copied the Images cell, not the image preview
 - Verify paste destination is also in the Images column
 - Check cell format is compatible
 - Try copy-paste on a single cell first to test
 
-**Images not saving to shop system**
+</details>
+
+<details>
+<summary>**Images not saving to shop system**</summary>
+
 - Click Save products button in cobby toolbar
 - Check cobby connection status (green indicator)
 - Verify you have permissions to update products
 - Review shop system logs for errors
 
-**Wrong images appearing**
+</details>
+
+<details>
+<summary>**Wrong images appearing**</summary>
+
 - Clear Excel cell and re-add image
 - Verify correct product is selected
 - Check image cache in shop system (flush cache)
 - Clear browser cache when viewing frontend
 
-**Image properties not updating**
+</details>
+
+<details>
+<summary>**Image properties not updating**</summary>
+
 - Ensure you clicked Save products after editing
 - Verify properties are supported by your shop system
 - Check that you have permission to edit image metadata
 - Review shop system configuration for image attributes
 
-**Images displaying in wrong order on frontend**
+</details>
+
+<details>
+<summary>**Images displaying in wrong order on frontend**</summary>
+
 - Check image order in Task Pane matches desired order
 - Save products to sync order to shop system
 - Clear shop system cache
 - Verify theme uses standard image order logic
+
+</details>
 
 ## Best Practices
 

@@ -1,5 +1,5 @@
 ---
-sidebar_position: 5
+sidebar_position: 8
 title: How to Convert Between Text and Numbers with VALUE and TEXT
 ---
 
@@ -123,8 +123,8 @@ Check if your data is aligned left (text) or right (numbers) in both files.
 
 ### Step 2: Choose Conversion Method
 
-- Source is numbers, cobby is text ’ Use VALUE
-- Source is text, cobby is numbers ’ Use TEXT
+- Source is numbers, cobby is text ï¿½ Use VALUE
+- Source is text, cobby is numbers ï¿½ Use TEXT
 
 ### Step 3: Build Your Formula
 
@@ -172,19 +172,31 @@ Apply the formula to a few rows and verify the matches are correct.
 
 ## Troubleshooting
 
-**Still getting #VALUE! error?**
+<details>
+<summary>**Still getting #VALUE! error?**</summary>
+
 - Check for hidden spaces in text values
 - Verify the data is actually in the format you think (text vs. number)
-- Try using TRIM to remove spaces: =VALUE(TRIM([@[SKU]]))
+- Try using TRIM to remove spaces: `=VALUE(TRIM([@[SKU]]))`
 
-**Numbers look wrong after conversion?**
+</details>
+
+<details>
+<summary>**Numbers look wrong after conversion?**</summary>
+
 - Check the TEXT format parameter (should be 0 for standard)
 - Verify you're not accidentally applying number formatting
 
-**VLOOKUP still not finding matches?**
+</details>
+
+<details>
+<summary>**VLOOKUP still not finding matches?**</summary>
+
 - Ensure both the search value and the lookup column are the same format
 - Check for leading zeros (e.g., "00123" vs "123")
 - Use TRIM to clean up extra spaces
+
+</details>
 
 ## Related Functions
 

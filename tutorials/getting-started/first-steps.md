@@ -94,19 +94,16 @@ Let's make our first change! We'll rename a product:
 The **Product Status** column (the first column) uses colors to show you what's happening:
 
 ### 🟢 Green Status
-![](/img/job-history/job-history-10.png)
 
-**Meaning:** The product data in Excel and your shop are synchronized - everything matches!
+The product data in Excel and your shop are synchronized - everything matches!
 
 ### 🟡 Yellow Status
-![](/img/job-history/job-history-11.png)
 
-**Meaning:** You've made changes in Excel that haven't been saved to your shop yet. This is what you should see now after editing the product name!
+You've made changes in Excel that haven't been saved to your shop yet. This is what you should see now after editing the product name!
 
 ### 🔴 Red Status
-![](/img/job-history/job-history-12.png)
 
-**Meaning:** The product data in Excel is different from the shop, and there might be a conflict.
+The product data in Excel is different from the shop, and there might be a conflict.
 
 **Your current status:** After editing the product name, you should see a yellow status for that product. This is normal - it means you have unsaved changes.
 
@@ -188,13 +185,13 @@ The columns you see depend on your current **preset**. Presets let you create cu
 
 In this tutorial, you've learned:
 
-✅ How to access cobby in Excel
-✅ How to load products from your shop
-✅ How to edit product data
-✅ What product status colors mean
-✅ How to review your changes
-✅ How to save changes back to your shop
-✅ What the main cobby columns represent
+- How to access cobby in Excel
+- How to load products from your shop
+- How to edit product data
+- What product status colors mean
+- How to review your changes
+- How to save changes back to your shop
+- What the main cobby columns represent
 
 ---
 

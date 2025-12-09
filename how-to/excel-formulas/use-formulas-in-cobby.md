@@ -1,5 +1,5 @@
 ---
-sidebar_position: 10
+sidebar_position: 1
 title: How to Use Formulas in cobby
 ---
 
@@ -210,27 +210,47 @@ Break complex formulas into steps:
 
 ## Troubleshooting
 
-**Formula showing as text?**
+<details>
+<summary>**Formula showing as text?**</summary>
+
 - Cell format is still "Text"
 - Change to "Standard": Right-click > Format Cells > Standard
 
-**Getting 0 for empty cells?**
-- Use IFISEMPTY instead of direct reference
-- Example: =IFISEMPTY([@Cost];"")
+</details>
 
-**Formula not copying correctly?**
+<details>
+<summary>**Getting 0 for empty cells?**</summary>
+
+- Use IFISEMPTY instead of direct reference
+- Example: `=IFISEMPTY([@Cost];"")`
+
+</details>
+
+<details>
+<summary>**Formula not copying correctly?**</summary>
+
 - Check if you're using absolute ($) references when needed
 - Use [@ColumnName] for relative column references
 
-**Changes not saving?**
+</details>
+
+<details>
+<summary>**Changes not saving?**</summary>
+
 - Formula cells turn yellow when changed
 - Click "Save products" to transfer to store
 - Check for errors before saving
 
-**Getting #NAME! error?**
+</details>
+
+<details>
+<summary>**Getting #NAME! error?**</summary>
+
 - Function name misspelled
 - Column name doesn't exist
 - Missing brackets around column name
+
+</details>
 
 ## Performance Considerations
 

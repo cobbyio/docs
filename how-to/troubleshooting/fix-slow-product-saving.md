@@ -83,17 +83,24 @@ If your store uses Varnish cache, it can delay product changes:
 
 ## Troubleshooting
 
-**Still experiencing slow saves?**
+<details>
+<summary>**Still experiencing slow saves?**</summary>
 
 - Check your server resources (CPU, memory, disk space)
 - Review Magento logs for errors during save operations
 - Check for conflicting extensions that might slow down product saves
 - Monitor database performance during save operations
 
-**Verify performance:**
+</details>
+
+<details>
+<summary>**Verify performance**</summary>
+
 - Test saving a small batch (5-10 products) to establish a baseline
 - Compare performance with and without cobby to isolate the issue
 - Check if the slowness occurs only with certain product types or attributes
+
+</details>
 
 ## Still Having Issues?
 

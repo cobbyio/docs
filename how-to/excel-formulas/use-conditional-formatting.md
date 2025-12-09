@@ -1,5 +1,5 @@
 ---
-sidebar_position: 11
+sidebar_position: 13
 title: How to Use Conditional Formatting
 ---
 
@@ -214,24 +214,40 @@ For custom symbol conditions:
 
 ## Troubleshooting
 
-**Formatting not applying?**
+<details>
+<summary>**Formatting not applying?**</summary>
+
 - Check that your formula returns TRUE/FALSE
 - Test the formula in a cell: `=YOUR_FORMULA` should show TRUE or FALSE
 - Verify cell references are correct (relative vs absolute)
 
-**Wrong cells highlighted?**
+</details>
+
+<details>
+<summary>**Wrong cells highlighted?**</summary>
+
 - Remove $ signs from formulas if rule should apply to all rows
 - Check the "Applies to" range in Manage Rules
 
-**Formatting conflicts?**
+</details>
+
+<details>
+<summary>**Formatting conflicts?**</summary>
+
 - Multiple rules may be competing
 - Check rule order in Manage Rules (top rules take precedence)
 - Use "Stop If True" to prevent lower rules from applying
 
-**Performance issues?**
+</details>
+
+<details>
+<summary>**Performance issues?**</summary>
+
 - Too many conditional formatting rules slow Excel
 - Simplify rules or reduce the range they apply to
 - Consider removing unused rules
+
+</details>
 
 ## Best Practices
 

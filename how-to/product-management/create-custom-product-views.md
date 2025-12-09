@@ -99,7 +99,7 @@ Custom product views help you:
 - **Standardize workflows**: Share presets with team members for consistent data views
 - **Reduce errors**: Minimize confusion by hiding irrelevant information
 
-## Related Documentation
+## Related Topics
 
 - [Reference: Filters](/reference/features/filtering-capabilities) - Complete filter options and advanced filtering
 - [How to Use Autofilter](/how-to/excel-formulas/use-autofilter) - Excel's built-in filtering capabilities
