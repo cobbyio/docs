@@ -12,6 +12,8 @@ Use product copying to create new products based on existing ones, including all
 - Products loaded in cobby
 - Access to the Tools tab in cobby
 
+---
+
 ## Copy a Single Product
 
 1. Click on any cell of the product you want to copy.
@@ -27,6 +29,8 @@ Use product copying to create new products based on existing ones, including all
 5. Update any attribute values that should differ from the original product.
 
 6. Click "Save products".
+
+---
 
 ## Copy Multiple Products
 
@@ -47,6 +51,8 @@ Use product copying to create new products based on existing ones, including all
 6. Update any attribute values that should differ (color, size, etc.).
 
 7. Click "Save products".
+
+---
 
 ## Important Considerations
 

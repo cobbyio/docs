@@ -109,16 +109,23 @@ Ensure extensions notify cobby of product changes:
 
 ## Troubleshooting
 
-**Product still missing after all solutions?**
+<details>
+<summary>**Product still missing after all solutions?**</summary>
 
 - Verify the product actually exists in Magento (check SKU and ID)
 - Confirm the product is assigned to a website and store view
 - Check if the product has a valid attribute set
 - Review Magento logs for product-related errors
 
-**Check product visibility settings:**
+</details>
+
+<details>
+<summary>**Check product visibility settings**</summary>
+
 - Ensure the product visibility is not set to "Not Visible Individually" if you expect to edit it in cobby
 - Verify the product status is set correctly in Magento
+
+</details>
 
 ## Still Having Issues?
 

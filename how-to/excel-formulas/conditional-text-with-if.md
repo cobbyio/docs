@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 6
 title: How to Build Conditional Text with the IF Function
 ---
 
@@ -108,14 +108,26 @@ Creates three-level stock status based on quantity.
 
 ## Troubleshooting
 
-**Formula not calculating?**
+<details>
+<summary>**Formula not calculating?**</summary>
+
 - Check that cell format is set to "Standard", not "Text"
 - Right-click cell > Format Cells > Select "Standard"
 
-**Getting #VALUE! error?**
+</details>
+
+<details>
+<summary>**Getting #VALUE! error?**</summary>
+
 - Ensure you're comparing the same data types (text with text, numbers with numbers)
 - Check for extra spaces in your text comparisons
 
-**Wrong result?**
+</details>
+
+<details>
+<summary>**Wrong result?**</summary>
+
 - Verify your comparison operator (`=` vs `<>` vs `>` vs `<`)
 - Test your condition in a separate cell to see if it returns TRUE or FALSE
+
+</details>

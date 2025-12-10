@@ -87,7 +87,7 @@ With "Reset product," you revert the changes you just made.
 
 **4.1 Reset Product:** Undoes all changes to selected product(s)
 
-**4.2 Set Default Value:** If you want to reset a value of a store view to the default value, you can easily do this with a click on "Set Default Value".
+**4.2 Set Default Value:** If you want to reset a value of a store view to the default value, you can easily do this with a click on "Set Default Value". See [How to Reset Store View Values to Defaults](/how-to/product-management/reset-storeview-defaults) for step-by-step instructions.
 
 **Scope:** Operates on selected rows/products
 

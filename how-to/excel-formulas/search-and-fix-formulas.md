@@ -1,5 +1,5 @@
 ---
-sidebar_position: 12
+sidebar_position: 14
 title: How to Search and Fix Formulas in Excel
 ---
 
@@ -166,25 +166,41 @@ Then search for the end of VLOOKUP formulas and add the closing parenthesis.
 
 ## Troubleshooting
 
-**No results found?**
+<details>
+<summary>**No results found?**</summary>
+
 - Verify "Search in" is set to "Formulas"
 - Check "Within" is set to "Workbook" (not just one sheet)
 - Make sure your search text matches exactly (check spaces, brackets)
 
-**Too many results?**
+</details>
+
+<details>
+<summary>**Too many results?**</summary>
+
 - Your search text is too general
 - Be more specific (include brackets, operators, etc.)
 - Consider searching one sheet at a time
 
-**Replacement broke formulas?**
+</details>
+
+<details>
+<summary>**Replacement broke formulas?**</summary>
+
 - Check for #NAME! or #REF! errors
 - Undo with Ctrl+Z
 - Review the preview list more carefully
 - Test on a copy first
 
-**Can't find formula text?**
+</details>
+
+<details>
+<summary>**Can't find formula text?**</summary>
+
 - You may be searching "Values" instead of "Formulas"
 - Change "Search in" to "Formulas"
+
+</details>
 
 ## Best Practices
 

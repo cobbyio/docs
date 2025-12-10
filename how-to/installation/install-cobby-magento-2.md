@@ -26,21 +26,21 @@ Watch our step-by-step video guide for the complete setup process:
 
 ## Step 1: Create Your Workspace in the cobby Portal
 
-1. Log in to the cobby portal at [app.cobby.io](https://app.cobby.io/)
+1. Log in to the cobby portal at [app.cobby.io](https://app.cobby.io/).
 
-2. Click on the **little arrow on the left** to view all workspaces
+2. Click on the **little arrow on the left** to view all workspaces.
 
-3. Click on **Create new** to add a new workspace
+3. Click on **Create new** to add a new workspace.
 
    ![](/img/magento-2-setup/picture-1.png)
 
-4. Give your workspace a meaningful name (e.g., "My Magento 2 Shop")
+4. Give your workspace a meaningful name (e.g., "My Magento 2 Shop").
 
-5. Click **Create**
+5. Click **Create**.
 
    ![](/img/magento-2-setup/picture-1b.png)
 
-6. Click on **here** to continue with the setup
+6. Click on **here** to continue with the setup.
 
    ![](/img/magento-2-setup/picture-2a.png)
 
@@ -52,11 +52,11 @@ Each workspace can only be connected to one shop and one license. If you have mu
 
 ## Step 2: Select Your Shop System and Download the Extension
 
-1. Select **Magento 2** as your shop system
+1. Select **Magento 2** as your shop system.
 
    ![](/img/magento-2-setup/picture-2b.png)
 
-2. Click the **download button** to download the cobby extension for Magento 2
+2. Click the **download button** to download the cobby extension for Magento 2.
 
 :::tip
 For detailed installation instructions, you can also refer to our [GitHub repository](https://github.com/cobbyio/cobby-connector-magento2).
@@ -66,11 +66,11 @@ For detailed installation instructions, you can also refer to our [GitHub reposi
 
 ## Step 3: Create an Integration in Magento 2
 
-1. Go to your **Magento Admin Panel** and log in
+1. Go to your **Magento Admin Panel** and log in.
 
-2. Navigate to **System** → **Integrations**
+2. Navigate to **System** → **Integrations**.
 
-3. Click **Add New Integration** in the upper right corner
+3. Click **Add New Integration** in the upper right corner.
 
    ![](/img/magento-2-setup/picture-4.png)
 
@@ -85,11 +85,11 @@ For detailed installation instructions, you can also refer to our [GitHub reposi
 
    ![](/img/magento-2-setup/picture-5.png)
 
-2. Switch to the **API** tab
+2. Switch to the **API** tab.
 
-3. Check the **cobby** checkbox to grant API access
+3. Check the **cobby** checkbox to grant API access.
 
-4. Click **Save** in the upper right corner
+4. Click **Save** in the upper right corner.
 
    ![](/img/magento-2-setup/picture-6.png)
 
@@ -97,13 +97,13 @@ For detailed installation instructions, you can also refer to our [GitHub reposi
 
 ## Step 5: Activate the Integration
 
-1. Find your newly created cobby integration in the list
+1. Find your newly created cobby integration in the list.
 
-2. Click **Activate** in the Actions column
+2. Click **Activate** in the Actions column.
 
    ![](/img/magento-2-setup/picture-7.png)
 
-3. A confirmation dialog appears - click **Allow** in the upper right corner
+3. A confirmation dialog appears - click **Allow** in the upper right corner.
 
    ![](/img/magento-2-setup/picture-8.png)
 
@@ -115,17 +115,17 @@ Keep this window open - you'll need to copy these credentials in the next step.
 
 ## Step 6: Connect Your Shop to the cobby Portal
 
-1. Copy the **Access Token** from the Magento screen
+1. Copy the **Access Token** from the Magento screen.
 
-2. Return to the cobby portal
+2. Return to the cobby portal.
 
-3. Paste the access token and other required credentials into the workspace settings
+3. Paste the access token and other required credentials into the workspace settings.
 
-4. Click **Save**
+4. Click **Save**.
 
    ![](/img/magento-2-setup/picture-9.png)
 
-5. Wait for the synchronization to complete
+5. Wait for the synchronization to complete.
 
 :::tip Success Indicator
 When you see the "Active" status, your shop data has been successfully synchronized with cobby! This may take several minutes depending on the size of your product catalog.
@@ -135,23 +135,23 @@ When you see the "Active" status, your shop data has been successfully synchroni
 
 ## Step 7: Download and Install the cobby Excel Plugin
 
-1. In the cobby portal, go to **Dashboard**
+1. In the cobby portal, go to the menu on the left and open the dropdown menu by clicking on the little arrow next to your selected workspace.
 
-2. Find the download link for the **Excel plugin** in the "Recommended downloads" section
+2. Click on **Download Excel app** to start the download of the Excel plugin.
 
-   ![](/img/install-cobby-excel-plugin/picture-1.png)
+   <img src="/img/install-cobby-excel-plugin/picture-1.png" width="35%" />
 
-3. Click the download link to download the plugin installer
+3. Click the download link to download the plugin installer.
 
-4. Right-click the downloaded file and select **Open**
+4. Right-click the downloaded file and select **Open**.
 
    ![](/img/install-cobby-excel-plugin/picture-2.png)
 
-5. In the installer window, click **Install**
+5. In the installer window, click **Install**.
 
-6. Wait for the installation to complete
+6. Wait for the installation to complete.
 
-7. Click **Close**
+7. Click **Close**.
 
    ![](/img/install-cobby-excel-plugin/picture-3.png)
 
@@ -159,11 +159,11 @@ When you see the "Active" status, your shop data has been successfully synchroni
 
 ## Step 8: Load Your Products in Excel
 
-1. Open **Microsoft Excel**
+1. Open **Microsoft Excel**.
 
-2. Click on the **cobby** tab in the ribbon
+2. Click on the **cobby** tab in the ribbon.
 
-3. Click **Load products**
+3. Click **Load products**.
 
    ![](/img/install-cobby-excel-plugin/picture-4.png)
 

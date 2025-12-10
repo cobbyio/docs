@@ -164,13 +164,33 @@ This approach is much faster than editing products individually in the Magento b
 
 ## Troubleshooting
 
-**Meta description not showing in Google:** Google may choose different text if it finds content on your page more relevant to the search query.
+<details>
+<summary>**Meta description not showing in Google**</summary>
 
-**Title showing fixed prefix/suffix:** Check System → Configuration → Design → HTML Head settings.
+Google may choose different text if it finds content on your page more relevant to the search query.
 
-**URLs not including categories:** Verify that URL rewrites are enabled in Magento configuration.
+</details>
 
-**Changes not appearing in search results:** Search engines need time to re-index your pages. This can take days or weeks.
+<details>
+<summary>**Title showing fixed prefix/suffix**</summary>
+
+Check System → Configuration → Design → HTML Head settings.
+
+</details>
+
+<details>
+<summary>**URLs not including categories**</summary>
+
+Verify that URL rewrites are enabled in Magento configuration.
+
+</details>
+
+<details>
+<summary>**Changes not appearing in search results**</summary>
+
+Search engines need time to re-index your pages. This can take days or weeks.
+
+</details>
 
 ---
 

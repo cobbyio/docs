@@ -1,5 +1,5 @@
 ---
-sidebar_position: 9
+sidebar_position: 16
 title: How to Move Worksheets to Another Workbook
 ---
 
@@ -124,22 +124,38 @@ Select sheets in the source workbook and right-click.
 
 ## Troubleshooting
 
-**Links broken after moving?**
+<details>
+<summary>**Links broken after moving?**</summary>
+
 - External references become #REF! errors
 - Update formulas to reference the new location
 - Consider keeping related sheets together
 
-**Can't select multiple sheets?**
+</details>
+
+<details>
+<summary>**Can't select multiple sheets?**</summary>
+
 - Make sure you're holding Shift or Ctrl while clicking
 - Release other keys before clicking sheet tabs
 
-**Move or copy is grayed out?**
+</details>
+
+<details>
+<summary>**Move or copy is grayed out?**</summary>
+
 - The workbook may be protected
 - Check if you have permission to modify
 
-**New workbook has different formatting?**
+</details>
+
+<details>
+<summary>**New workbook has different formatting?**</summary>
+
 - Themes don't copy automatically
 - Manually apply formatting or copy entire workbook
+
+</details>
 
 ## Related Tasks
 

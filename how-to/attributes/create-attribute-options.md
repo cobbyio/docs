@@ -174,11 +174,19 @@ To manage existing options:
 
 ## Troubleshooting
 
-**Problem:** New option not appearing in task pane
+<details>
+<summary>**New option not appearing in task pane**</summary>
+
+**Problem:** A newly created option doesn't show up in the task pane.
 
 **Solution:** Reload products in Excel. The task pane refreshes when products are loaded.
 
-**Problem:** Accidentally created options with typos
+</details>
+
+<details>
+<summary>**Accidentally created options with typos**</summary>
+
+**Problem:** Options were created with incorrect spelling or formatting.
 
 **Solution:**
 1. In Magento admin, go to Stores → Attributes → Product
@@ -186,7 +194,12 @@ To manage existing options:
 3. In Excel, use Find & Replace to update products to use correct option
 4. Save products
 
-**Problem:** Translation dialog doesn't appear
+</details>
+
+<details>
+<summary>**Translation dialog doesn't appear**</summary>
+
+**Problem:** After saving, no translation prompt is shown.
 
 **Solution:** You may have dismissed it. You can add translations later:
 1. Click the option in the cobby task pane
@@ -194,12 +207,19 @@ To manage existing options:
 3. Enter store view values
 4. Save
 
-**Problem:** Formula creates too many similar options
+</details>
+
+<details>
+<summary>**Formula creates too many similar options**</summary>
+
+**Problem:** Multiple near-duplicate options are being created (e.g., "Blue", "blue", " Blue").
 
 **Solution:** Your data needs cleaning. Use TRIM to remove spaces, and standardize capitalization:
 ```excel
 =PROPER(TRIM([@[Supplier Value]]))
 ```
+
+</details>
 
 ---
 

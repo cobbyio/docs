@@ -83,6 +83,8 @@ When you're ready to apply your offline changes, use lookup formulas to transfer
 
 **Why use auxiliary columns?**: This approach prevents formula conflicts during product reloads. Formulas disappear when you reload products in cobby, so working through a temporary column gives you control over when to commit changes.
 
+---
+
 ## Important Considerations
 
 ### Duplicate SKU Warning
@@ -112,6 +114,8 @@ cobby shows data status with color indicators:
 - **Red**: Data is outdated (changed in shop or by another user)
 
 Saved workbooks are disconnected from your shop and won't show these indicators. They contain a snapshot of data from when they were created.
+
+---
 
 ## Critical Warning: Avoiding Data Overwrites
 
@@ -164,6 +168,8 @@ When you save products from a saved workbook:
 - Verify no one else has edited the products you're updating
 - Test with a small batch before bulk updates
 
+---
+
 ## Best Practices for Working Offline
 
 ### Use Templates for Repeated Workflows
@@ -190,9 +196,12 @@ When using saved data:
 3. Save to your shop and check the results
 4. Only then proceed with larger batches
 
+---
+
 ## Troubleshooting
 
-**I accidentally overwrote changes**
+<details>
+<summary>**I accidentally overwrote changes**</summary>
 
 1. Don't save products again
 2. Load fresh products from your shop
@@ -200,39 +209,32 @@ When using saved data:
 4. Save products
 5. Going forward, always use the auxiliary column method
 
-**My formulas show #N/A errors**
+</details>
+
+<details>
+<summary>**My formulas show #N/A errors**</summary>
 
 Check that:
 - The SKUs match exactly between workbooks (no extra spaces)
 - The offline workbook is open or the file path is correct
 - You're using absolute references ($A:$A) in your lookup formulas
 
-**I need to share offline work with team members**
+</details>
+
+<details>
+<summary>**I need to share offline work with team members**</summary>
 
 1. Create the offline workbook with instructions
 2. Have team members work only in the designated columns
 3. When you receive it back, follow Step 4 to transfer changes
 4. Review all changes before saving to your shop
 
+</details>
+
+---
+
 ## Related Topics
 
 - [How to Create Custom Product Views](./create-custom-product-views.md) - Set up optimized workspaces
 - [How to Import Data](./import-data.md) - Import product data from external sources
-- Excel formulas: VLOOKUP, XLOOKUP, and INDEX-MATCH (reference documentation coming soon)
-- cobby templates: Save configurations without data (coming soon)
 
-## Summary
-
-Working with cobby offline is powerful when done correctly:
-
-**Do**:
-- Load fresh products before applying offline changes
-- Use saved files as reference data with lookup formulas
-- Transfer changes via auxiliary columns
-- Test with small batches first
-
-**Don't**:
-- Open old saved workbooks and upload directly
-- Assume saved data is still current
-- Skip the auxiliary column step
-- Ignore the risk of overwriting shop changes

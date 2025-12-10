@@ -159,30 +159,50 @@ Use IF function to set roles based on conditions:
 
 ## Troubleshooting
 
-**Formula shows as text**
+<details>
+<summary>**Formula shows as text**</summary>
+
 - Change cell format to General
 - Re-enter the formula
 
-**Image not found error**
+</details>
+
+<details>
+<summary>**Image not found error**</summary>
+
 - Verify file path is correct
 - Check file exists at specified location
 - Use double backslashes in paths: `C:\\Images\\`
 
-**Image roles not applied**
+</details>
+
+<details>
+<summary>**Image roles not applied**</summary>
+
 - Use TRUE/FALSE (not 1/0)
 - Check parameter order matches function syntax
 - Verify no missing semicolons between parameters
 
-**JSON conversion failed**
+</details>
+
+<details>
+<summary>**JSON conversion failed**</summary>
+
 - Check all text parameters are in quotes
 - Verify boolean parameters (TRUE/FALSE) are not quoted
 - Ensure semicolons separate all parameters
 
-**Image not uploading to Magento**
+</details>
+
+<details>
+<summary>**Image not uploading to Magento**</summary>
+
 - Verify cobby connection is active
 - Check file format is supported (JPG, PNG, GIF)
 - Ensure file isn't corrupted
 - Verify file size isn't too large
+
+</details>
 
 ## Advanced Tips
 

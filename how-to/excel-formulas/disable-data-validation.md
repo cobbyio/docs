@@ -1,5 +1,5 @@
 ---
-sidebar_position: 13
+sidebar_position: 2
 title: How to Disable Data Validation for Formulas
 ---
 
@@ -144,25 +144,41 @@ Select the cell and go to **Data** > **Data Validation**.
 
 ## Troubleshooting
 
-**Still getting error?**
+<details>
+<summary>**Still getting error?**</summary>
+
 - Make sure you unchecked "Show error alert"
 - Click OK to save changes
 - Try closing and reopening the data validation dialog
 
-**Formula returns invalid value?**
+</details>
+
+<details>
+<summary>**Formula returns invalid value?**</summary>
+
 - Even with validation disabled, cobby may reject invalid values when saving
 - Ensure your formula returns values that Magento accepts
 - Use dropdown values like "In Stock", "Enabled", etc.
 
-**Can't find Data Validation?**
+</details>
+
+<details>
+<summary>**Can't find Data Validation?**</summary>
+
 - Look in the **Data** ribbon tab
 - Make sure the cell is selected
 - Not all cells have validation
 
-**Applied to wrong cells?**
+</details>
+
+<details>
+<summary>**Applied to wrong cells?**</summary>
+
 - Undo with Ctrl+Z
 - Reapply validation to restore original rules
 - Be careful with "Apply to all" option
+
+</details>
 
 ## Best Practices
 

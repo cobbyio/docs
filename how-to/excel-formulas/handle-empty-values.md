@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 7
 title: How to Handle Empty Values with IFISEMPTY
 ---
 
@@ -137,15 +137,23 @@ Uses cost markup if available, otherwise calculates from price.
 
 ## Troubleshooting
 
-**Still seeing zeros?**
+<details>
+<summary>**Still seeing zeros?**</summary>
+
 - Check that you're using IFISEMPTY, not IF(ISEMPTY())
 - Verify the cell format is set to "Standard"
 - Make sure you have the latest cobby version
 
-**Formula not recognized?**
+</details>
+
+<details>
+<summary>**Formula not recognized?**</summary>
+
 - IFISEMPTY is a cobby-specific function
 - It only works in cobby workbooks, not regular Excel files
 - Use the fx button to browse available functions
+
+</details>
 
 ## Related Functions
 

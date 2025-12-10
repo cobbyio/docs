@@ -89,8 +89,23 @@ This template will be ready for your next price update.
 
 ## Troubleshooting
 
-**Formula returns errors:** Make sure your manufacturer price list is formatted as an Excel table and named "new_prices".
+<details>
+<summary>**Formula returns errors**</summary>
 
-**Prices not updating:** Verify that the "Manufacturer article number" column matches between your store data and the manufacturer price list.
+Make sure your manufacturer price list is formatted as an Excel table and named "new_prices".
 
-**All products show "True":** Check that your markup formula in the "Calculated manufacturer price" column is correct.
+</details>
+
+<details>
+<summary>**Prices not updating**</summary>
+
+Verify that the "Manufacturer article number" column matches between your store data and the manufacturer price list.
+
+</details>
+
+<details>
+<summary>**All products show "True"**</summary>
+
+Check that your markup formula in the "Calculated manufacturer price" column is correct.
+
+</details>

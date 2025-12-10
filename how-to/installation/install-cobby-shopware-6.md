@@ -24,147 +24,107 @@ You can explore an interactive demo of the installation process:
 
 ---
 
-## Step 1: Register for the cobby Portal
+## Step 1: Create a cobby Role in Shopware
 
-1. Go to [https://app.cobby.io/login](https://app.cobby.io/login)
+First, create a dedicated role with the necessary permissions for cobby.
 
-2. If you don't have an account yet, click **Register**
+1. Log in to your Shopware 6 admin panel (e.g., `https://yourshop.com/admin`).
 
-3. Complete the registration form with your details
+2. Navigate to **Settings** in the left sidebar.
 
-4. Log in to the cobby portal
+3. Under **System**, click on **Roles**.
+
+4. Click **Create role**.
+
+5. Enter a name for the role (e.g., "cobby").
+
+6. Click on **Detailed privileges**.
+
+7. Under **Permissions**, check the required permissions for cobby (see screenshot below):
+
+![Shopware role permissions](/img/install-cobby-shopware-6/role-permissions.png)
+
+8. Click **Save**.
 
 ---
 
-## Step 2: Download the Shopware Extension
+## Step 2: Create an Integration with the cobby Role
 
-1. Visit [https://download.cobby.io/shopware/cobby_sw6_app.zip](https://download.cobby.io/shopware/cobby_sw6_app.zip)
+Now create an integration that cobby will use to connect to your shop.
 
-2. The ZIP file will download automatically to your computer
+1. Go back to **Settings** > **System**.
+
+2. Click on **Integrations**.
+
+3. Click **Add integration**.
+
+4. Enter a name for the integration (e.g., "cobby").
+
+5. Assign the cobby role you created in Step 1.
+
+6. **Important:** Copy and save the following credentials:
+   - **Access key ID**
+   - **Secret access key**
+
+:::warning Keep Your Keys Safe
+You'll need these credentials to connect cobby to your shop. Store them securely - the Secret access key won't be shown again after you close this dialog.
+:::
+
+---
+
+## Step 3: Download and Install the cobby Extension
+
+1. Download the cobby extension from [https://download.cobby.io/shopware/cobby_sw6_app.zip](https://download.cobby.io/shopware/cobby_sw6_app.zip).
+
+2. In Shopware, navigate to **Extensions** in the left sidebar.
+
+3. Click on **My extensions**.
+
+4. Click **Upload extension** in the top right corner.
+
+5. Select the downloaded `cobby_sw6_app.zip` file.
+
+6. Once uploaded, find **cobby** in the extensions list and click **Install app**.
+
+7. Activate the extension by clicking the toggle switch (it should turn blue).
 
 :::tip
-Keep track of where this file is saved - you'll need it in the next step.
+Keep track of where the ZIP file is saved - you'll need to locate it during upload.
 :::
 
 ---
 
-## Step 3: Access Your Shopware Extensions
+## Step 4: Register for the cobby Portal
 
-1. Go to your Shopware shop's backend URL (e.g., `https://yourshop.com/admin`)
+:::note Optional Order
+You can complete this step before or after the Shopware configuration (Steps 1-3).
+:::
 
-2. Log in with your admin credentials
+1. Go to [https://app.cobby.io/login](https://app.cobby.io/login).
 
-3. In the left sidebar, click on **Extensions**
+2. Click **Register** if you don't have an account yet.
 
-4. Click on **My extensions**
+3. Complete the registration form with your details.
 
----
-
-## Step 4: Upload the cobby Extension
-
-1. In the top right corner, click **Upload extension**
-
-2. A file selection dialog opens
-
-3. Navigate to your Downloads folder and select the `cobby_sw6_app.zip` file you downloaded
-
-4. Click **Open** to begin the upload
-
-5. Look in the extensions list - you'll now see **cobby** listed
+4. Verify your email address and log in to the cobby portal.
 
 ---
 
-## Step 5: Install and Activate the cobby App
+## Step 5: Create a Workspace and Connect Your Shop
 
-1. Find **cobby** in your extensions list
+1. Log in to the cobby portal at [https://app.cobby.io](https://app.cobby.io).
 
-2. Click **Install app**
+2. Click **Create Workspace** (or select an existing workspace).
 
-3. Find the toggle switch next to the cobby extension
+3. Select **Shopware 6** as your shop system.
 
-4. Click the switch to activate it (it should turn **blue**)
+4. Enter your shop details:
+   - **Shop URL**: Your Shopware shop URL (e.g., `https://yourshop.com`)
+   - **Access key ID**: The Access key ID from Step 2
+   - **Secret access key**: The Secret access key from Step 2
+
+5. Click **Connect** to establish the connection.
 
 :::tip Success Indicator
-A blue toggle switch means the cobby extension is successfully activated!
-:::
-
----
-
-## Step 6: Open and Configure the Extension
-
-1. Click the **three dots** on the right side of the cobby extension entry
-
-2. From the dropdown menu, select **Open extension**
-
-3. Click **Login**
-
-4. Enter your cobby portal credentials (the account you created in Step 1)
-
-5. Log in to the cobby portal
-
----
-
-## Step 7: Connect Your Shop
-
-1. In the cobby extension window, click **Connect**
-
-2. Wait for the connection to establish
-
-:::warning Important
-If you ever uninstall and reinstall the cobby app, you'll need to connect your shop again by repeating this step.
-:::
-
-3. Click **Open cobby** to go to the portal overview
-
-4. If prompted, log in again with your cobby portal credentials
-
-:::tip Success Indicator
-Seeing your shop URL in the portal confirms your Shopware shop is successfully connected!
-:::
-
----
-
-## Step 8: Find the cobby App in the Microsoft Store
-
-1. Go to [https://appsource.microsoft.com/de-de/product/office/WA200004128?tab=Overview](https://appsource.microsoft.com/de-de/product/office/WA200004128?tab=Overview)
-
-2. Click **Jetzt abrufen** (Get it now)
-
----
-
-## Step 9: Install the Excel Add-in
-
-1. When prompted, log in with your **Microsoft account** credentials
-
-2. Click **In Excel öffnen** (Open in Excel)
-
-:::tip
-The add-in will now be available every time you open Excel on this computer.
-:::
-
----
-
-## Step 10: Open the cobby Task Pane
-
-1. In Excel, look at the ribbon tabs at the top
-
-2. Click on the **cobby PIM** tab
-
-3. Click the button labeled **cobby PIM Task pane anzeigen** (Show cobby PIM task pane)
-
-:::tip Success Indicator
-With the cobby task pane open, you're ready to start managing your products!
-:::
-
----
-
-## Next Steps
-
-- Load your products into Excel and start editing
-- Learn how to manage product categories
-- Configure image handling for your products
-- Explore bulk update features
-
-:::tip Need Help?
-If you encounter any issues during installation, please contact our support team or check our [installation troubleshooting guide](/how-to/installation/installation-troubleshooting).
+Once connected, you'll see your shop listed in the workspace overview.
 :::

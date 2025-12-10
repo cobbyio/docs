@@ -1,5 +1,5 @@
 ---
-sidebar_position: 16
+sidebar_position: 12
 title: How to Use AutoFilter
 ---
 
@@ -214,25 +214,45 @@ Filter by category to:
 
 ## Troubleshooting
 
-**Filter dropdown missing?**
+<details>
+<summary>**Filter dropdown missing?**</summary>
+
 - AutoFilter may be disabled
 - Go to **Data** > **Filter** to enable
 
-**Can't see some rows?**
+</details>
+
+<details>
+<summary>**Can't see some rows?**</summary>
+
 - Check if filters are active (blue row numbers)
 - Clear all filters to see everything
 
-**Pasted data in wrong rows?**
+</details>
+
+<details>
+<summary>**Pasted data in wrong rows?**</summary>
+
 - You pasted into a filtered range
 - Undo and use formulas instead
 
-**Filter not showing all values?**
+</details>
+
+<details>
+<summary>**Filter not showing all values?**</summary>
+
 - Scroll down in the value list
 - Use search to find specific values
 
-**Date filter not working?**
+</details>
+
+<details>
+<summary>**Date filter not working?**</summary>
+
 - Ensure cells are formatted as dates, not text
 - Check date format matches your system settings
+
+</details>
 
 ## Related Features
 

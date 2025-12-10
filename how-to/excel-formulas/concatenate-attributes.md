@@ -1,5 +1,5 @@
 ---
-sidebar_position: 8
+sidebar_position: 5
 title: How to Combine Text with CONCATENATE
 ---
 
@@ -203,27 +203,47 @@ You can also use & instead of CONCATENATE:
 
 ## Troubleshooting
 
-**Formula showing as text?**
+<details>
+<summary>**Formula showing as text?**</summary>
+
 - Cell format is set to "Text"
 - Change to "Standard": Right-click > Format Cells > Standard
 
-**Attributes running together?**
+</details>
+
+<details>
+<summary>**Attributes running together?**</summary>
+
 - Missing space separators
 - Add " " between each attribute
 
-**Getting #NAME! error?**
+</details>
+
+<details>
+<summary>**Getting #NAME! error?**</summary>
+
 - Misspelled CONCATENATE
 - Column reference has typo
 - Missing brackets around column names
 
-**Result is too long?**
+</details>
+
+<details>
+<summary>**Result is too long?**</summary>
+
 - Remove less important attributes
 - Shorten fixed text
-- Check character count with LEN function: =LEN([@[Meta Title]])
+- Check character count with LEN function: `=LEN([@[Meta Title]])`
 
-**Empty values showing?**
+</details>
+
+<details>
+<summary>**Empty values showing?**</summary>
+
 - Use IF to check: `=IF([@Color]<>"";CONCATENATE(" ";[@Color]);"")`
 - Or use IFISEMPTY (coming soon)
+
+</details>
 
 ## Performance Tips
 

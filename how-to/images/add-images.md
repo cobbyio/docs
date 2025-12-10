@@ -124,25 +124,41 @@ If images are already in Magento's `media/import` folder:
 
 ## Troubleshooting
 
-**Formula appears as text**
+<details>
+<summary>**Formula appears as text**</summary>
+
 - Change cell format from Text to General
 - Re-enter the formula after changing format
 
-**Images not found**
+</details>
+
+<details>
+<summary>**Images not found**</summary>
+
 - Verify the image path ends with backslash `\`
 - Check that image files exist at the specified location
 - Confirm image names match exactly (case-sensitive)
 - Ensure file extensions are correct (.jpg, .png, etc.)
 
-**SKU reference not working**
+</details>
+
+<details>
+<summary>**SKU reference not working**</summary>
+
 - Click **fx** button and use the reference picker
 - Click on the SKU cell while the formula dialog is open
 - This ensures the correct column reference
 
-**Images not appearing in store**
+</details>
+
+<details>
+<summary>**Images not appearing in store**</summary>
+
 - Click **Save products** in cobby to sync to Magento
 - Clear Magento cache if images still don't appear
 - Verify images were uploaded successfully
+
+</details>
 
 ## Advanced Tips
 

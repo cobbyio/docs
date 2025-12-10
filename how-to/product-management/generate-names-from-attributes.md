@@ -47,6 +47,8 @@ Before starting with formulas, organize your Excel workspace for easier editing:
 
 Learn more: [How to Create Custom Product Views](/how-to/product-management/create-custom-product-views)
 
+---
+
 ## Step 1: Identify the Attributes to Combine
 
 Determine which product attributes should be included in your generated name or description.
@@ -275,6 +277,8 @@ If you're not ready to publish changes to your shop yet:
 
 Learn more about [working with cobby offline](/how-to/product-management/work-with-cobby-offline).
 
+---
+
 ## Verification
 
 Check that your generated names were applied successfully:
@@ -282,6 +286,8 @@ Check that your generated names were applied successfully:
 1. **In Excel:** Review the product name column for consistency
 2. **In cobby:** No error messages appear after saving
 3. **In your shop:** Log into your shop admin and verify a few product names updated correctly
+
+---
 
 ## Formula Examples
 
@@ -339,6 +345,8 @@ Color: Red
 Material: Mesh
 ```
 
+---
+
 ## Tips and Best Practices
 
 ### Testing First
@@ -380,6 +388,8 @@ Material: Mesh
 - If you want fixed names:
   - Use auxiliary columns for generation
   - Paste as values into the product name column
+
+---
 
 ## Common Use Cases
 
@@ -427,9 +437,12 @@ Material: Mesh
 
 **Result:** "Nike Running Shoes Pro | Buy Online at YourStore"
 
+---
+
 ## Troubleshooting
 
-### Formula Displays as Text Instead of Calculating
+<details>
+<summary>**Formula Displays as Text Instead of Calculating**</summary>
 
 **Problem:** You see the formula text in the cell instead of the result
 
@@ -438,7 +451,10 @@ Material: Mesh
 - Right-click the cell > **Format Cells** > Select **Standard** or **General**
 - Press F2 then Enter to recalculate the formula
 
-### Attributes Running Together Without Spaces
+</details>
+
+<details>
+<summary>**Attributes Running Together Without Spaces**</summary>
 
 **Problem:** "NikeRedRunningShoes" instead of "Nike Red Running Shoes"
 
@@ -446,7 +462,10 @@ Material: Mesh
 - Add space separators between attributes: `" "` or `" - "`
 - Example: `=[@Brand]&" "&[@Color]&" "&[@[Product Type]]`
 
-### Formula Shows #NAME! Error
+</details>
+
+<details>
+<summary>**Formula Shows #NAME! Error**</summary>
 
 **Problem:** Excel doesn't recognize the formula
 
@@ -455,7 +474,10 @@ Material: Mesh
 - Verify column names are spelled correctly
 - Ensure column names with spaces are in brackets: `[@[Product Name]]`
 
-### Empty Values Create Double Separators
+</details>
+
+<details>
+<summary>**Empty Values Create Double Separators**</summary>
 
 **Problem:** "Nike - - Running Shoes" when color is empty
 
@@ -463,7 +485,10 @@ Material: Mesh
 - Use TEXTJOIN: `=TEXTJOIN(" - "; TRUE; [@Brand]; [@Color]; [@[Product Type]])`
 - Or use IF: `=[@Brand]&IF([@Color]<>""; " - "&[@Color]; "")&" - "&[@[Product Type]]`
 
-### Formulas Not Copying Down to All Rows
+</details>
+
+<details>
+<summary>**Formulas Not Copying Down to All Rows**</summary>
 
 **Problem:** Formula only in first row
 
@@ -473,7 +498,10 @@ Material: Mesh
 - Or manually select and drag down
 - Or copy (Ctrl+C) and paste to the range below
 
-### Generated Names Are Too Long
+</details>
+
+<details>
+<summary>**Generated Names Are Too Long**</summary>
 
 **Problem:** Names exceed character limits
 
@@ -482,6 +510,10 @@ Material: Mesh
 - Shorten fixed text
 - Use abbreviations where appropriate
 - Check length with: `=LEN([@[Generated Name]])`
+
+</details>
+
+---
 
 ## Additional Applications
 
@@ -498,7 +530,9 @@ This formula technique works for many fields, not just product names! You can us
 The formula principles remain the same - just apply them to different columns in your cobby workbook!
 :::
 
-## Related Documentation
+---
+
+## Related Topics
 
 - [How to Create Custom Product Views](/how-to/product-management/create-custom-product-views) - Organize columns for easier formula building
 - [How to Create Auxiliary Columns in cobby](/how-to/product-management/create-auxiliary-columns) - Learn more about testing with auxiliary columns

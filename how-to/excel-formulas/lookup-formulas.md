@@ -1,5 +1,5 @@
 ---
-sidebar_position: 4
+sidebar_position: 10
 title: How to Use VLOOKUP to Assign Data
 ---
 
@@ -152,23 +152,39 @@ Wrap in IFERROR to handle products not in supplier list:
 
 ## Troubleshooting
 
-**Getting #N/A error?**
+<details>
+<summary>**Getting #N/A error?**</summary>
+
 - The search value wasn't found in the first column
 - Check that your search criterion matches exactly (no extra spaces)
 - Verify the supplier list is sorted correctly
 
-**Getting #REF! error?**
+</details>
+
+<details>
+<summary>**Getting #REF! error?**</summary>
+
 - The column_index is larger than the number of columns in your matrix
 - Check that you're referencing the correct column number
 
-**Wrong values returned?**
+</details>
+
+<details>
+<summary>**Wrong values returned?**</summary>
+
 - The matrix may not be sorted correctly
 - The column_index may be wrong
 - Check that you're using FALSE for exact match
 
-**Formula not calculating?**
+</details>
+
+<details>
+<summary>**Formula not calculating?**</summary>
+
 - Set the cell format to "Standard" instead of "Text"
 - Right-click > Format Cells > Category: Standard
+
+</details>
 
 ## Advanced: Use INDEX-MATCH Instead
 

@@ -13,6 +13,8 @@ title: How to Preview Product Images While Working
 - Products loaded with images
 - cobby Task Pane accessible
 
+---
+
 ## Enable Image Preview Temporarily
 
 ### 1. Select a Product Image
@@ -34,6 +36,8 @@ title: How to Preview Product Images While Working
 2. The window stays on top of other windows
 3. Switch to different products - images update automatically
 4. Use arrow buttons to navigate through multiple images
+
+---
 
 ## Enable Image Preview Permanently
 
@@ -61,6 +65,8 @@ To turn off permanent preview:
 3. Uncheck "Always show Image Preview"
 4. Click **Save**
 
+---
+
 ## Working with Image Preview
 
 ### Navigate Images
@@ -83,61 +89,87 @@ To turn off permanent preview:
 3. Verify image quality and content
 4. Confirm image order and roles
 
+---
+
 ## Use Cases
 
-### Bulk Description Writing
+### ✍️ Bulk Description Writing
 
 1. Enable permanent Image Preview
 2. Navigate through products row by row
 3. Write descriptions while viewing each product image
 4. Save time by not switching contexts
 
-### Image Quality Control
+### 🔍 Image Quality Control
 
 1. Open Image Preview
 2. Review each product systematically
 3. Note products requiring new images
 4. Verify image resolution and clarity
 
-### Category Assignment
+### 📁 Category Assignment
 
 1. View product images while assigning categories
 2. Make informed categorization decisions
 3. Ensure products are in appropriate categories
 
-### Product Data Verification
+### ✅ Product Data Verification
 
 1. Cross-reference images with product attributes
 2. Verify color, size, and style attributes match images
 3. Identify mismatched or incorrect data
 
+---
+
 ## Troubleshooting
 
-**Image Preview not opening**
+<details>
+<summary>**Image Preview not opening**</summary>
+
 - Verify images are assigned to the product
 - Check that cobby Task Pane is open
 - Try clicking directly on the picture frame icon
 
-**Images not displaying (Magento 2)**
+</details>
+
+<details>
+<summary>**Images not displaying (Magento 2)**</summary>
+
 - This is expected behavior for Magento 2
 - media/import folder is protected via .htaccess
 - Images cannot be displayed in preview
 - Image import still works normally
 
-**Preview window disappears**
+</details>
+
+<details>
+<summary>**Preview window disappears**</summary>
+
 - Check if window is minimized to taskbar
 - Reopen by clicking picture frame icon in Task Pane
 - If permanently enabled, reload products
 
-**Wrong images showing**
+</details>
+
+<details>
+<summary>**Wrong images showing**</summary>
+
 - Click directly on the product's Images cell
 - Wait a moment for images to load
 - Verify the correct product row is selected
 
-**Navigation arrows not working**
+</details>
+
+<details>
+<summary>**Navigation arrows not working**</summary>
+
 - Ensure product has multiple images assigned
 - Check that images loaded successfully
 - Try reloading the product
+
+</details>
+
+---
 
 ## Important Notes
 
@@ -156,10 +188,3 @@ In Magento 2, the media/import folder is protected via .htaccess configuration:
 - Preview window uses minimal system resources
 - Close preview if experiencing performance issues
 
-## Advanced Tips
-
-**Multiple monitors:** Drag preview window to second monitor for efficient workspace.
-
-**Keyboard shortcuts:** Use arrow keys to navigate products quickly while preview updates automatically.
-
-**Quick toggle:** Use temporary preview when you only need occasional image reference instead of permanent mode.

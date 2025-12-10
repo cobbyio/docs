@@ -197,28 +197,53 @@ After translating options:
 
 ## Troubleshooting
 
-**Problem:** Translation dialog doesn't open
+<details>
+<summary>**Translation dialog doesn't open**</summary>
+
+**Problem:** Clicking the option doesn't open the translation dialog.
 
 **Solution:** Ensure you clicked the edit/pen icon after selecting an option. If the icon is greyed out, the attribute type may not support option editing.
 
-**Problem:** Translations don't appear on frontend
+</details>
+
+<details>
+<summary>**Translations don't appear on frontend**</summary>
+
+**Problem:** Saved translations are not visible on the storefront.
 
 **Solution:**
 1. Clear Magento cache (System → Cache Management → Flush Magento Cache)
 2. Verify the correct store view is selected on frontend
 3. Check that attribute is set to "Visible on Catalog Pages on Storefront"
 
-**Problem:** Can't find the option I just created
+</details>
+
+<details>
+<summary>**Can't find new option**</summary>
+
+**Problem:** A recently created option doesn't appear in the task pane.
 
 **Solution:** Reload products in Excel. The task pane refreshes when products are loaded.
 
-**Problem:** Translation was saved but disappeared
+</details>
+
+<details>
+<summary>**Translation disappeared**</summary>
+
+**Problem:** A translation was saved but no longer shows.
 
 **Solution:** Check that you're viewing the correct store view. Each store view displays its own translation - the default shows if no translation exists.
 
-**Problem:** Need to remove a translation
+</details>
+
+<details>
+<summary>**Remove a translation**</summary>
+
+**Problem:** You need to delete an existing translation.
 
 **Solution:** Open the option translation dialog and clear the store view field, then save. This reverts to showing the default value.
+
+</details>
 
 ---
 
