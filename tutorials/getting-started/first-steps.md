@@ -41,7 +41,7 @@ First, let's find cobby in Excel:
 **What you'll see:** The cobby ribbon with several buttons and options will appear.
 
 :::tip
-If you don't see the cobby tab, cobby might not be installed correctly. Check our [troubleshooting guide](/how-to/troubleshooting/fix-excel-addin-not-showing).
+If you don't see the cobby tab, cobby might not be installed correctly. Check our [troubleshooting guide](/how-to/troubleshooting/fix-cobby-not-showing-in-excel).
 :::
 
 ---

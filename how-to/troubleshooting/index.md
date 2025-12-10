@@ -14,8 +14,7 @@ Step-by-step guides to diagnose and fix common cobby issues.
 
 ## Excel Add-in Issues
 
-- [Fix cobby Not Showing in Excel](/how-to/troubleshooting/fix-cobby-not-showing-in-excel) - Resolve add-in visibility problems
-- [Fix Excel Add-in Not Showing](/how-to/troubleshooting/fix-excel-addin-not-showing) - Troubleshoot add-in loading issues
+- [Fix cobby Not Showing in Excel](/how-to/troubleshooting/fix-cobby-not-showing-in-excel) - Resolve add-in visibility and loading issues
 - [Fix Excel Settings Issues](/how-to/troubleshooting/fix-excel-settings-issues) - Resolve configuration problems
 
 ## Data Synchronization Issues

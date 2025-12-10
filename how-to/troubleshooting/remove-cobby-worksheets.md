@@ -113,5 +113,5 @@ Choose the method that best fits your goal:
 
 ## Related Information
 
-- [How to Fix Excel Add-In Not Showing](fix-excel-addin-not-showing.md)
+- [How to Fix cobby Not Showing in Excel](fix-cobby-not-showing-in-excel.md)
 - [How to Fix Connection Issues](fix-connection-issues.md)

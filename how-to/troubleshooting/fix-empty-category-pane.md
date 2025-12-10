@@ -105,5 +105,5 @@ If the compatibility mode affects your Excel performance negatively:
 
 ## Related Resources
 
-- [How to Fix cobby Not Showing Up in Excel](fix-excel-addin-not-showing.md)
+- [How to Fix cobby Not Showing Up in Excel](fix-cobby-not-showing-in-excel.md)
 - [Microsoft Office High Definition Display Support](https://support.office.com/en-us/article/office-support-for-high-definition-displays-6720ca0e-be59-41f6-b629-1369f549279d)
