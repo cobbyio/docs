@@ -228,8 +228,3 @@ Keep a log of formula updates, especially in shared workbooks:
 
 If you frequently change formulas, save templates in cobby with the correct formulas already in place.
 
-## Related Topics
-
-- **Formulas in cobby**: How to enable and use formulas (coming soon)
-- **Templates**: Save formula configurations (coming soon)
-- **Error handling**: Use IFERROR and IFISEMPTY (coming soon)

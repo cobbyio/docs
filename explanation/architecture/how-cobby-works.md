@@ -507,16 +507,6 @@ Understanding these strategic aspects helps explain why cobby's architecture is 
 
 ---
 
-## Related Topics
-
-To deepen your understanding of cobby's capabilities:
-
-- **Data Synchronization Deep Dive** — Detailed exploration of how cobby handles conflicts, validates data, and ensures consistency (coming soon)
-- **Performance Optimization** — Best practices for managing large catalogs and optimizing load times (coming soon)
-- **Multi-User Workflows** — Coordinating team collaboration and managing concurrent edits (coming soon)
-- **Security and Compliance** — Deep dive into cobby's security model, data handling, and compliance features (coming soon)
-
----
 
 :::tip Learn By Doing
 Now that you understand how cobby works as a PIM system and the architectural design behind it, experience this architecture in action with the [First Steps Tutorial](/tutorials/getting-started/first-steps). You'll see the real-time synchronization, differential updates, and collaborative features firsthand.

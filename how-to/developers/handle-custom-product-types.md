@@ -120,4 +120,3 @@ class ConvertProductType implements ObserverInterface
 
 - [cobby API Requests and Events](/how-to/developers/use-api-events)
 - [Third Party Extension Compatibility](/explanation/for-developers/third-party-extensions)
-- Extend cobby Functionality (coming soon)

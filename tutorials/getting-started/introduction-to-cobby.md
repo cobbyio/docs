@@ -714,7 +714,7 @@ Now that you've completed the comprehensive onboarding and mastered both the cob
 ### Solve Specific Problems
 - **[Update prices in bulk](/how-to/prices/update-prices)** - Change multiple product prices
 - **[Optimize metadata for SEO](/how-to/seo/optimize-metadata-part-1)** - Improve search rankings
-- **[Import external data](/how-to/product-management/import-data)** - Bring data from other sources
+- **[Import external data](/how-to/product-management/use-import-mode)** - Bring data from other sources
 
 ### Troubleshooting
 - **[Fix connection issues](/how-to/troubleshooting/fix-connection-issues)** - Resolve connectivity problems

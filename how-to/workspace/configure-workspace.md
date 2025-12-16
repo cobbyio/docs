@@ -5,7 +5,7 @@ title: How to Configure Workspace Settings
 
 # How to Configure Workspace Settings
 
-Customize your cobby workspace settings including name, language, and general preferences.
+Customize your cobby workspace settings including name, and general preferences.
 
 ## Prerequisites
 
@@ -18,7 +18,7 @@ Customize your cobby workspace settings including name, language, and general pr
 
 2. Go to **Settings** → **Workspace**.
 
-**Result:** The workspace settings page displays your configuration options.
+![](/img/how-to-configure-workspace-settings/workspace-howto.png)
 
 ## Configure Basic Settings
 
@@ -30,7 +30,7 @@ Customize your cobby workspace settings including name, language, and general pr
 
 3. Click **Save**.
 
-**Result:** Your workspace name is updated throughout the cobby portal.
+![](/img/how-to-configure-workspace-settings/workspace-howto2.png)
 
 ### View License Key
 
@@ -38,22 +38,10 @@ Your workspace license key is displayed in the settings:
 
 1. Locate the **License Key** section.
 
-2. Copy the license key if you need to:
+2. Copy the license key if you need to, e.g. to:
    - Install the Excel add-in
    - Switch between workspaces
    - Connect additional computers
-
-**Result:** You can use this key to configure cobby on new Excel installations.
-
-### Configure Language Preferences
-
-1. In workspace settings, find the **Language** dropdown.
-
-2. Select your preferred language.
-
-3. Click **Save**.
-
-**Result:** The cobby portal interface updates to your selected language.
 
 ## Configure Data Settings
 
@@ -69,8 +57,6 @@ Control how cobby indexes your product data:
    - **Index scope:** Choose which products to include
 
 3. Click **Save**.
-
-**Result:** cobby indexes products according to your preferences.
 
 ### Data Storage
 

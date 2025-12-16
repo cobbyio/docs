@@ -200,7 +200,5 @@ Apply the formula to a few rows and verify the matches are correct.
 
 ## Related Functions
 
-- **VLOOKUP**: Search for values in a table (coming soon)
-- **INDEX-MATCH**: More flexible lookup method (coming soon)
 - **TRIM**: Remove extra spaces from text
 - **CLEAN**: Remove non-printable characters

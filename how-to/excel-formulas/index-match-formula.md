@@ -226,7 +226,7 @@ Use 1 instead of 0 for the largest value less than or equal to search value.
 <summary>**Getting #VALUE! error?**</summary>
 
 - Data type mismatch (text vs numbers)
-- Use VALUE or TEXT to convert formats (coming soon)
+- Use VALUE or TEXT to convert formats
 
 </details>
 
@@ -263,7 +263,4 @@ Use 1 instead of 0 for the largest value less than or equal to search value.
 
 ## Related Functions
 
-- **VLOOKUP**: Basic lookup function (coming soon)
-- **VALUE/TEXT**: Convert data types (coming soon)
-- **IFERROR**: Handle errors (coming soon)
 - **XLOOKUP**: Modern Excel lookup (not available in older versions)

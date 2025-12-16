@@ -39,7 +39,7 @@ const FeatureListDE = [
       },
       {
         title: "Daten importieren",
-        link: "/how-to/product-management/import-data",
+        link: "/how-to/product-management/use-import-mode",
       },
     ],
     link: "/how-to",
@@ -122,7 +122,7 @@ const FeatureListEN = [
       },
       {
         title: "Import data",
-        link: "/how-to/product-management/import-data",
+        link: "/how-to/product-management/use-import-mode",
       },
     ],
     link: "/how-to",

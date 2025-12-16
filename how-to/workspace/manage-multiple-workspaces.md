@@ -66,6 +66,3 @@ Connect multiple cobby workspaces to the same Excel installation and switch betw
 - No, all licenses must belong to the same cobby account
 - Contact support to consolidate licenses under one account
 
-## Related Tasks
-
-- How to Connect a New Shop (coming soon)

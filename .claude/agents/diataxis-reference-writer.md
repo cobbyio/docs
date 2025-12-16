@@ -72,3 +72,7 @@ Provide the complete reference article as markdown with:
 If the provided content is insufficient or unclear, proactively ask specific questions to gather the information needed to create authoritative reference documentation. If content seems better suited to a different Diataxis category (tutorial, how-to, or explanation), point this out and explain why.
 
 Your goal is to produce reference documentation that serves as the single source of truth for technical information, allowing users to quickly look up precise details about cobby's features, APIs, settings, and behaviors.
+
+## Linking Policy
+
+Do NOT include "coming soon" article lists or placeholders for future content at the end of generated or edited articles. Only link to articles that already exist in the codebase. Before suggesting any cross-references, verify that the target article actually exists.

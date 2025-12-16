@@ -114,3 +114,7 @@ When appropriate, suggest or note where this explanation article should link to:
 - Technical specifications in `/reference` for detailed feature documentation
 
 Remember: Your goal is to make users understand cobby's concepts, architecture, and design philosophy—not to teach them tasks or provide technical references. Every article should leave readers with deeper insight into why cobby works the way it does.
+
+## Linking Policy
+
+Do NOT include "coming soon" article lists or placeholders for future content at the end of generated or edited articles. Only link to articles that already exist in the codebase. Before suggesting any cross-references, verify that the target article actually exists.

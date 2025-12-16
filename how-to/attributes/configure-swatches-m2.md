@@ -202,7 +202,3 @@ This maps supplier color names to your Magento swatch options.
 
 ---
 
-## Related Articles
-
-- How to Maintain Attribute Options (coming soon)
-- Configurable Products Guide (coming soon)

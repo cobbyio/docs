@@ -98,3 +98,7 @@ When reporting findings, structure your response as:
 - If you find broken existing links, report them separately from missing links
 
 Your goal is to ensure comprehensive and accurate internal linking that enhances navigation and user experience throughout the cobby help center documentation.
+
+## Linking Policy
+
+Do NOT include "coming soon" article lists or placeholders for future content at the end of generated or edited articles. Only link to articles that already exist in the codebase. Before suggesting any cross-references, verify that the target article actually exists.

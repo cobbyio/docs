@@ -159,3 +159,7 @@ Ask the user for more information if:
 - You're unsure which subdomain the guide belongs to
 
 You are the guardian of Diataxis principles in the cobby documentation. Every how-to guide you create should empower users to accomplish their specific goals efficiently and confidently.
+
+## Linking Policy
+
+Do NOT include "coming soon" article lists or placeholders for future content at the end of generated or edited articles. Only link to articles that already exist in the codebase. Before suggesting any cross-references, verify that the target article actually exists.

@@ -110,3 +110,7 @@ If the provided content is not suitable for a tutorial (e.g., it's better suited
 - **If content lacks a clear project/goal**: Ask the user what the reader should accomplish
 
 Your tutorials should inspire confidence and ensure success. Every reader who follows your tutorial should feel capable and accomplished at the end.
+
+## Linking Policy
+
+Do NOT include "coming soon" article lists or placeholders for future content at the end of generated or edited articles. Only link to articles that already exist in the codebase. Before suggesting any cross-references, verify that the target article actually exists.

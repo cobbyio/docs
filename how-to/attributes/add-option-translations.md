@@ -279,8 +279,3 @@ Maintain a reference document with:
 
 ---
 
-## Related Articles
-
-- How to Create Attribute Options (coming soon)
-- How to Maintain Attribute Options (coming soon)
-- Managing Multi-Language Stores (coming soon)

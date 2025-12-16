@@ -32,13 +32,19 @@ First, create a dedicated role with the necessary permissions for cobby.
 
 2. Navigate to **Settings** in the left sidebar.
 
-3. Under **System**, click on **Roles**.
+3. Under **System**, click on **Users & Permissions**.
+
+![](/img/install-cobby-shopware-6/shopware1.png)
 
 4. Click **Create role**.
 
-5. Enter a name for the role (e.g., "cobby").
+![](/img/install-cobby-shopware-6/shopware2.png)
+
+5. Enter a name for the role (e.g., "cobby") in the section General.
 
 6. Click on **Detailed privileges**.
+
+![](/img/install-cobby-shopware-6/shopware3.png)
 
 7. Under **Permissions**, check the required permissions for cobby (see screenshot below):
 
@@ -56,7 +62,11 @@ Now create an integration that cobby will use to connect to your shop.
 
 2. Click on **Integrations**.
 
+![](/img/install-cobby-shopware-6/shopware4.png)
+
 3. Click **Add integration**.
+
+![](/img/install-cobby-shopware-6/shopware5.png)
 
 4. Enter a name for the integration (e.g., "cobby").
 
@@ -65,6 +75,8 @@ Now create an integration that cobby will use to connect to your shop.
 6. **Important:** Copy and save the following credentials:
    - **Access key ID**
    - **Secret access key**
+
+![](/img/install-cobby-shopware-6/shopware6.png)
 
 :::warning Keep Your Keys Safe
 You'll need these credentials to connect cobby to your shop. Store them securely - the Secret access key won't be shown again after you close this dialog.
@@ -83,6 +95,8 @@ You'll need these credentials to connect cobby to your shop. Store them securely
 4. Click **Upload extension** in the top right corner.
 
 5. Select the downloaded `cobby_sw6_app.zip` file.
+
+![](/img/install-cobby-shopware-6/shopware7.png)
 
 6. Once uploaded, find **cobby** in the extensions list and click **Install app**.
 
@@ -114,14 +128,24 @@ You can complete this step before or after the Shopware configuration (Steps 1-3
 
 1. Log in to the cobby portal at [https://app.cobby.io](https://app.cobby.io).
 
+![](/img/install-cobby-shopware-6/workspace1.png)
+
 2. Click **Create Workspace** (or select an existing workspace).
 
+![](/img/install-cobby-shopware-6/workspace2.png)
+
+![](/img/install-cobby-shopware-6/workspace3.png)
+
 3. Select **Shopware 6** as your shop system.
+
+![](/img/install-cobby-shopware-6/workspace4.png)
 
 4. Enter your shop details:
    - **Shop URL**: Your Shopware shop URL (e.g., `https://yourshop.com`)
    - **Access key ID**: The Access key ID from Step 2
    - **Secret access key**: The Secret access key from Step 2
+
+![](/img/install-cobby-shopware-6/workspace5.png)
 
 5. Click **Connect** to establish the connection.
 

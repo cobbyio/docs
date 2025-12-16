@@ -232,8 +232,3 @@ If you can add cost to cobby first:
 
 </details>
 
-## Related Topics
-
-- **Formulas in cobby**: Basic formula usage (coming soon)
-- **Templates**: Save formula configurations (coming soon)
-- **Macros**: Alternative to formulas for complex tasks (coming soon)

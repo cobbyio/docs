@@ -258,7 +258,7 @@ Break complex formulas into steps:
 
 - Formulas recalculate when referenced cells change
 - Large datasets with many formulas can slow down Excel
-- Consider using "Ignore formula relations" in cobby Settings (coming soon)
+- Consider using "Ignore formula relations" in cobby Settings
 
 ### When to Use Formulas
 
@@ -271,11 +271,5 @@ Break complex formulas into steps:
 **Alternative approaches:**
 - One-time calculations: Calculate, then paste values
 - External processing: Use Power Query or other tools
-- Macros: For complex repetitive tasks (coming soon)
+- Macros: For complex repetitive tasks
 
-## Related Topics
-
-- **IFISEMPTY**: Handle empty values (coming soon)
-- **CONCATENATE**: Combine text (coming soon)
-- **IF**: Conditional logic (coming soon)
-- **VLOOKUP/INDEX-MATCH**: Look up values (coming soon)

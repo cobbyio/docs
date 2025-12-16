@@ -256,15 +256,3 @@ By showing only relevant fields, presets reduce errors. If you're updating price
 
 As your business evolves, presets evolve too. Add columns for new attributes, create new presets for new workflows, retire old ones. The preset library becomes a history of how your business has changed.
 
-## Related Topics
-
-For step-by-step instructions on working with presets, see:
-- How-To: Create and save a preset (coming soon)
-- How-To: Hide columns in a preset (coming soon)
-- How-To: Rearrange columns in a preset (coming soon)
-- How-To: Create help columns (coming soon)
-- How-To: Create product creation templates (coming soon)
-- How-To: Import and export presets (coming soon)
-- How-To: Manage presets in the cobby portal (coming soon)
-
-For reference information on preset file formats and specifications, see the Reference documentation.

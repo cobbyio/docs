@@ -157,12 +157,3 @@ Reference implementations are available for:
 
 These extensions demonstrate the transformation pattern and provide a foundation for your own custom type support.
 
-## Related How-To Guides
-
-- Implementing Custom Product Type Support (coming soon)
-- Configuring Type Transformation Rules (coming soon)
-
-## Related Reference
-
-- Product Type Mapping Configuration (coming soon)
-- cobby Extension Events (coming soon)

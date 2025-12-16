@@ -126,10 +126,3 @@ Understanding configurable products' architecture helps you:
 - **Debug issues faster** by recognizing what yellow job statuses mean
 - **Make informed decisions** about when to use configurable products vs. other product types
 
-## Related How-To Guides
-
-For step-by-step instructions on working with configurable products, see:
-- How to Create Configurable Products (coming soon)
-- How to Update Configurable Product Prices (coming soon)
-- How to Assign Simple Products to Configurables (coming soon)
-- How to Use Automatic Price Determination (coming soon)

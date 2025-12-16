@@ -126,15 +126,6 @@ After resync, verify the following in Excel:
 - Attribute sets match Magento configuration
 - Column order reflects attribute group positions
 
-## Related Resources
-
-- **How-To Guides:**
-  - How to Perform a Resynchronization *(coming soon)*
-  - How to Verify Resync Success *(coming soon)*
-
-- **Explanation:**
-  - Understanding cobby's Data Synchronization Model *(coming soon)*
-
 ## Technical Notes
 
 - Resync is idempotent (safe to run multiple times)
