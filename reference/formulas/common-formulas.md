@@ -77,32 +77,26 @@ cobby extends Excel with custom formulas for image and general data management. 
 
 ### Image Management Formulas
 
-| Formula | Purpose | Documentation |
-|---------|---------|-----------------|
-| **BILD.ERSTELLEN** | Create a new single image with parameters (description, exclude, size, etc.) | (coming soon) |
-| **BILDER.ERSTELLEN** | Create multiple images in the store | (coming soon) |
-| **BILD.HOLEN** | Retrieve names of all images for a product | (coming soon) |
-| **BILDER.HOLEN** | Retrieve names of all product images | (coming soon) |
-| **BILD.BEZEICHNUNGHOLEN** | Retrieve the label/name of a specific image type (e.g., small) | (coming soon) |
-| **BILDER.BEZEICHNUNGHOLEN** | Retrieve labels of all product images | (coming soon) |
-| **BILD.URLHOLEN** | Retrieve the URL of a specific image type (e.g., small) | (coming soon) |
-| **BILDER.URLSHOLEN** | Retrieve URLs of all product images | (coming soon) |
-| **BILDER.HINZUFUEGEN** | Add additional images to a product that already has images | (coming soon) |
-| **BILDER.DATEINAMENERSETZEN** | Overwrite file names of product images | (coming soon) |
-| **BILDER.BEZEICHNUNGENERSETZEN** | Replace the description (alternative text) of all product images | (coming soon) |
+| Formula | Purpose |
+|---------|---------|
+| **BILD.ERSTELLEN** | Create a new single image with parameters (description, exclude, size, etc.) |
+| **BILDER.ERSTELLEN** | Create multiple images in the store |
+| **BILD.HOLEN** | Retrieve names of all images for a product |
+| **BILDER.HOLEN** | Retrieve names of all product images |
+| **BILD.BEZEICHNUNGHOLEN** | Retrieve the label/name of a specific image type (e.g., small) |
+| **BILDER.BEZEICHNUNGHOLEN** | Retrieve labels of all product images |
+| **BILD.URLHOLEN** | Retrieve the URL of a specific image type (e.g., small) |
+| **BILDER.URLSHOLEN** | Retrieve URLs of all product images |
+| **BILDER.HINZUFUEGEN** | Add additional images to a product that already has images |
+| **BILDER.DATEINAMENERSETZEN** | Overwrite file names of product images |
+| **BILDER.BEZEICHNUNGENERSETZEN** | Replace the description (alternative text) of all product images |
 
 ### General Formula Utilities
 
-| Formula | Purpose | Documentation |
-|---------|---------|-----------------|
-| **EINMALFORMEL** | Single-use formula that executes once and removes itself after saving. Reduces processing time by transmitting only values to the system instead of formulas. Useful when creating new products with many linked formulas. | (coming soon) |
-| **IFISEMPTY** | Checks if a cell is empty and executes accordingly | (coming soon) |
-
-## Related How-To Guides
-
-- How to Create Product Images with Formulas (coming soon)
-- How to Use VLOOKUP for Product Data (coming soon)
-- How to Combine Multiple Formulas (coming soon)
+| Formula | Purpose |
+|---------|---------|
+| **EINMALFORMEL** | Single-use formula that executes once and removes itself after saving. Reduces processing time by transmitting only values to the system instead of formulas. Useful when creating new products with many linked formulas. |
+| **IFISEMPTY** | Checks if a cell is empty and executes accordingly |
 
 ## External References
 

@@ -206,7 +206,3 @@ This counts rows where both column A and column B match the current row.
 
 ---
 
-## Related Articles
-
-- How to Remove Spaces from SKUs (coming soon)
-- Data Quality Best Practices (coming soon)

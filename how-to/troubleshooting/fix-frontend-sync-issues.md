@@ -156,6 +156,4 @@ Corrupt or inconsistent data across store views can cause display issues.
 
 ## Related Resources
 
-- cobby API Requests and Events (coming soon)
-- Working with the Job History (coming soon)
 - [SOLR Compatibility Module](https://github.com/integer-net/Solr_Compatibility_Cobby)

@@ -180,11 +180,3 @@ Understanding the job history helps you build efficient workflows:
 
 **Collaboration**: Multiple team members can see what's being processed and by whom
 
-## Related Topics
-
-For hands-on guidance on using the job history feature, see:
-- How-To: Access and filter the job history (coming soon)
-- How-To: Troubleshoot red job status (coming soon)
-- How-To: Interpret error messages (coming soon)
-
-For technical specifications on job processing, see the Reference documentation.

@@ -19,6 +19,7 @@ Step-by-step guides to diagnose and fix common cobby issues.
 
 ## Data Synchronization Issues
 
+- [Fix Import Data Not Updating](/how-to/troubleshooting/fix-import-data-not-updating) - Resolve issues when import completes but data doesn't change
 - [Fix Frontend Sync Issues](/how-to/troubleshooting/fix-frontend-sync-issues) - Resolve storefront data sync problems
 - [Fix Missing Products](/how-to/troubleshooting/fix-missing-products) - Troubleshoot product visibility issues
 - [Fix Missing Attributes](/how-to/troubleshooting/fix-missing-attributes) - Resolve attribute synchronization problems

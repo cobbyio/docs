@@ -267,8 +267,3 @@ For custom symbol conditions:
 
 Add a legend explaining what colors mean, especially if sharing files.
 
-## Related Features
-
-- **Data Validation**: Restrict cell input (coming soon)
-- **Autofilter**: Filter by color or value (coming soon)
-- **Formulas**: Build complex conditions (coming soon)

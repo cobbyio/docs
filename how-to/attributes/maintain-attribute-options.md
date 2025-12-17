@@ -163,7 +163,6 @@ Prevent creating similar options by:
 When creating options, remember:
 - Initial creation uses the default store view language
 - You can add translations later using the cobby task pane
-- See: How to Add Option Translations (coming soon)
 
 ---
 
@@ -187,7 +186,3 @@ When creating options, remember:
 
 ---
 
-## Related Articles
-
-- How to Create Attribute Options (coming soon)
-- How to Add Option Translations (coming soon)

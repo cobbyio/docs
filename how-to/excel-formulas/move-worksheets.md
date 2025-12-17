@@ -157,8 +157,3 @@ Select sheets in the source workbook and right-click.
 
 </details>
 
-## Related Tasks
-
-- **Hide columns**: For reducing visible data without moving sheets (coming soon)
-- **Filter data**: To work with subsets without moving sheets (coming soon)
-- **Templates**: Save worksheet configurations for reuse (coming soon)

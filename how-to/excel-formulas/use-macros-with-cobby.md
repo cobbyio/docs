@@ -243,7 +243,4 @@ If you need to create or fix macros:
 
 ## Related Topics
 
-- **Formulas in cobby**: Basic formula usage (coming soon)
-- **Templates**: Save configurations for reuse (coming soon)
 - **Power Query**: Alternative to macros for data transformation
-- **Optimize performance**: Speed up large workbooks (coming soon)

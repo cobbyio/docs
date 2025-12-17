@@ -188,4 +188,4 @@ Wrap in IFERROR to handle products not in supplier list:
 
 ## Advanced: Use INDEX-MATCH Instead
 
-For more flexibility, consider using INDEX-MATCH instead of VLOOKUP (coming soon). INDEX-MATCH doesn't require sorted data and can look in any column direction.
+For more flexibility, consider using [INDEX-MATCH](/how-to/excel-formulas/index-match-formula) instead of VLOOKUP. INDEX-MATCH doesn't require sorted data and can look in any column direction.

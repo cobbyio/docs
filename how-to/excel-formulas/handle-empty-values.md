@@ -157,6 +157,4 @@ Uses cost markup if available, otherwise calculates from price.
 
 ## Related Functions
 
-- **IF**: Standard conditional function (coming soon)
 - **ISEMPTY**: Checks if a value is empty (returns TRUE/FALSE)
-- **CONCATENATE**: Combine text values (coming soon)

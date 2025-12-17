@@ -241,7 +241,6 @@ You can also use & instead of CONCATENATE:
 <summary>**Empty values showing?**</summary>
 
 - Use IF to check: `=IF([@Color]<>"";CONCATENATE(" ";[@Color]);"")`
-- Or use IFISEMPTY (coming soon)
 
 </details>
 
@@ -253,8 +252,6 @@ You can also use & instead of CONCATENATE:
 
 ## Related Functions
 
-- **IF**: Add conditional logic (coming soon)
-- **IFISEMPTY**: Handle empty values (coming soon)
 - **TRIM**: Remove extra spaces
 - **CHAR**: Insert special characters (line breaks, tabs)
 - **LEN**: Check text length

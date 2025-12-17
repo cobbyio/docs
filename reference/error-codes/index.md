@@ -5,7 +5,7 @@ title: Error Codes Overview
 
 # Error Codes Reference
 
-This reference lists all error codes you may encounter when working with cobby. Error codes are grouped by topic to help you find the right solution quickly.
+This reference lists all error codes you may encounter when working with cobby. Error codes are grouped by topic to help you find the right solution quickly. Alternatively, browse the complete alphabetical list of error codes in the sidebar, or use the search function to find specific errors.
 
 :::tip
 cobby's Error Assistant can automatically guide you to the right error code documentation when errors occur.
@@ -119,10 +119,6 @@ cobby's Error Assistant can automatically guide you to the right error code docu
 </div>
 
 ---
-
-## All Error Codes
-
-Browse the complete alphabetical list of error codes in the sidebar, or use the search function to find specific errors quickly.
 
 ## Related Resources
 

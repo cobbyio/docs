@@ -230,8 +230,3 @@ To stop terms from changing:
 
 This converts formulas to fixed text.
 
-## Related Functions
-
-- **VLOOKUP**: Look up values in tables (coming soon)
-- **CONCATENATE**: Combine text fields (coming soon)
-- **IF**: Add conditional logic (coming soon)

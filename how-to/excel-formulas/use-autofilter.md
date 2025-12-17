@@ -257,6 +257,5 @@ Filter by category to:
 ## Related Features
 
 - **Sort**: Order data within filters (Data > Sort)
-- **Presets**: Save filter combinations in cobby (coming soon)
 - **Custom Views**: Excel feature to save filter states
 - **Advanced Filter**: More complex filtering (Data > Advanced)

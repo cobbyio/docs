@@ -1,15 +1,11 @@
 ---
-sidebar_position: 5
+sidebar_position: 1
 title: How to Use Import Mode
 ---
 
 # How to Use Import Mode
 
 Learn how to use cobby's import mode to efficiently create new products or update existing products with external data from manufacturers, suppliers, or other systems.
-
-## Goal
-
-Import and update product data from external sources (like manufacturer price lists or staging environments) without loading all store products, improving performance and focusing on data import.
 
 ## When to Use Import Mode
 
@@ -19,154 +15,273 @@ Use import mode when you need to:
 - Transfer products from staging to live environment
 - Import supplier product information
 
+:::tip
+Import mode is optimized for bulk data operations. Unlike normal mode, it doesn't load existing product data from your store - only the attribute structure. This makes it much faster for large imports.
+:::
+
 ## How Import Mode Works
 
-In import mode:
-1. **No store products are loaded** - only attribute sets and attributes are displayed
-2. cobby **identifies products by SKU** and compares each attribute value
-3. **Matching logic:**
-   - If store value = Excel value → No change
-   - If store value ≠ Excel value → Store value is overwritten with Excel data
-4. **Hidden columns are ignored** - data in hidden columns remains unchanged in the store
+Understanding how import mode processes your data is essential to avoid common pitfalls.
 
-**Important:** All visible attribute values in Excel will overwrite store values. Hide any columns you don't want to update.
+### The Matching Process
+
+When you save products in import mode, cobby:
+
+1. **Identifies each product by SKU** - The SKU in your Excel sheet is matched against existing products in your store
+2. **Compares each attribute value** - For every visible column, cobby checks if the Excel value differs from the store value
+3. **Overwrites differing values** - Any difference results in the Excel value replacing the store value
+
+| Excel Value | Store Value | Result |
+|-------------|-------------|--------|
+| "Red" | "Red" | No change |
+| "Blue" | "Red" | Store updated to "Blue" |
+| *(empty)* | "Red" | **Store cleared!** ⚠️ |
+| "Green" | *(column hidden)* | No change (column ignored) |
+
+### Column Visibility Controls Everything
+
+:::danger[Important: Only visible columns are processed]
+Hidden columns are completely ignored - cobby won't read or write any data in hidden columns, regardless of what's in your Excel sheet.
+
+This leads to two common problems:
+
+1. **Data not updating:** You want to import data, but the target column is hidden → Nothing happens
+2. **Data accidentally deleted:** You leave an empty column visible → Empty values overwrite your store data
+
+**Remember:** Visible = Will be imported. Hidden = Will be ignored.
+:::
+
+---
 
 ## Prerequisites
 
-- External data source (Excel file with product data)
-- SKU column to identify products
-- For new products: all mandatory fields must be filled
+Before starting, ensure you have:
 
-## Steps for Creating and Updating Products
+- cobby installed and connected to your shop
+- An Excel file with product data (SKU column required)
+- For new products: all mandatory fields prepared
+- For multi-shop imports: access to the target license
 
-### Step 1: Load External Data into Excel
+---
 
-1. Open the external data (manufacturer list, supplier data, etc.) in Excel
-2. Format the data as a table: **Ctrl + A** → **Ctrl + L**
-3. Close all other Excel workbooks
+## Step-by-Step Guide
 
-### Step 2: Start Import Mode
+### Step 1: Prepare Your Import File
 
-1. In cobby, go to "Load products" menu
-2. Select the standard template
-3. Click **Start import mode**
+1. Open your external data (manufacturer list, supplier data, etc.) in Excel
+2. Structure your data with columns matching cobby attribute names
+3. Ensure SKUs are in a dedicated column
+4. Format the data as a table: **Ctrl + A** → **Ctrl + L**
+5. Save this file
+
+:::tip
+Keep your import file simple - only include the columns you actually need to update. This makes it easier to manage column visibility later.
+:::
+
+### Step 2: Close Other Workbooks
+
+Close all other Excel workbooks before starting import mode. Having multiple workbooks open can cause performance issues or conflicts.
+
+### Step 3: Start Import Mode
+
+1. Open cobby in Excel
+2. Click **"Load Products"** in the ribbon
+3. Select **"Start Import Mode"**
 
 ![](/img/the-import-mode/pic1.png)
 
-### Step 3: Select Attribute Set
+**What happens:** cobby creates a new sheet showing all available columns from your attribute sets, but without loading any product data from your store.
 
-Select an attribute set that contains all columns you need to import.
+### Step 4: Select Attribute Set
 
-**For updating existing products:** Since import mode matches products by SKU regardless of attribute set, you can choose any attribute set that has the required columns.
+Choose an attribute set that contains all the columns you need to import.
 
-**For creating new products:** You must select the exact attribute set where the products should be created.
+**For updating existing products:**
+Since import mode matches products by SKU, you can choose any attribute set that has the required columns. The attribute set selection doesn't affect which products get updated.
 
-### Step 4: Hide Columns You Don't Want to Import
+:::warning[Creating New Products is Different]
+**For new products:** You must select the exact attribute set where the products should be created. New products will be assigned to the attribute set you select here.
+:::
 
-**Critical step:** Hide all columns where you have no new data or where store data is correct.
+### Step 5: Configure Column Visibility
 
-1. Move columns you want to keep to the front (behind Website and SKU):
-   - Select columns
-   - Right-click on column header
-   - Click "Cut Column"
-   - Click "Paste Cut Columns" at the desired position
+This is the most critical step for a successful import.
 
-2. Select all remaining columns
-3. Right-click on the column header
-4. Click "Hide"
+:::warning[Before You Continue]
+Take time to carefully review which columns are visible. Every visible column will be processed during import:
+- **Visible + has data** → Data will be imported
+- **Visible + empty** → Existing store data will be **deleted**
+- **Hidden** → Column is completely ignored
+:::
 
-**Warning:** If you forget to hide unused columns, empty or outdated data will overwrite correct store data.
+#### 5a. Unhide columns you want to import
 
-### Step 5: Keep Website and SKU Columns Visible
+1. Check if the columns you need are currently visible
+2. If any required columns are hidden, right-click and select **"Unhide"**
+3. Verify all target columns are now visible
 
-**Always keep visible:**
-- **Website** column
-- **SKU** column
+#### 5b. Hide columns you DON'T want to import
 
-These two columns are required for product identification and matching during import.
+1. Identify columns where you have no new data or where the store data should remain unchanged
+2. Move columns you want to keep to the front (behind Website and SKU):
+   - Right-click on column header → **"Cut Column"**
+   - Navigate to desired position → **"Paste Cut Columns"**
+3. Select all remaining columns you want to exclude
+4. Right-click → **"Hide"**
 
-**For new products:** Also keep all mandatory fields visible and filled.
+![](/img/import-data/picture-3.png)
 
-### Step 6: Sort Columns and Copy Data
+### Step 6: Keep Required Columns Visible
 
-1. Arrange columns in your cobby sheet to match your external data layout
-2. Select and copy the data from your external source
-3. Paste at the correct position in the cobby sheet
+**Always keep these columns visible and filled:**
 
-**Important:** Don't copy column headers from the external data.
+| Column | Purpose |
+|--------|---------|
+| **Website** | Identifies which store/website the product belongs to |
+| **SKU** | Unique product identifier for matching |
 
-**For new products:** After pasting, use the "Split to Attributeset" function to assign products to their correct attribute set.
+:::danger[Website Storeview Field - Important]
+**Manually type** values into the "Website Storeview" field - **do not copy-paste**. Copy-pasted values in this field may not be saved correctly due to formatting issues.
+:::
 
-### Step 7: Save to Start Import
+**For new products:** Additionally keep all mandatory fields visible:
+- Name
+- Price
+- Status
+- Visibility
+- Tax Class
+- *(and any other fields required by your shop)*
 
-1. Click **Save products** to start the import
-2. Monitor progress via the **job log**
-3. The job log turns **green** when finished
-4. Product statuses remain **yellow** after import (this is normal)
+### Step 7: Copy Your Data
+
+1. Switch to your import data file
+2. Select the data you want to import (without column headers)
+3. Copy the data (**Ctrl + C**)
+4. Switch back to the cobby import sheet
+5. Paste into the corresponding columns (**Ctrl + V**)
+
+:::warning
+**Do not copy column headers** from your source file - only copy the data rows. Column headers in cobby must remain unchanged.
+:::
+
+**For new products:** After pasting, use the **"Split to Attributeset"** function to assign products to their correct attribute set.
+
+### Step 8: Save to Start Import
+
+1. Click **"Save products"** in the cobby ribbon
+2. Watch the **job log** indicator in the status bar
+3. Wait until the job log turns **green** (import complete)
 
 ![](/img/the-import-mode/pic2.png)
 
-### Step 8: Close and Reopen Excel
+:::info
+The product status column (far left) may remain **yellow** after import - this is normal behavior for import mode. The yellow status indicates the row was processed but doesn't indicate success or failure.
+:::
 
-After working in import mode:
+### Step 9: Close and Reopen Excel
+
+After completing your import:
+
 1. Close Excel completely
 2. Open a new Excel workbook
 3. You can now continue with regular cobby operations
 
-## Examples
-
-### Example 1: Updating Prices from Manufacturer
-
-**Scenario:** You received a new manufacturer price list with updated prices.
-
-**Steps:**
-1. Open manufacturer price list in Excel
-2. Start import mode in cobby
-3. Hide all columns except: Website, SKU, Price, Manufacturer Price
-4. Copy data from manufacturer list
-5. Paste into cobby sheet
-6. Save products
-
-### Example 2: Creating New Products
-
-**Scenario:** Adding a new product line from a supplier.
-
-**Steps:**
-1. Prepare supplier data with all mandatory fields filled
-2. Start import mode
-3. Select the correct attribute set for the new products
-4. Keep all mandatory fields visible
-5. Copy and paste data
-6. Use "Split to Attributeset" function
-7. Save products
+---
 
 ## Troubleshooting
 
-<details>
-<summary>**Products not found**</summary>
+### Data Not Updating
 
-Verify that the SKU in your import data exactly matches the SKU in your store (including case and spaces).
+:::danger[Most Common Problem]
+If your import completes successfully (green job log) but store data hasn't changed, **hidden columns are almost always the cause**.
+:::
+
+**Why this happens:**
+
+cobby only processes visible columns. If a column is hidden in your attribute set, cobby completely ignores it - even if your Excel file contains valid data for that column.
+
+**Real-world example:**
+
+> A customer wanted to update shoe sizes in their "Shoes" attribute set. They prepared an Excel file with all the correct data and ran the import. The job log showed success, but when they checked the store, nothing had changed.
+>
+> **The cause:** The "Size" column had been hidden in the "Shoes" attribute set months ago because they didn't need it at the time. They forgot it was hidden, and cobby silently ignored all the size data.
+>
+> **The fix:** Unhide the "Size" column and re-run the import.
+
+**How to diagnose:**
+
+1. Open the attribute set you used for import
+2. Check if the target column is visible or hidden
+3. If hidden, unhide it and re-run the import
+
+**Quick checklist:**
+- [ ] Is the target column **visible** (not hidden)?
+- [ ] Are you using the **correct attribute set**?
+- [ ] Do **SKUs match exactly** (case-sensitive)?
+
+---
+
+### Store Data Accidentally Deleted
+
+**Symptom:** After import, some product fields are now empty that weren't empty before.
+
+**Why this happens:**
+
+You left columns visible that had empty cells in your import file. Empty cells = empty values = store data gets overwritten with nothing.
+
+**Example:**
+- Your import file only had SKU, Name, and Price columns with data
+- But you forgot to hide the Description column
+- Description column was empty in your import file
+- **Result:** All product descriptions in your store are now empty
+
+**How to prevent:**
+- Always hide columns where you don't have new data
+- Review all visible columns before clicking Save
+- When in doubt, hide the column
+
+---
+
+### Data Imported to Wrong Products
+
+**Symptom:** Product data appears on the wrong products after import.
+
+**Why this happens:**
+
+SKU mismatch or incorrect column alignment during copy-paste.
+
+**Common causes:**
+- SKUs don't match exactly (case-sensitive!)
+- Data was pasted into the wrong column
+- Rows got shifted during copy-paste
+
+**SKU matching rules:**
+
+| Your Excel | Store | Match? |
+|------------|-------|--------|
+| `ABC-123` | `ABC-123` | ✅ Yes |
+| `abc-123` | `ABC-123` | ❌ No (case differs) |
+| `ABC-123 ` | `ABC-123` | ❌ No (trailing space) |
+| ` ABC-123` | `ABC-123` | ❌ No (leading space) |
+
+---
+
+### Other Common Issues
+
+<details>
+<summary>**Products aren't being created**</summary>
+
+- Verify you're in Import Mode (not normal mode)
+- Ensure all mandatory fields are filled (SKU, Name, Price, Status, Visibility, Tax Class)
+- Check that you selected the **correct attribute set** for new products
+- Verify the Website column is filled correctly
 
 </details>
 
 <details>
-<summary>**Data not updating**</summary>
+<summary>**Website Storeview not saving**</summary>
 
-Check that the columns you want to update are visible, not hidden.
-
-</details>
-
-<details>
-<summary>**Store data being overwritten unexpectedly**</summary>
-
-You likely forgot to hide columns. Always hide columns with empty or outdated data.
-
-</details>
-
-<details>
-<summary>**New products in wrong attribute set**</summary>
-
-For new products, you must select the exact target attribute set before importing.
+**Type the Website Storeview value manually** instead of copy-pasting. Copy-pasted values may contain hidden formatting that prevents saving.
 
 </details>
 
@@ -175,22 +290,47 @@ For new products, you must select the exact target attribute set before importin
 
 Check the job log details for specific error messages. Common issues:
 - Missing mandatory fields
-- Invalid attribute values
+- Invalid attribute values (e.g., wrong dropdown option)
 - Duplicate SKUs
+- Data type mismatches
+
+See [Error Codes Reference](/reference/error-codes) for solutions.
+
+</details>
+
+<details>
+<summary>**New products in wrong attribute set**</summary>
+
+For new products, you must select the exact target attribute set **before** importing. If products ended up in the wrong set, you'll need to delete them and re-import with the correct attribute set selected.
 
 </details>
 
 <details>
 <summary>**Excel crashes or becomes slow**</summary>
 
-Make sure to close all other Excel workbooks before starting import mode.
+- Close all other Excel workbooks before starting import mode
+- If importing large datasets, consider splitting into smaller batches
+- Ensure your computer has sufficient RAM available
 
 </details>
 
+---
+
 ## Best Practices
 
-1. **Always hide unused columns** - this prevents accidental data overwrites
-2. **Create import templates** - save your column configurations for recurring imports
-3. **Test with a few products first** - verify the import works correctly before processing large datasets
-4. **Keep backups** - export your current product data before large imports
-5. **Monitor the job log** - always check that the import completed successfully
+:::tip[Pre-Import Checklist]
+Before every import, verify:
+1. ✅ All target columns are **visible** in the attribute set
+2. ✅ All columns without new data are **hidden**
+3. ✅ Website and SKU columns are filled correctly
+4. ✅ SKUs match exactly (case-sensitive)
+5. ✅ Website Storeview was typed manually (not pasted)
+:::
+
+---
+
+## Related Info
+
+- [Fix Import Data Not Updating](/how-to/troubleshooting/fix-import-data-not-updating) - Detailed troubleshooting guide
+- [Error Codes Reference](/reference/error-codes) - Complete list of error codes and solutions
+- [How to Show Hidden Columns](/how-to/product-management/show-hidden-columns) - Managing column visibility

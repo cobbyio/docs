@@ -149,11 +149,5 @@ The history provides a shared source of truth for all team members.
 
 ## Related Topics
 
-For practical guidance on using product history, see:
-- How-To: Access and filter product history (coming soon)
-- How-To: Restore product data from history (coming soon)
-
 For information on job history, see:
 - [Understanding Job History](/explanation/features/job-history)
-
-For technical specifications on data retention, see the Reference documentation.

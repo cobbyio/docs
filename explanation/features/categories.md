@@ -137,10 +137,3 @@ Categories are one of the few attributes where:
 
 This is why cobby treats category management differently than other attributes and provides explicit controls for bulk operations.
 
-## Related How-To Guides
-
-For step-by-step instructions on working with categories, see:
-- How to Add Additional Categories to Multiple Products (coming soon)
-- How to Remove Categories from Products (coming soon)
-- How to Restructure Product Categories (coming soon)
-- How to Organize Products Across Category Trees (coming soon)

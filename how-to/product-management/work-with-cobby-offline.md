@@ -236,5 +236,5 @@ Check that:
 ## Related Topics
 
 - [How to Create Custom Product Views](./create-custom-product-views.md) - Set up optimized workspaces
-- [How to Import Data](./import-data.md) - Import product data from external sources
+- [How to Use Import Mode](./use-import-mode.md) - Import product data from external sources
 

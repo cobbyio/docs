@@ -190,4 +190,3 @@ php bin/magento setup:upgrade
 
 - [cobby Installation Guide for Magento 1](/how-to/installation/install-cobby-magento-1)
 - [cobby Installation Guide for Magento 2](/how-to/installation/install-cobby-magento-2)
-- Troubleshooting Connection Issues (coming soon)

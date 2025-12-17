@@ -255,8 +255,3 @@ When creating specialized options:
 
 ---
 
-## Related Articles
-
-- How to Maintain Attribute Options (coming soon)
-- How to Add Option Translations (coming soon)
-- Using INDEX-MATCH Formulas (coming soon)

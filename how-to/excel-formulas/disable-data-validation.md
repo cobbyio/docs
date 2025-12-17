@@ -224,6 +224,4 @@ This bypasses validation without disabling it.
 
 ## Related Topics
 
-- **Formulas in cobby**: Enable formula calculations (coming soon)
 - **Data validation**: Understanding Excel's validation feature
-- **IF function**: Create conditional logic (coming soon)

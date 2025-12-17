@@ -397,9 +397,6 @@ By providing structured, scalable product data management integrated with famili
 To deepen your understanding of regulatory compliance and product data management:
 
 - **[Implementing GPSR Requirements in cobby](/how-to/product-management/implement-gpsr-requirements)** — Practical guide for capturing and managing GPSR compliance information in your product data (how-to guide)
-- **Product Data Governance** — Best practices for maintaining data quality, consistency, and completeness across large catalogs (coming soon)
-- **Supplier Management Workflows** — Strategies for collecting and managing compliance documentation from suppliers (coming soon)
-- **Risk Management in E-Commerce Operations** — Understanding operational risks beyond product safety, including data protection and platform compliance (coming soon)
 
 ---
 

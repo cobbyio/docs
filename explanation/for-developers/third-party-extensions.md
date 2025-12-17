@@ -93,11 +93,3 @@ When evaluating whether an extension needs customization, consider:
 
 These questions help identify whether an extension will work natively, need a simple compatibility module, or require deeper integration.
 
-## Related How-To Guides
-
-- Creating Custom Product Type Extensions (coming soon)
-- Notifying cobby of External Changes (coming soon)
-
-## Related Reference
-
-- cobby API Requests and Events Reference (coming soon)

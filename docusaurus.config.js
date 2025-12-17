@@ -129,7 +129,7 @@ const config = {
       },
       items: [
         { to: "/tutorials/getting-started/first-steps", label: "Tutorials", position: "left" },
-        { to: "/how-to/product-management/import-data", label: "How-To Guides", position: "left" },
+        { to: "/how-to/product-management/use-import-mode", label: "How-To Guides", position: "left" },
         { to: "/reference", label: "Reference", position: "left" },
         { to: "/explanation/architecture/how-cobby-works", label: "Explanation", position: "left" },
         { to: "/release-notes", label: "Release Notes", position: "right" },
