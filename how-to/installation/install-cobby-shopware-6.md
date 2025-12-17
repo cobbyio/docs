@@ -86,7 +86,7 @@ You'll need these credentials to connect cobby to your shop. Store them securely
 
 ## Step 3: Download and Install the cobby Extension
 
-1. Download the cobby extension from [https://download.cobby.io/shopware/cobby_sw6_app.zip](https://download.cobby.io/shopware/cobby_sw6_app.zip).
+1. Download the cobby extension from [https://github.com/cobbyio/shopware6-plugin-extension/releases](https://github.com/cobbyio/shopware6-plugin-extension/releases).
 
 2. In Shopware, navigate to **Extensions** in the left sidebar.
 
