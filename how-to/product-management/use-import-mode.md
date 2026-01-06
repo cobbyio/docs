@@ -331,6 +331,7 @@ Before every import, verify:
 
 ## Related Info
 
+- [Store Views](/explanation/architecture/store-views) - Understanding how Store Views work and the Website-Storeview field
 - [Fix Import Data Not Updating](/how-to/troubleshooting/fix-import-data-not-updating) - Detailed troubleshooting guide
 - [Error Codes Reference](/reference/error-codes) - Complete list of error codes and solutions
 - [How to Show Hidden Columns](/how-to/product-management/show-hidden-columns) - Managing column visibility

@@ -311,25 +311,41 @@ Uses column values to determine which roles to set.
 
 ## Troubleshooting
 
-**Formula shows as text**
+<details>
+<summary>**Formula shows as text**</summary>
+
 - Change cell format to General (not Text)
 - Re-enter formula after format change
 
-**Images not found**
+</details>
+
+<details>
+<summary>**Images not found**</summary>
+
 - Verify path ends with backslash
 - Check image files exist
 - Confirm filenames match exactly (case-sensitive)
 
-**Formulas too complex**
+</details>
+
+<details>
+<summary>**Formulas too complex**</summary>
+
 - Break into multiple helper columns
 - Test each part separately
 - Use named ranges for clarity
 
-**Performance slow**
+</details>
+
+<details>
+<summary>**Performance slow**</summary>
+
 - Process products in batches
 - Hide unused columns
 - Remove formulas after data is set
 - Use simple formulas when possible
+
+</details>
 
 ## Best Practices
 

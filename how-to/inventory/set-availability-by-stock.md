@@ -88,14 +88,26 @@ Add error handling for products without stock data:
 
 ## Troubleshooting
 
-### Formula Returns Error
+<details>
+<summary>**Formula Returns Error**</summary>
+
 Ensure the stock column contains numeric values. Non-numeric values will cause the VALUE() function to fail.
 
-### Changes Not Saved to Magento
+</details>
+
+<details>
+<summary>**Changes Not Saved to Magento**</summary>
+
 Verify you clicked "Save products" after applying the formula. The changes only sync to Magento after saving.
 
-### Availability Not Updating in Formula
+</details>
+
+<details>
+<summary>**Availability Not Updating in Formula**</summary>
+
 Check that the cell formatting is "Standard" not "List". List formatting can prevent formulas from executing.
+
+</details>
 
 ## Important Warning
 

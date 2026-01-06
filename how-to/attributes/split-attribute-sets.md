@@ -173,18 +173,36 @@ For recurring imports with varying formats, use Excel's Power Query to:
 
 ## Troubleshooting
 
-**Problem:** Split to Attribute Set button does nothing
+<details>
+<summary>**Split to Attribute Set button does nothing**</summary>
 
-**Solution:** Verify you have an "Attribute Set" column with valid attribute set names. Check spelling matches exactly with Magento attribute set names.
+Verify you have an "Attribute Set" column with valid attribute set names. Check spelling matches exactly with Magento attribute set names.
 
-**Problem:** Formulas return errors after splitting
+</details>
 
-**Solution:** Check that yellow column headers exactly match your formula references. Look for extra spaces or capitalization differences.
+<details>
+<summary>**Formulas return errors after splitting**</summary>
 
-**Problem:** Data appears in wrong attribute sets
+Check that yellow column headers exactly match your formula references. Look for extra spaces or capitalization differences.
 
-**Solution:** Review your "Attribute Set" column values. Ensure they match Magento attribute set names precisely (case-sensitive).
+</details>
 
-**Problem:** Some products don't import
+<details>
+<summary>**Data appears in wrong attribute sets**</summary>
 
-**Solution:** Check that all required attributes for each attribute set have values. Missing required attributes will prevent product creation.
+Review your "Attribute Set" column values. Ensure they match Magento attribute set names precisely (case-sensitive).
+
+</details>
+
+<details>
+<summary>**Some products don't import**</summary>
+
+Check that all required attributes for each attribute set have values. Missing required attributes will prevent product creation.
+
+</details>
+
+---
+
+## Related Topics
+
+- [Product Attributes and Scopes](/explanation/architecture/product-attributes) - Understanding attribute sets and how they define product structure

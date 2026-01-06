@@ -172,3 +172,7 @@ If the attribute remains missing after trying all solutions:
   - cobby version and Magento version
 - Include the "Sync Errors" email if you received one
 - Specify which template you're using in cobby
+
+## Related Topics
+
+- [Product Attributes and Scopes](/explanation/architecture/product-attributes) - Understanding product attributes, attribute sets, and how they determine column visibility in cobby

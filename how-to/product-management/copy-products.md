@@ -84,3 +84,8 @@ If you copy from test shop end consumer-English, the product appears in:
 - All Storeviews
 - test shop end consumer-English
 - test shop end consumer-German
+
+## Related Topics
+
+- [Store Views](/explanation/architecture/store-views) - Understanding how Store Views affect product copying and why products appear in multiple views
+- [Configurable Products](/explanation/product-types/configurable-products) - Understanding how configurable products and their variants work

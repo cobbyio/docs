@@ -179,22 +179,57 @@ Your cobby needs:
 
 ## Troubleshooting
 
-**Navigator doesn't show table:** Make sure your supplier file has data formatted as an Excel table or named range.
+<details>
+<summary>**Navigator doesn't show table**</summary>
 
-**Columns not reordering:** Drag from the column header area, not the cells.
+Make sure your supplier file has data formatted as an Excel table or named range.
 
-**Refresh doesn't update data:** Verify the supplier file is in the same location with the same name. If the path changed, edit the query: Data → Queries & Connections → Right-click query → Edit.
+</details>
 
-**Copy-paste to cobby fails:** Double-check that column order and names exactly match cobby's expected layout.
+<details>
+<summary>**Columns not reordering**</summary>
 
-**"All Storeview" row disappears:** This is normal - you must manually add this row in cobby. Don't copy it from your Power Query file.
+Drag from the column header area, not the cells.
 
-**Query takes too long to refresh:** Large files may take time. Consider filtering unnecessary rows in Power Query to reduce data size.
+</details>
 
-**Error messages in Power Query Editor:** Check that:
+<details>
+<summary>**Refresh doesn't update data**</summary>
+
+Verify the supplier file is in the same location with the same name. If the path changed, edit the query: Data → Queries & Connections → Right-click query → Edit.
+
+</details>
+
+<details>
+<summary>**Copy-paste to cobby fails**</summary>
+
+Double-check that column order and names exactly match cobby's expected layout.
+
+</details>
+
+<details>
+<summary>**"All Storeview" row disappears**</summary>
+
+This is normal - you must manually add this row in cobby. Don't copy it from your Power Query file.
+
+</details>
+
+<details>
+<summary>**Query takes too long to refresh**</summary>
+
+Large files may take time. Consider filtering unnecessary rows in Power Query to reduce data size.
+
+</details>
+
+<details>
+<summary>**Error messages in Power Query Editor**</summary>
+
+Check that:
 - Source file is not open in another program
 - Source file is not corrupted
 - Column data types are appropriate (text, number, date, etc.)
+
+</details>
 
 ## Best Practices
 

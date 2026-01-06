@@ -168,21 +168,33 @@ When creating options, remember:
 
 ## Troubleshooting
 
-**Problem:** New option doesn't appear in task pane after saving
+<details>
+<summary>**New option doesn't appear in task pane after saving**</summary>
 
-**Solution:** Reload products in Excel. The task pane dropdown refreshes on product load.
+Reload products in Excel. The task pane dropdown refreshes on product load.
 
-**Problem:** Accidentally created duplicate options with slight differences
+</details>
 
-**Solution:** In Magento admin, delete the incorrect option, then use Excel find/replace to update products to use the correct option.
+<details>
+<summary>**Accidentally created duplicate options with slight differences**</summary>
 
-**Problem:** Option appears in cobby but not in Magento frontend
+In Magento admin, delete the incorrect option, then use Excel find/replace to update products to use the correct option.
 
-**Solution:** Check the attribute configuration in Magento. Ensure "Visible on Catalog Pages on Storefront" is set to "Yes" if needed.
+</details>
 
-**Problem:** Cannot delete option that's no longer needed
+<details>
+<summary>**Option appears in cobby but not in Magento frontend**</summary>
 
-**Solution:** Options must be deleted from Magento admin. Go to Catalog → Attributes → Manage Attributes, edit the attribute, and remove the option.
+Check the attribute configuration in Magento. Ensure "Visible on Catalog Pages on Storefront" is set to "Yes" if needed.
+
+</details>
+
+<details>
+<summary>**Cannot delete option that's no longer needed**</summary>
+
+Options must be deleted from Magento admin. Go to Catalog → Attributes → Manage Attributes, edit the attribute, and remove the option.
+
+</details>
 
 ---
 

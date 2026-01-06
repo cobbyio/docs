@@ -88,7 +88,8 @@ Excel may have moved cobby to the disabled items list.
 
 ## Troubleshooting
 
-### cobby still doesn't appear after all steps
+<details>
+<summary>**cobby still doesn't appear after all steps**</summary>
 
 - Verify cobby is actually installed on your computer (Check Control Panel > Programs and Features).
 - Uninstall cobby completely and reinstall it.
@@ -96,16 +97,24 @@ Excel may have moved cobby to the disabled items list.
 - Run Excel as administrator and check if cobby appears.
 - Contact cobby support at [info@cobby.io](mailto:info@cobby.io).
 
-### cobby appears but then disappears after Excel restart
+</details>
+
+<details>
+<summary>**cobby appears but then disappears after Excel restart**</summary>
 
 - Excel may be repeatedly disabling cobby due to performance issues.
 - Check if Excel is loading too many add-ins (disable others temporarily).
 - Increase Excel's add-in load timeout in the registry (advanced users only).
 - Ensure you have the 64-bit version of Excel installed for better performance.
 
-### Error message when enabling cobby
+</details>
+
+<details>
+<summary>**Error message when enabling cobby**</summary>
 
 - Note the exact error message.
 - Check if all Windows and Office updates are installed.
 - Repair your Office installation through Control Panel.
 - Reinstall cobby with the latest installer version.
+
+</details>

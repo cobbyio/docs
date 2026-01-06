@@ -131,15 +131,40 @@ Add another calculated column: `=[@ProfitMargin]/[@Price]*100` to show margin as
 
 ## Troubleshooting
 
-**Pivot table not creating:** Make sure you selected a cell inside the AllProducts table before clicking PivotTable.
+<details>
+<summary>**Pivot table not creating**</summary>
 
-**Wrong calculation showing:** Check that you changed the Value field settings to "Average" instead of "Sum".
+Make sure you selected a cell inside the AllProducts table before clicking PivotTable.
 
-**Chart looks cluttered:** If you have many manufacturers, consider using a bar chart instead of a pie chart.
+</details>
 
-**Negative margins showing:** Verify that your Price and Manufacturer Price columns contain correct data. Negative margins indicate products selling below cost.
+<details>
+<summary>**Wrong calculation showing**</summary>
 
-**Data not updating:** Refresh the pivot table (right-click → Refresh) after changing source data.
+Check that you changed the Value field settings to "Average" instead of "Sum".
+
+</details>
+
+<details>
+<summary>**Chart looks cluttered**</summary>
+
+If you have many manufacturers, consider using a bar chart instead of a pie chart.
+
+</details>
+
+<details>
+<summary>**Negative margins showing**</summary>
+
+Verify that your Price and Manufacturer Price columns contain correct data. Negative margins indicate products selling below cost.
+
+</details>
+
+<details>
+<summary>**Data not updating**</summary>
+
+Refresh the pivot table (right-click → Refresh) after changing source data.
+
+</details>
 
 ## Next Steps
 

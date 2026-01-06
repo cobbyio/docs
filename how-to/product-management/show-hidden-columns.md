@@ -189,6 +189,7 @@ Each attribute set (worksheet) can have different hidden columns:
 
 ## Related Topics
 
+- [Product Attributes and Scopes](/explanation/architecture/product-attributes) - Understanding how attribute sets determine which columns appear
 - [How to Manage Presets](/how-to/product-management/manage-presets) - Save column visibility settings
 - [How to Filter Product Data](/how-to/product-management/filter-product-data) - Show/hide rows based on data
 - [How to Create Custom Product Views](/how-to/product-management/create-custom-product-views) - Create and save custom column layouts

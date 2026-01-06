@@ -511,3 +511,9 @@ Understanding these strategic aspects helps explain why cobby's architecture is 
 :::tip Learn By Doing
 Now that you understand how cobby works as a PIM system and the architectural design behind it, experience this architecture in action with the [First Steps Tutorial](/tutorials/getting-started/first-steps). You'll see the real-time synchronization, differential updates, and collaborative features firsthand.
 :::
+
+## Related Topics
+
+- [Product Attributes and Scopes](/explanation/architecture/product-attributes) - Understanding the fundamental data structure cobby displays: attributes, attribute sets, and scopes
+- [Store Views](/explanation/architecture/store-views) - Understanding how Store Views enable multi-language stores and why products appear multiple times in cobby
+- [Custom Product Types](/explanation/architecture/custom-product-types) - How cobby handles product types beyond standard Magento types

@@ -279,3 +279,7 @@ Maintain a reference document with:
 
 ---
 
+## Related Topics
+
+- [Store Views](/explanation/architecture/store-views) - Understanding how Store Views enable multi-language stores and translation workflows
+- [How to Create New Attribute Options](/how-to/attributes/create-attribute-options) - Creating new attribute options that can then be translated

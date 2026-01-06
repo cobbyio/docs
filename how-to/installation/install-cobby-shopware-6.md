@@ -94,7 +94,7 @@ You'll need these credentials to connect cobby to your shop. Store them securely
 
 4. Click **Upload extension** in the top right corner.
 
-5. Select the downloaded `cobby_sw6_app.zip` file.
+5. Select the downloaded `Source code (zip)` file.
 
 ![](/img/install-cobby-shopware-6/shopware7.png)
 

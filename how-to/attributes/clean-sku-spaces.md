@@ -137,20 +137,31 @@ This replaces the old SKUs with the cleaned versions.
 
 ## Troubleshooting
 
-**Problem:** Duplicate SKUs found after removing spaces
+<details>
+<summary>**Duplicate SKUs found after removing spaces**</summary>
 
-**Solution:** This means multiple products had different variations of the same SKU (e.g., "ABC123" and " ABC123"). You need to:
+This means multiple products had different variations of the same SKU (e.g., "ABC123" and " ABC123"). You need to:
 - Identify which products are duplicates
 - Decide which to keep
 - Modify or delete the duplicate products
 
-**Problem:** Formula shows #REF! error
+</details>
 
-**Solution:** Make sure you're using structured table references. Convert your data range to a table (Ctrl+L) if you haven't already.
+<details>
+<summary>**Formula shows #REF! error**</summary>
 
-**Problem:** TRIM function doesn't remove all spaces
+Make sure you're using structured table references. Convert your data range to a table (Ctrl+L) if you haven't already.
 
-**Solution:** TRIM only removes leading/trailing spaces and reduces multiple spaces to single spaces. If you have special characters that look like spaces, use the CLEAN function in addition: `=CLEAN(TRIM([@SKU]))`
+</details>
+
+<details>
+<summary>**TRIM function doesn't remove all spaces**</summary>
+
+TRIM only removes leading/trailing spaces and reduces multiple spaces to single spaces. If you have special characters that look like spaces, use the CLEAN function in addition: `=CLEAN(TRIM([@SKU]))`
+
+</details>
+
+---
 
 ## Alternative: Prevent Spaces in the Future
 

@@ -104,23 +104,39 @@ To get the exact category path:
 
 ## Troubleshooting
 
-**Categories not appearing after save**
+<details>
+<summary>**Categories not appearing after save**</summary>
+
 - Verify category path format matches exactly (use formula bar method)
 - Check that categories exist in your store
 - Ensure cell format is "Standard" not "Text"
 
-**Existing categories are lost**
+</details>
+
+<details>
+<summary>**Existing categories are lost**</summary>
+
 - Make sure you copied current categories to helper column first
 - Verify CONCATENATE formula references the correct helper column
 
-**Formula shows as text**
+</details>
+
+<details>
+<summary>**Formula shows as text**</summary>
+
 - Change cell format from "Text" to "Standard"
 - Re-enter the formula after changing format
 
-**Condition not working as expected**
+</details>
+
+<details>
+<summary>**Condition not working as expected**</summary>
+
 - Test your IF condition on a single product first
 - Check attribute column names match exactly
 - Verify data types (numbers vs text)
+
+</details>
 
 ## Advanced Tips
 

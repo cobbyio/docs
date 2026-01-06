@@ -182,27 +182,39 @@ This counts rows where both column A and column B match the current row.
 
 ## Troubleshooting
 
-**Problem:** Formula returns #VALUE! error
+<details>
+<summary>**Formula returns #VALUE! error**</summary>
 
-**Solution:** Ensure the cell format is set to Standard or General, not Text. Also verify your column references are correct.
+Ensure the cell format is set to Standard or General, not Text. Also verify your column references are correct.
 
-**Problem:** All values show "1" even though duplicates exist
+</details>
 
-**Solution:** Check that your formula range covers all rows. Use entire column reference (e.g., $D:$D) instead of a limited range.
+<details>
+<summary>**All values show "1" even though duplicates exist**</summary>
 
-**Problem:** Formula slows down Excel significantly
+Check that your formula range covers all rows. Use entire column reference (e.g., $D:$D) instead of a limited range.
 
-**Solution:** If you have many products, use a limited range instead of entire columns:
+</details>
+
+<details>
+<summary>**Formula slows down Excel significantly**</summary>
+
+If you have many products, use a limited range instead of entire columns:
 ```excel
 =COUNTIF($D$2:$D$10000, D2)
 ```
 
-**Problem:** Duplicates appear but values look different
+</details>
 
-**Solution:** You may have invisible spaces or formatting differences. Use the TRIM function first:
+<details>
+<summary>**Duplicates appear but values look different**</summary>
+
+You may have invisible spaces or formatting differences. Use the TRIM function first:
 ```excel
 =COUNTIF($D:$D, TRIM(D2))
 ```
+
+</details>
 
 ---
 
