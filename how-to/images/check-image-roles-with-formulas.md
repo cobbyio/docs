@@ -191,29 +191,45 @@ Or create a helper column with position parameter.
 
 ## Troubleshooting
 
-**Formula returns #VALUE! error**
+<details>
+<summary>**Formula returns #VALUE! error**</summary>
+
 - Verify product has multiple images
 - Check that Images column contains valid image data
 - Ensure image list uses semicolons as separators
 - Try on product with at least 2 images
 
-**Always returns FALSE**
+</details>
+
+<details>
+<summary>**Always returns FALSE**</summary>
+
 - Check that second image actually exists
 - Verify image roles are set in Magento
 - Reload products to get latest data
 - Check for case sensitivity in filenames
 
-**Cannot extract second image**
+</details>
+
+<details>
+<summary>**Cannot extract second image**</summary>
+
 - Product may have only one image
 - Check All Images column format
 - Verify semicolons are present in list
 - Use IF statement to handle single-image products
 
-**Formula too complex**
+</details>
+
+<details>
+<summary>**Formula too complex**</summary>
+
 - Break into multiple helper columns
 - Test each part of formula separately
 - Use named ranges for clarity
 - Add comments to document logic
+
+</details>
 
 ## Advanced Use Cases
 

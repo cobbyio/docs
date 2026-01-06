@@ -102,3 +102,9 @@ Before saving, you can use Excel's Undo function (Ctrl+Z). After saving to Magen
 
 </details>
 
+---
+
+## Related Topics
+
+- [Store Views](/explanation/architecture/store-views) - Understanding how Store Views enable multi-language and multi-region e-commerce
+- [How to Filter Product Data](/how-to/product-management/filter-product-data) - Filtering products by Store View to work more efficiently

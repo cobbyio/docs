@@ -2,7 +2,7 @@
   "label": "Product Types",
   "position": 2,
   "link": {
-    "type": "generated-index",
-    "description": "Understanding different product types in cobby and how they work in your e-commerce system."
+    "type": "doc",
+    "id": "product-types/index"
   }
 }

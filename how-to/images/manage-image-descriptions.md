@@ -170,30 +170,50 @@ Add category context to images:
 
 ## Troubleshooting
 
-**Formula not working**
+<details>
+<summary>**Formula not working**</summary>
+
 - Verify helper column contains original image data
 - Check that cell format is General (not Text)
 - Ensure function name matches your Excel language
 
-**All images get same description**
+</details>
+
+<details>
+<summary>**All images get same description**</summary>
+
 - Use position syntax: `"0:Label"` for individual descriptions
 - Without position prefix, all images receive the same label
 
-**Descriptions too long**
+</details>
+
+<details>
+<summary>**Descriptions too long**</summary>
+
 - Magento may truncate very long labels
 - Keep descriptions concise and meaningful
 - Consider using abbreviations
 
-**Changes not appearing in store**
+</details>
+
+<details>
+<summary>**Changes not appearing in store**</summary>
+
 - Click Save products in cobby
 - Clear Magento cache
 - Check that images are published
 
-**Helper column interfering with layout**
+</details>
+
+<details>
+<summary>**Helper column interfering with layout**</summary>
+
 - Keep helper column but hide it:
   - Right-click column header
   - Select "Hide"
 - Or delete after verifying formulas work
+
+</details>
 
 ## Best Practices
 

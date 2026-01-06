@@ -1,0 +1,11 @@
+# Set default behavior to automatically normalize line endings
+* text=auto
+
+# Force CRLF line endings for markdown files
+*.md text eol=crlf
+
+# Force CRLF line endings for other documentation files
+*.mdx text eol=crlf
+
+# Force LF line endings for specific files
+*.sh text eol=lf

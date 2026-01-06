@@ -141,3 +141,7 @@ This method is faster but has important limitations:
 - Create a new attribute set for future products
 
 This avoids the complexity and risks of migrating existing products.
+
+## Related Topics
+
+- [Product Attributes and Scopes](/explanation/architecture/product-attributes) - Understanding what attribute sets are and why they determine product structure

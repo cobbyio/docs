@@ -135,29 +135,45 @@ To clean up existing duplicates:
 
 ## Troubleshooting
 
-**Setting not working**
+<details>
+<summary>**Setting not working**</summary>
+
 - Clear Magento cache after changing setting
 - Verify you have admin permissions
 - Check that cobby extension is up to date
 - Test with a new image upload
 
-**Images still being numbered**
+</details>
+
+<details>
+<summary>**Images still being numbered**</summary>
+
 - Verify setting is set to "Yes"
 - Check that you saved the configuration
 - Ensure image filename matches exactly (case-sensitive)
 - Clear browser cache and retry
 
-**Original images not updating**
+</details>
+
+<details>
+<summary>**Original images not updating**</summary>
+
 - Verify overwrite is enabled
 - Check file permissions on media folder
 - Ensure new image has exact same filename
 - Review server logs for errors
 
-**Lost images after enabling**
+</details>
+
+<details>
+<summary>**Lost images after enabling**</summary>
+
 - This is expected behavior when overwriting
 - Create backups before enabling
 - Test on staging environment first
 - Consider whether you need version history
+
+</details>
 
 ## Best Practices
 

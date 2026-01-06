@@ -157,3 +157,14 @@ Reference implementations are available for:
 
 These extensions demonstrate the transformation pattern and provide a foundation for your own custom type support.
 
+## Related Topics
+
+To understand how standard product types work in cobby:
+
+- [Configurable Products](/explanation/product-types/configurable-products) - Understanding parent-child product relationships
+- [Simple Products](/explanation/product-types/simple-products) - The foundation of all product types
+- [Grouped Products](/explanation/product-types/grouped-products) - Presentational product collections
+- [Bundle Products](/explanation/product-types/bundle-products) - Customer-customizable product sets
+- [Virtual Products](/explanation/product-types/virtual-products) - Non-physical products without shipping
+- [Downloadable Products](/explanation/product-types/downloadable-products) - Digital products with file delivery
+

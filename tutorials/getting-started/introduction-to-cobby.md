@@ -355,7 +355,11 @@ The unique identifier for each product. You'll use this to find specific product
 Shows the product type: simple, configurable, bundle, etc.
 
 **Column D - Attribute Set**
-The attribute set that determines which attributes this product has.
+The attribute set that determines which attributes this product has. Different attribute sets show different columns because different product types need different attributes.
+
+:::tip Learn More About Attribute Sets
+To understand why attribute sets exist and how they work, see our detailed explanation: [Product Attributes and Scopes](/explanation/architecture/product-attributes)
+:::
 
 **Following columns - Product Attributes**
 All the other columns represent product attributes like:

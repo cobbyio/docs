@@ -50,11 +50,13 @@ Custom presets are user-created presets with the following characteristics:
 - **Inheritance**: Can be created by loading an existing preset, modifying it, and saving under a new name
 - **Portability**: Can be exported and imported between cobby workspaces
 
+---
+
 ## Preset Components
 
 Each cobby preset can contain multiple configuration elements that together define your custom view.
 
-### 👁️ Column Visibility Settings
+### Column Visibility Settings
 
 Each preset stores a visibility state for every attribute column in your Magento product data:
 
@@ -66,7 +68,7 @@ Each preset stores a visibility state for every attribute column in your Magento
 Learn how to manage column visibility: [How to Show Hidden Columns](/how-to/product-management/show-hidden-columns)
 :::
 
-### 🔢 Column Ordering
+### Column Ordering
 
 Presets store the sequence in which columns appear in cobby Excel:
 
@@ -75,7 +77,7 @@ Presets store the sequence in which columns appear in cobby Excel:
 - **Independence**: Each preset maintains its own column order independently
 - **Flexibility**: Arrange columns to match your workflow (e.g., group pricing columns together)
 
-### 📝 Help Columns
+### Help Columns
 
 Help columns (also called auxiliary columns) are supplementary columns added to cobby presets that do not correspond to Magento product attributes:
 
@@ -107,6 +109,8 @@ When a help column is created:
 - **Deactivation methods**:
   1. Manually disable data validation for the help column after creation
   2. Change Excel settings: File > Options > Advanced > Uncheck "Expand data range formats and formulas"
+
+---
 
 ## Preset Operations
 
@@ -214,11 +218,13 @@ Learn more about the toolbar: [Excel Toolbar Reference](/reference/features/exce
 
 **Cross-Installation Compatibility**: Presets can be imported between workspaces connected to different Magento installations (column availability may vary based on attributes)
 
+---
+
 ## Preset Management Interface
 
 cobby provides a web-based interface in the cobby portal for managing presets, eliminating the need to work within Excel's spreadsheet interface.
 
-### 🌐 Web-Based Portal
+### Web-Based Portal
 
 **Location**: cobby portal > Presets menu item
 
@@ -228,7 +234,7 @@ cobby provides a web-based interface in the cobby portal for managing presets, e
 
 **Advantages**: Easier column management compared to scrolling through wide Excel tables
 
-### 👁️ Column Visibility Controls
+### Column Visibility Controls
 
 **Visual indicators**:
 - **⚪ White circle**: Column is currently hidden in the preset
@@ -238,7 +244,7 @@ cobby provides a web-based interface in the cobby portal for managing presets, e
 
 **Behavior**: Toggle is immediate in cobby portal; requires preset reload in Excel to apply
 
-### 🔀 Column Ordering Controls
+### Column Ordering Controls
 
 **Visual element**: Three-bar handle icon (≡) next to visibility indicator
 
@@ -246,7 +252,7 @@ cobby provides a web-based interface in the cobby portal for managing presets, e
 
 **Behavior**: Drag-and-drop reorders columns; order saved immediately in cobby portal; requires preset reload in Excel to apply
 
-### 🔄 Portal-Excel Synchronization
+### Portal-Excel Synchronization
 
 **Direction**: Changes flow from cobby portal to Excel
 
@@ -263,11 +269,13 @@ cobby provides a web-based interface in the cobby portal for managing presets, e
 
 **Important**: Presets are stored in the cobby workspace (cloud), not in local Excel files
 
+---
+
 ## Preset Scope
 
 cobby presets can be configured to apply globally or vary per Magento attribute set.
 
-### 🌍 Global Scope (All Products)
+### Global Scope (All Products)
 
 **Definition**: Preset configuration applies identically to all attribute set sheets in cobby Excel
 
@@ -283,7 +291,7 @@ cobby presets can be configured to apply globally or vary per Magento attribute 
 **Important**: When working in the "All Products" sheet, you will only see the common attributes shared across all your Magento attribute sets. So if an attribute is missing in one attribute set, it will not appear in "All Products". To view attributes specific to a particular attribute set, switch to that attribute set's individual sheet.
 :::
 
-### 🎯 Per-Attribute-Set Scope
+### Per-Attribute-Set Scope
 
 **Definition**: Preset configuration varies by Magento attribute set
 
@@ -299,7 +307,7 @@ cobby presets can be configured to apply globally or vary per Magento attribute 
 
 ## Technical Constraints
 
-### ⚠️ Mandatory Fields for Product Creation
+### Mandatory Fields for Product Creation
 
 When a preset is used for creating new products in cobby, the following Magento-required fields must remain visible:
 
@@ -314,7 +322,7 @@ When a preset is used for creating new products in cobby, the following Magento-
 
 **Recommendation**: Create separate presets for product creation (with mandatory fields visible) and product editing (where mandatory fields can be hidden if not being modified)
 
-### ⚡ Performance Characteristics
+### Performance Characteristics
 
 **Column count impact on cobby Excel**:
 - **Fewer columns**: Faster Excel loading and recalculation
@@ -326,7 +334,7 @@ When a preset is used for creating new products in cobby, the following Magento-
 
 **Best practice**: Use the Reduced preset as starting point to exclude empty attributes
 
-### 📁 Excel Workbook Behavior
+### Excel Workbook Behavior
 
 **Preset persistence**: Presets exist in cobby workspace (cloud), not in local Excel workbooks
 
@@ -336,9 +344,9 @@ When a preset is used for creating new products in cobby, the following Magento-
 
 **Synchronization**: Presets are synced across all devices where cobby is installed with the same workspace
 
-## See Also
+---
 
-### 📚 Related Documentation
+## Related Documentation
 
 **Understanding Presets**:
 - [Understanding Presets](/explanation/features/presets) - Conceptual guide explaining why and how presets improve workflows

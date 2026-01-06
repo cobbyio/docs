@@ -61,3 +61,9 @@ Ensure you clicked "Apply" before clicking "Save products". The Apply button con
 cobby only allows one action per operation. To both add and remove websites, perform two separate operations:
 1. First operation: Add the needed websites
 2. Second operation: Remove the unwanted websites
+
+---
+
+## Related Topics
+
+- [Store Views](/explanation/architecture/store-views) - Understanding the Website → Store → Store View hierarchy and how they relate

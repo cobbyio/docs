@@ -188,29 +188,49 @@ Add specific labels for different marketplaces:
 
 ## Troubleshooting
 
-**Formula shows as text**
+<details>
+<summary>**Formula shows as text**</summary>
+
 - Change cell format to General
 - Re-enter the formula
 
-**Labels not applying**
+</details>
+
+<details>
+<summary>**Labels not applying**</summary>
+
 - Verify helper column contains original image data
 - Check that position numbers start at 0
 - Ensure colon separates position from label
 
-**Wrong labels on wrong images**
+</details>
+
+<details>
+<summary>**Wrong labels on wrong images**</summary>
+
 - Position numbers are 0-indexed (first image = 0)
 - Verify image position in cobby Task Pane
 - Check formula references correct positions
 
-**Formula too long**
+</details>
+
+<details>
+<summary>**Formula too long**</summary>
+
 - Use cell references instead of long text strings
 - Break into multiple formulas if needed
 - Use Basic Mode if all labels are similar
 
-**Only first image gets label**
+</details>
+
+<details>
+<summary>**Only first image gets label**</summary>
+
 - Verify you're using position syntax: `"0:Label"`
 - Add position prefix for each label
 - Check you're not using Basic Mode syntax
+
+</details>
 
 ## Advanced Tips
 

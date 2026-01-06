@@ -3,11 +3,9 @@ sidebar_position: 1
 title: Configurable Products
 ---
 
-# Configurable Products
-
 Configurable products are one of the most powerful yet complex product types in e-commerce. They represent a parent product that has multiple variations (simple products) based on attributes like color, size, or material. Understanding how cobby handles configurable products helps you manage product catalogs more effectively.
 
-## What Are Configurable Products?
+## 🏗️ What Are Configurable Products?
 
 A configurable product is a parent product that doesn't have inventory itself but represents a collection of simple products (called "child products" or "variants"). When a customer selects options like "Red" and "Large", they're actually choosing a specific simple product that belongs to the configurable parent.
 
@@ -18,7 +16,9 @@ A configurable product is a parent product that doesn't have inventory itself bu
   - **Simple Product 3:** T-Shirt - Blue - Small
   - **Simple Product 4:** T-Shirt - Blue - Large
 
-## Why Configurable Products Work This Way
+---
+
+## 🔧 Why Configurable Products Work This Way
 
 ### The Relationship Hierarchy
 
@@ -39,7 +39,9 @@ When creating configurable products, the order matters:
 
 **Why This Order Matters:** The parent product defines what attributes will be configurable (color, size, etc.). The simple products must then have values for those attributes. Creating them in this order ensures consistency and prevents orphaned products.
 
-## How Pricing Works for Configurable Products
+---
+
+## 💰 How Pricing Works for Configurable Products
 
 Configurable product pricing follows a specific logic that differs from Magento's default behavior. Understanding this helps you avoid confusion when prices seem to change automatically.
 
@@ -65,7 +67,9 @@ When you save changes to configurable products, you may see a yellow job status 
 
 **Why This Happens:** If you change a simple product's price without updating the attribute option prices in the configurable product, there's a mismatch. The customer would see one price on the product page (from the configurable) but a different price when they select options (from the simple).
 
-## Automatic Price Determination
+---
+
+## ⚙️ Automatic Price Determination
 
 cobby includes an automatic price determination feature that resolves pricing conflicts by calculating the correct attribute option prices based on your simple product prices.
 
@@ -106,7 +110,9 @@ The price difference (€7.00) is then assigned to the appropriate attribute opt
 
 **Why:** With multiple attributes, cobby cannot determine if the €7.00 difference should be attributed to "Red" or to "Large" or split between them. Manual intervention is required in these cases.
 
-## Understanding Grouped Attributes
+---
+
+## 🔗 Understanding Grouped Attributes
 
 In Magento, grouped attributes cannot typically be deselected once applied. cobby provides more flexibility here.
 
@@ -116,7 +122,9 @@ In Magento, grouped attributes cannot typically be deselected once applied. cobb
 
 This gives you control over which attributes are active on a configurable product without having to recreate the entire product structure.
 
-## Why This Architecture Matters
+---
+
+## 💡 Why This Architecture Matters
 
 Understanding configurable products' architecture helps you:
 
@@ -125,4 +133,8 @@ Understanding configurable products' architecture helps you:
 - **Manage inventory accurately** by understanding that stock is tracked at the simple product level
 - **Debug issues faster** by recognizing what yellow job statuses mean
 - **Make informed decisions** about when to use configurable products vs. other product types
+
+## Related Topics
+
+- [Simple Products](/explanation/product-types/simple-products) - Understanding the building blocks used as configurable product variants
 

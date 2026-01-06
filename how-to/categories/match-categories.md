@@ -119,17 +119,29 @@ Replace:
 
 ## Troubleshooting
 
-**Empty rows remain after removing duplicates**
-- Manually select and delete empty rows using the steps in section 4
+<details>
+<summary>**Empty rows remain after removing duplicates**</summary>
 
-**Categories not appearing in Task Pane**
+Manually select and delete empty rows using the steps in section 4
+
+</details>
+
+<details>
+<summary>**Categories not appearing in Task Pane**</summary>
+
 - Verify you selected a product from the correct store view
 - Try selecting a product from "All StoreViews"
 
-**Formula returns error**
+</details>
+
+<details>
+<summary>**Formula returns error**</summary>
+
 - Verify table name matches your Excel table name
 - Check that column names are spelled correctly
 - Ensure the old category value exists in your matching table
+
+</details>
 
 ## Next Steps
 

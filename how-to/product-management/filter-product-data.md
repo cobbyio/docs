@@ -248,6 +248,7 @@ Use this guide to decide which filtering approach works best for your task:
 
 ## Related Topics
 
+- [Store Views](/explanation/architecture/store-views) - Understanding how Store Views work and why filtering by Store View is important
 - [How to Use AutoFilter](/how-to/excel-formulas/use-autofilter) - Detailed Excel AutoFilter techniques
 - [How to Create Custom Product Views](/how-to/product-management/create-custom-product-views) - Save and reuse filter configurations
 - [How to Handle Required Fields](/how-to/product-management/handle-required-fields) - Use filters to find incomplete products
