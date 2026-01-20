@@ -4,6 +4,7 @@ const { themes } = require('prism-react-renderer');
 const lightCodeTheme = themes.github;
 const darkCodeTheme = themes.dracula;
 const tailwindPlugin = require("./plugins/tailwind-config");
+const { sidebarItemsGenerator } = require("./plugins/platform-filter");
 
 const config = {
   title: "cobby Help Docs",
@@ -33,6 +34,7 @@ const config = {
         path: "tutorials",
         routeBasePath: "tutorials",
         sidebarPath: require.resolve("./sidebars.js"),
+        sidebarItemsGenerator,
         editUrl: "https://github.com/cobbyio/docs/tree/main/",
       }),
     ],
@@ -44,6 +46,7 @@ const config = {
         path: "how-to",
         routeBasePath: "how-to",
         sidebarPath: require.resolve("./sidebars.js"),
+        sidebarItemsGenerator,
         editUrl: "https://github.com/cobbyio/docs/tree/main/",
       }),
     ],
@@ -55,6 +58,7 @@ const config = {
         path: "reference",
         routeBasePath: "reference",
         sidebarPath: require.resolve("./sidebars.js"),
+        sidebarItemsGenerator,
         editUrl: "https://github.com/cobbyio/docs/tree/main/",
       }),
     ],
@@ -66,6 +70,7 @@ const config = {
         path: "explanation",
         routeBasePath: "explanation",
         sidebarPath: require.resolve("./sidebars.js"),
+        sidebarItemsGenerator,
         editUrl: "https://github.com/cobbyio/docs/tree/main/",
       }),
     ],
@@ -77,6 +82,7 @@ const config = {
       {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
+          sidebarItemsGenerator,
           editUrl: "https://github.com/cobbyio/docs/tree/main/",
         },
         blog: {
@@ -132,6 +138,7 @@ const config = {
         { to: "/how-to/product-management/use-import-mode", label: "How-To Guides", position: "left" },
         { to: "/reference", label: "Reference", position: "left" },
         { to: "/explanation/architecture/how-cobby-works", label: "Explanation", position: "left" },
+        { type: "custom-platformSwitcher", position: "left" },
         { to: "/release-notes", label: "Release Notes", position: "right" },
         { to: "https://documenter.getpostman.com/view/26334176/2sAYBPoFPm#d1f79765-6a40-4bd4-bd8a-41f171144558", label: "Open API", position: "right", target: "_blank" },
       ],
