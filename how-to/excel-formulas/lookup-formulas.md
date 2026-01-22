@@ -3,7 +3,7 @@ sidebar_position: 10
 title: How to Use VLOOKUP to Assign Data
 ---
 
-# How to Use VLOOKUP to Assign Data
+# How to Use VLOOKUP (SVERWEIS) to Assign Data
 
 Learn how to automatically assign data from supplier lists to your products using Excel's VLOOKUP function.
 

@@ -2,7 +2,7 @@
   "label": "Workspace Management",
   "position": 8,
   "link": {
-    "type": "generated-index",
-    "description": "Guides for managing your cobby workspace, team members, billing, and settings."
+    "type": "doc",
+    "id": "index"
   }
 }

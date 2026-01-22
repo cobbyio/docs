@@ -105,3 +105,62 @@
 .breadcrumb-item a:hover {
   text-decoration: underline;
 }
+
+/* Platform Switcher Styles */
+.platform-switcher {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.375rem 0.75rem;
+  margin-left: 1rem;
+  border: 2px solid var(--ifm-color-primary);
+  border-radius: 6px;
+  background-color: rgba(0, 100, 160, 0.05);
+  font-size: 0.875rem;
+}
+
+.platform-switcher--loading {
+  opacity: 0.6;
+}
+
+.platform-switcher__label {
+  color: var(--ifm-color-primary);
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.platform-switcher__select {
+  border: none;
+  background-color: transparent;
+  color: var(--ifm-font-color-base);
+  font-size: 0.875rem;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 0.125rem 0.25rem;
+  border-radius: 4px;
+  outline: none;
+}
+
+.platform-switcher__select:hover {
+  background-color: rgba(0, 100, 160, 0.1);
+}
+
+.platform-switcher__select:focus {
+  box-shadow: 0 0 0 2px rgba(0, 100, 160, 0.2);
+}
+
+.platform-switcher__value {
+  color: var(--ifm-font-color-secondary);
+}
+
+/* Responsive: Hide label on smaller screens */
+@media (max-width: 996px) {
+  .platform-switcher {
+    margin-left: 0;
+    margin-top: 0.5rem;
+  }
+
+  .platform-switcher__label {
+    display: none;
+  }
+}
