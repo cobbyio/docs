@@ -26,16 +26,11 @@ module.exports.sidebarItemsGenerator = async function ({
 }) {
   const sidebarItems = await defaultSidebarItemsGenerator({ docs, ...args });
 
-  // Debug: Log all docs with platform frontmatter
-  const docsWithPlatform = docs.filter(d => d.frontMatter?.platform);
-  console.log('[platform-filter] Docs with platform:', docsWithPlatform.map(d => ({ id: d.id, platform: d.frontMatter.platform })));
-
   // Recursively add customProps.platform from frontmatter
   function addPlatformToItems(items) {
     return items.map((item) => {
       if (item.type === 'doc') {
         const doc = docs.find((d) => d.id === item.id);
-        console.log('[platform-filter] Item:', item.id, 'Found doc:', doc?.id, 'Platform:', doc?.frontMatter?.platform);
         if (doc?.frontMatter?.platform) {
           return {
             ...item,
