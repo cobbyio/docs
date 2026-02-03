@@ -8,7 +8,9 @@ title: Onboarding - Introduction to cobby
 Welcome! In this comprehensive onboarding tutorial, you'll discover what cobby is, learn both the Portal and Excel interfaces, and successfully update your first product. By the end, you'll understand how cobby transforms product management from a tedious task into an efficient workflow.
 
 :::tip Want to Jump Right In?
-If you prefer a quick start (10-15 minutes), try our [Quick Start: Your First Product Edit](/tutorials/getting-started/first-steps) first, then return here for the complete picture.
+If you prefer a quick start (10-15 minutes), try our Quick Start tutorial for your platform first, then return here for the complete picture:
+- [Quick Start: Your First Product Edit (Magento)](/tutorials/getting-started/first-steps)
+- [Quick Start: Your First Product Edit (Shopware)](/tutorials/getting-started/first-steps-shopware)
 :::
 
 import YoutubeVideo from '@site/src/components/YoutubeVideo';
