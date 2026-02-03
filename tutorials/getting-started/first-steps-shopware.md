@@ -137,9 +137,9 @@ Now let's make your first edit by changing a product's category assignment:
 
 You just saw the product status change from green to yellow. Let's understand what this means:
 
-1. **Green status:** The product in Excel matches your Shopware shop - everything is synchronized.
-2. **Yellow status:** You've made changes in Excel that haven't been saved to your shop yet (this is what you see now!).
-3. **Red status:** Someone else changed this product in the shop since you loaded it.
+1. 🟢 **Green status:** The product in Excel matches your Shopware shop - everything is synchronized.
+2. 🟡 **Yellow status:** You've made changes in Excel that haven't been saved to your shop yet (this is what you see now!).
+3. 🔴 **Red status:** Someone else changed this product in the shop since you loaded it.
 
 **Visual tracking:** This color system helps you see at a glance which products have pending changes.
 
@@ -168,7 +168,9 @@ Time to make your changes live in your Shopware shop:
 3. cobby confirmed the changes were successful.
 4. The product status returned to green (synchronized).
 
-**Success!** Your product data is now up to date everywhere. The changes are immediately visible in your Shopware shop, and the product is now assigned to the categories you selected.
+:::tip Success!
+Your product data is now up to date everywhere. The changes are immediately visible in your Shopware shop, and the product is now assigned to the categories you selected.
+:::
 
 ---
 
@@ -193,7 +195,7 @@ Now that you understand the basics, continue your learning journey:
 
 ### Explore Key Features
 - **[Working with categories](/explanation/features/categories)** - Understand how category management works in cobby
-- **[Understanding presets](/explanation/features/presets)** - Learn how to create custom column views for different workflows
+- **[Presets](/reference/features/presets)** - Complete reference for creating custom column views for different workflows
 - **[Product status and job history](/explanation/features/job-history)** - Deep dive into status indicators and tracking changes
 
 ### Master Common Tasks
