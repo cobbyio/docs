@@ -1,14 +1,19 @@
 ---
 sidebar_position: 1
-title: Quick Start - Your First Product Edit
+title: Quick Start - Your First Product Edit (Magento)
+platform: magento
 ---
 
-# Quick Start: Your First Product Edit
+# Quick Start: Your First Product Edit (Magento)
 
-Welcome! In this quick start tutorial, you'll learn the basics of cobby by completing your first product edit in just 10-15 minutes. By the end, you'll understand how to load products, make changes, and save them back to your online shop.
+Welcome! In this quick start tutorial, you'll learn the basics of cobby for Magento by completing your first product edit in just 10-15 minutes. By the end, you'll understand how to load products, make changes, and save them back to your Magento shop.
 
 :::tip Want the Complete Guide?
 This is a quick start for immediate results. For a comprehensive understanding of cobby's Portal and Excel interfaces, continue with our [Onboarding: Introduction to cobby](/tutorials/getting-started/introduction-to-cobby) tutorial after completing this quick start.
+:::
+
+:::info Using Shopware?
+See the [Quick Start: Your First Product Edit (Shopware)](/tutorials/getting-started/first-steps-shopware) tutorial for Shopware-specific instructions.
 :::
 
 ## What You'll Learn
