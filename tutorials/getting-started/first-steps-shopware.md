@@ -89,7 +89,7 @@ The product loading dialog opens with the **"Products"** tab active:
 Before loading your products, you can choose which attributes (columns) to display in the "Columns" tab:
 
 1. Click the **"Columns"** tab in the product loading dialog.
-2. **Select essential columns or hide unnecessary columns:** For example, check boxes for ID, Name, Product Number, Sales Price, Tax Rate, and Categories. Uncheck the boxes for attributes you don't need right now.
+2. **Select essential columns or hide unnecessary columns:** For example, check boxes for ID, Name, Product Number, Sales Price, Tax Rate, and Categories. Uncheck the boxes for attributes you don't need right now. Columns marked with an asterisk (*) are required fields.
 3. Scroll to the bottom and click **"Show products"** when ready.
 
 **Why select columns?** Loading only the columns you need makes your spreadsheet cleaner and faster to work with. You can always load different columns later for other tasks.
@@ -104,8 +104,8 @@ Before loading your products, you can choose which attributes (columns) to displ
 
 After a few moments, your products appear in Excel:
 
-1. **Product layout:** All loaded products are displayed (in our example, 24 products).
-2. **Row structure:** Each row represents one complete product with all its attribute data.
+1. **Product layout:** The columns represent the different product attributes. Columns marked in red with an asterisk (such as Name *) are required fields.
+2. **Row structure:** Each row represents one complete product with all its attribute data (in our example, 24 products).
 
 **Understanding the spreadsheet:**
 - **Each row = One product:** Every product is listed in its own row.
