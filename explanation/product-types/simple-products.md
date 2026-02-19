@@ -8,6 +8,7 @@ title: Simple Products
 Simple products are the fundamental building blocks of any e-commerce catalog. While the name suggests they're basic or limited, simple products are actually the most versatile and essential product type in systems like Magento and Shopware. Understanding how simple products work and why they're designed this way helps you build efficient, well-structured product catalogs in cobby.
 
 ## 🏗️ What Are Simple Products?
+---
 
 A simple product is a standalone item with its own SKU, price, and inventory. It has no variations and represents a single, specific product that can be purchased. When a customer adds a simple product to their cart, they're buying exactly what they see—no options to select, no configurations to choose.
 
@@ -18,9 +19,8 @@ A simple product is a standalone item with its own SKU, price, and inventory. It
 - A gift card with a fixed value
 - A blue t-shirt in size large (when used as a variant)
 
----
-
 ## 🧱 Why Simple Products Are the Foundation
+---
 
 Every product type in e-commerce systems ultimately depends on simple products. This isn't a technical limitation but a deliberate architectural choice that provides flexibility and consistency.
 
@@ -43,9 +43,8 @@ This architecture means you can reuse the same simple product in multiple contex
 
 The building block approach allows you to restructure your catalog without duplicating products. If you create a simple product once, you can reference it in multiple parent products without maintaining separate inventory or pricing for each context. This reduces errors and simplifies management when working with thousands of products in cobby.
 
----
-
 ## 🎯 When to Use Simple Products
+---
 
 Understanding when to use simple products versus other product types is crucial for catalog structure.
 
@@ -69,9 +68,8 @@ The simple products handle the actual inventory and specific pricing, while the 
 
 Even if products seem related, they should be individual simple products if they have different SKUs, separate inventory, or independent pricing. A "Winter 2024 Catalog" and "Spring 2025 Catalog" are separate simple products, not variations of a "Catalog" configurable product.
 
----
-
 ## 🔗 How Simple Products Work with Other Product Types
+---
 
 The relationships between simple products and other product types follow predictable patterns that cobby manages for you.
 
@@ -97,9 +95,8 @@ Simple products serve as **selectable options** within bundle products. Customer
 
 A simple product can exist in your catalog without being part of any other product type. This is the most straightforward use case—a standalone item that customers can find, view, and purchase directly.
 
----
-
 ## 💰 Inventory and Pricing for Simple Products
+---
 
 Simple products handle inventory and pricing differently than other product types, which is why they're reliable and predictable.
 
@@ -119,9 +116,8 @@ Simple products have a single price (or tier prices for quantity-based discounts
 
 Because simple products manage their own inventory and pricing directly, they serve as the source of truth for your catalog. Even when they're part of configurable or grouped products, the simple product's data determines what actually happens at checkout.
 
----
-
 ## ❌ Common Misconceptions About Simple Products
+---
 
 Several misconceptions about simple products can lead to catalog structure problems.
 
@@ -145,9 +141,8 @@ A simple product can have as many attributes as your system supports. You might 
 
 A simple product's role isn't fixed. Today it might be a standalone product; tomorrow you might add it to a grouped product or make it a variant in a newly created configurable. This flexibility is a feature, not a limitation.
 
----
-
 ## 💡 Why Understanding Simple Products Matters
+---
 
 Simple products are the foundation of catalog management in cobby. Understanding them helps you:
 
@@ -171,9 +166,8 @@ When prices don't match expectations or inventory shows incorrectly, understandi
 
 As your catalog grows to thousands or tens of thousands of products, the simple product architecture becomes increasingly valuable. Reusable simple products that can participate in multiple product relationships reduce duplication and simplify bulk updates in cobby.
 
----
-
 ## ⚙️ The Role of Simple Products in Your Workflow
+---
 
 When working in cobby, simple products are often your starting point and your ending point. You create them first when building configurable products, and you return to them when managing inventory, updating prices, or troubleshooting issues.
 

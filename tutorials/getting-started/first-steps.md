@@ -98,17 +98,9 @@ Let's make our first change! We'll rename a product:
 
 The **Product Status** column (the first column) uses colors to show you what's happening:
 
-### 🟢 Green Status
-
-The product data in Excel and your shop are synchronized - everything matches!
-
-### 🟡 Yellow Status
-
-You've made changes in Excel that haven't been saved to your shop yet. This is what you should see now after editing the product name!
-
-### 🔴 Red Status
-
-The product data in Excel is different from the shop, and there might be a conflict.
+1. **🟢 Green Status**: The product data in Excel and your shop are synchronized - everything matches!
+2. **🟡 Yellow Status**: You've made changes in Excel that haven't been saved to your shop yet. This is what you should see now after editing the product name!
+3. **🔴 Red Status**: The product data in Excel is different from the shop, and there might be a conflict.
 
 **Your current status:** After editing the product name, you should see a yellow status for that product. This is normal - it means you have unsaved changes.
 

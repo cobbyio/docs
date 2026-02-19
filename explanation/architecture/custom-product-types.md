@@ -8,6 +8,7 @@ title: Custom Product Types
 Magento/Adobe Commerce supports multiple product types out of the box (simple, configurable, grouped, bundle, virtual, downloadable). Some stores extend this with custom product types to handle specialized business requirements. Understanding how cobby handles these custom types is essential for maintaining data integrity during synchronization.
 
 ## The Product Type Challenge
+---
 
 Custom product types present a unique architectural challenge for cobby because:
 
@@ -17,6 +18,7 @@ Custom product types present a unique architectural challenge for cobby because:
 - Type transformations must be reversible (import and export)
 
 ## Type Transformation Architecture
+---
 
 When working with custom product types, cobby uses a transformation pattern:
 
@@ -26,6 +28,7 @@ When working with custom product types, cobby uses a transformation pattern:
 This transformation preserves data integrity while enabling cobby to work with products it wouldn't otherwise recognize.
 
 ## Why Transformation Is Necessary
+---
 
 cobby needs to transform custom product types because:
 
@@ -41,6 +44,7 @@ By temporarily mapping custom types to standard types, cobby can:
 - Maintain relationships correctly
 
 ## Type Detection and Recognition
+---
 
 The transformation system needs to:
 
@@ -52,6 +56,7 @@ The transformation system needs to:
 This tracking mechanism ensures that products maintain their custom types even after being edited in cobby.
 
 ## Architectural Trade-offs
+---
 
 ### Advantages of Transformation
 
@@ -68,6 +73,7 @@ This tracking mechanism ensures that products maintain their custom types even a
 - Complex type-dependent relationships might need special handling
 
 ## Implementation Approaches
+---
 
 There are two primary approaches to custom product type support:
 
@@ -90,6 +96,7 @@ For highly specialized custom types, direct integration into cobby might be more
 - Multiple stores use the same custom type
 
 ## Example: Custom Type Mapping
+---
 
 Consider a hypothetical "Rental" product type:
 
