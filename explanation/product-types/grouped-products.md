@@ -20,9 +20,8 @@ Think of a grouped product like a display shelf in a physical store: it holds mu
 
 Each item is a separate simple product that customers can purchase individually or together in any combination they choose.
 
----
-
 ## 💡 Why Grouped Products Exist
+---
 
 Grouped products solve a specific merchandising challenge: **how to present related products together without forcing them into an artificial parent-child relationship**.
 
@@ -41,9 +40,8 @@ In many scenarios, you want to suggest complementary products to customers, but 
 
 **Customer Choice**: Unlike bundle products where you define a fixed set, customers viewing a grouped product can select any quantity of any item—or none at all. This gives them maximum flexibility while still benefiting from your curated product suggestions.
 
----
-
 ## ⚙️ How Grouped Products Work
+---
 
 A grouped product functions as a **non-inventory container**. It doesn't hold its own stock or have a price of its own—it simply references other simple products and displays them in an organized way.
 
@@ -68,9 +66,8 @@ Each member simple product maintains its own complete product data. Changes to a
 
 Unlike configurable products, there's no parent-child dependency. Deleting a grouped product doesn't affect its member simple products—they continue to exist independently. Conversely, removing a simple product from inventory will cause it to disappear from any grouped products that reference it, but won't break the grouped product itself.
 
----
-
 ## 🔄 When to Use Grouped Products vs Other Types
+---
 
 Understanding when to use grouped products requires distinguishing them from similar product types:
 
@@ -102,9 +99,8 @@ Grouped products excel for:
 - **Component-based products**: Computer parts, audio systems, or tool sets
 - **Gift suggestions**: Curated selections where recipients choose their preferences
 
----
-
 ## Why This Design Matters
+---
 
 The grouped product design reflects a fundamental principle in e-commerce architecture: **separation of concerns**.
 

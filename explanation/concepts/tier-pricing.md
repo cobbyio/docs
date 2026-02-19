@@ -23,6 +23,7 @@ Tier pricing represents one of the fundamental economic principles adapted for m
 The customer sees these tiers upfront and can decide whether buying more units makes economic sense for their needs.
 
 ## The Economic Foundation
+---
 
 At its core, tier pricing is built on the economic principle of **economies of scale**. When a customer purchases larger quantities, the per-unit cost to the seller decreases—less packaging overhead, fewer transaction fees, reduced picking and shipping complexity, and better inventory turnover. Tier pricing shares this cost efficiency with the customer, creating a win-win scenario.
 
@@ -41,6 +42,7 @@ Tier pricing occupies a middle ground: it introduces variable pricing while main
 The predictability of tier pricing is not just a convenience—it's a strategic tool that shapes buyer psychology. When customers know in advance exactly what discount they'll receive at specific quantity thresholds, they can make calculated purchasing decisions. This transforms the discount from a pleasant surprise into a quantifiable business decision, which is particularly important in B2B contexts where purchasing decisions require justification and planning.
 
 ## The Behavioral Economics of Volume Incentives
+---
 
 Tier pricing works because it exploits several principles of behavioral economics:
 
@@ -59,6 +61,7 @@ When a customer sees they're close to a quantity threshold for the next discount
 In B2B scenarios, tier pricing appeals to the rational business mindset. Purchasing managers can calculate exact ROI on bulk purchases, justify inventory investments through documented savings, and optimize their supply chain costs.
 
 ## Strategic Value Across Stakeholder Perspectives
+---
 
 ### For Merchants and Sellers
 
@@ -83,6 +86,7 @@ From the buyer's perspective, tier pricing creates value beyond simple cost savi
 - **💼 Budget predictability** increases because buyers can plan their procurement costs with precision. The transparent tier structure removes pricing uncertainty from the equation.
 
 ## How Tier Pricing Fits Into E-Commerce Integration
+---
 
 In the context of cobby's role as an integration platform, tier pricing represents a critical data structure that must flow accurately across different systems. When cobby synchronizes product data between an ERP system and various shop systems, tier price information carries significant business logic that must be preserved.
 
@@ -132,6 +136,7 @@ Consider what happens when tier pricing data moves through an integration layer:
 - **💱 Currency and tax considerations** interact with tier pricing in complex ways. A tier structure defined in one currency must be appropriately converted and displayed in multi-currency shops, with tax calculations applied correctly at each tier level.
 
 ## The Business Context: When and Why Tier Pricing Emerges
+---
 
 Tier pricing doesn't emerge randomly—it appears in specific business contexts where certain conditions exist:
 
@@ -148,6 +153,7 @@ Products that are consumed regularly and can be stored—from food items to offi
 When markets are highly competitive and buyers are price-conscious, tier pricing provides a mechanism to capture price-sensitive customers at high volumes while maintaining margins on smaller purchases. This price discrimination (in the economic sense) allows merchants to serve multiple market segments simultaneously.
 
 ## The Challenges and Tradeoffs
+---
 
 Understanding tier pricing also means recognizing its inherent tensions:
 
@@ -168,6 +174,7 @@ Complexity costs accumulate as tier structures proliferate. Managing dozens of p
 :::
 
 ## The Integration Imperative
+---
 
 This complexity explains why integrated systems like cobby are essential for merchants using tier pricing at scale. When tier pricing information lives in isolated systems, inconsistencies are inevitable. An ERP might have current tier prices while the web shop displays outdated information, leading to order fulfillment conflicts and customer service issues.
 

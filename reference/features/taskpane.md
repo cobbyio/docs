@@ -1,5 +1,5 @@
 ---
-title: Task Pane
+title: Task Pane (Magento)
 description: Complete reference documentation for the cobby Task Pane panel for advanced attribute management and data handling.
 ---
 

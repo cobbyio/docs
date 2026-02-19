@@ -8,6 +8,7 @@ title: Change Notification System
 This article explains the architecture behind cobby's change notification system and how data synchronization works between Magento and cobby.
 
 ## How Change Notification Works
+---
 
 The change notification system in cobby is built on Magento's event-driven architecture. Understanding this flow helps you troubleshoot synchronization issues and understand why changes appear in the system.
 
@@ -35,6 +36,7 @@ This event-driven architecture ensures:
 - **Transaction Integrity**: Multiple changes are processed together atomically
 
 ## Understanding Transaction IDs
+---
 
 The transaction ID reveals the origin of a change:
 
@@ -46,6 +48,7 @@ This distinction helps you identify whether a change came from direct Magento ed
 ![Transaction ID comparison](/img/how-is-cobby-notified-about-changes-from-magento/transactionsid.png)
 
 ## When the System Can Fail
+---
 
 The notification system relies on Magento's model layer being properly used. In rare cases, problems can occur when:
 
@@ -75,6 +78,7 @@ The change history is your primary diagnostic tool for understanding when and ho
 ![Change history view](/img/how-is-cobby-notified-about-changes-from-magento/history.png)
 
 ## Why Understanding This Matters
+---
 
 Understanding the change notification architecture helps you:
 

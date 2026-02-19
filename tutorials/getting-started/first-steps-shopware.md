@@ -158,9 +158,9 @@ Time to make your changes live in your Shopware shop:
 1. **Click the upload button** (save icon) next to the "Load products" button at the top of the task pane.
 
 **What you'll see:**
-- cobby synchronizes your changes in real-time with your Shopware shop.
+- cobby synchronizes your changes in real-time with your Shopware shop. This may take a moment, as the data is being transferred to Shopware.
 - The Product Status changes from yellow back to **green**.
-- Your changes are now live in your shop.
+- Your changes are then live in your shop.
 
 **What just happened behind the scenes:**
 1. cobby sent your category assignment changes to your Shopware shop.

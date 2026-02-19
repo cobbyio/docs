@@ -11,6 +11,7 @@ cobby is a **Product Information Management (PIM) system** designed to bridge th
 The answer lies in cobby's three-tier architecture—a design that prioritizes performance, real-time collaboration, and data integrity. Understanding this architecture reveals why cobby can handle massive catalogs, support multiple concurrent users, and maintain seamless bidirectional synchronization without compromising your shop's performance.
 
 ## cobby as a PIM System
+---
 
 Before diving into the technical architecture, it's important to understand cobby's role as a PIM system. Traditional e-commerce platforms require you to navigate complex backend interfaces to manage product data—a time-consuming process that doesn't scale well when managing large catalogs or coordinating across teams.
 
@@ -21,6 +22,7 @@ This real-time synchronization is what distinguishes cobby from traditional data
 Beyond day-to-day management, cobby's PIM architecture provides crucial support during system migrations—such as upgrading from Magento 1 to Magento 2. By maintaining a central, synchronized view of your product data, cobby ensures data integrity throughout the migration process while allowing your team to continue working without interruption.
 
 ## The Three-Tier Architecture
+---
 
 cobby's functionality is powered by three interconnected components, each designed for a specific purpose:
 

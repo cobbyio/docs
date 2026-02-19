@@ -5,9 +5,8 @@ title: Bundle Products
 
 Bundle products represent a unique product type that empowers customers to build their own purchase from predefined options. Unlike other product types where you determine the final product composition, bundles shift some of that control to the customer while keeping you in charge of available choices. Understanding how bundle products work helps you decide when they're the right solution for your catalog.
 
----
-
 ## 🧩 What Are Bundle Products?
+---
 
 A bundle product is a container product composed of multiple sections, each containing selectable simple products. Customers navigate through these sections, making choices that build their final purchase. The bundle itself has no inventory—availability depends entirely on the components within it.
 
@@ -29,9 +28,8 @@ A bundle product is a container product composed of multiple sections, each cont
 
 Each section can be required or optional, and you control whether customers can select one item or multiple items per section.
 
----
-
 ## 💡 Why Bundle Products Exist
+---
 
 Bundle products solve a specific merchandising challenge: how to offer controlled customization. They exist because some purchases aren't truly "one size fits all" but also can't be completely open-ended.
 
@@ -49,9 +47,8 @@ A bundle product provides exactly this structure: defined sections with selectab
 
 Bundles can incentivize purchases through strategic pricing. By offering a bundle at a fixed price lower than buying components separately, you encourage customers to buy the complete package rather than individual items.
 
----
-
 ## ⚙️ How Bundle Products Work
+---
 
 Bundle products operate through a section-based selection system. Each section represents a decision point in building the final product.
 
@@ -70,9 +67,8 @@ Bundle product availability depends on component availability. If any required s
 
 This creates an important consideration: bundle availability is as fragile as its most limited component. A bundle with 10 sections can become unavailable if a single required component runs out.
 
----
-
 ## 💰 Understanding Pricing Models
+---
 
 Bundle products support two fundamentally different pricing approaches, each suited to different merchandising strategies.
 
@@ -110,9 +106,9 @@ Selecting Processor B + RAM B = €450.00 total
 
 The pricing model choice fundamentally changes customer psychology. Fixed pricing feels like a deal; dynamic pricing feels like customization.
 
----
-
 ## 🎯 When to Use Bundle Products
+
+---
 
 Bundle products excel in specific scenarios but aren't appropriate for every situation. Choosing the right product type requires understanding what problem you're solving.
 
@@ -139,9 +135,8 @@ Bundle products excel in specific scenarios but aren't appropriate for every sit
 - The "bundle" is actually a pre-built package with no customer choice (use simple product)
 - Options don't naturally organize into sections
 
----
-
 ## 🔄 How Bundles Differ from Other Product Types
+---
 
 Understanding bundle products requires understanding what they're not. Each product type serves distinct purposes.
 
@@ -169,9 +164,8 @@ Understanding bundle products requires understanding what they're not. Each prod
 
 Unlike configurable products where the parent has no inventory and children do, bundle products work differently: the bundle itself has no inventory, and availability cascades from component availability. This means inventory management happens entirely at the simple product level—the same simple products can appear in multiple bundles without separate inventory tracking.
 
----
-
 ## Why This Design Matters
+---
 
 The bundle product architecture reflects core e-commerce principles about choice, control, and complexity.
 
@@ -194,6 +188,8 @@ Bundle complexity scales multiplicatively, not additively. A bundle with 3 secti
 - **Customer decision fatigue:** Too many options can decrease conversion
 
 Understanding these implications helps you design bundles that serve business goals without creating operational nightmares.
+
+---
 
 ## Related Topics
 

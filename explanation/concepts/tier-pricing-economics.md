@@ -13,6 +13,7 @@ This article examines the economic principles behind tier pricing profitability,
 :::
 
 ## The Profitability Paradox
+---
 
 At first glance, tier pricing appears straightforward: offer discounts for larger quantities, increase order values, and benefit from economies of scale. But this simple logic conceals a critical question: **does revenue growth translate to profit growth?**
 
@@ -31,6 +32,7 @@ Every tier pricing structure produces one of three economic outcomes:
 The fundamental principle: **tier pricing only makes strategic sense when it creates value for both parties, not when it merely transfers value from merchant to customer.**
 
 ## Understanding Margin Dynamics
+---
 
 To understand why tier structures succeed or fail economically, we must examine how margins behave as quantity increases.
 
@@ -52,6 +54,7 @@ Each discount reduces the profit per unit. A 10% price reduction doesn't reduce 
 **The strategic insight:** Volume must grow faster than margins compress. If you reduce your margin by 50% to drive a quantity tier, you need more than 2x the volume at that tier just to break even in absolute profit terms.
 
 ## The Four Strategic Scenarios
+---
 
 Let's examine four distinct economic scenarios that illustrate why tier pricing succeeds or fails. These aren't hypothetical—they represent common patterns that emerge when merchants implement tier pricing without understanding the underlying economics.
 
@@ -193,6 +196,7 @@ This model works beautifully up to the point where the operational assumptions b
 The merchant using this strategy monitors these boundaries carefully and sets tier breaks accordingly.
 
 ## The Strategic Framework: Thinking About Tier Economics
+---
 
 These scenarios reveal a framework for thinking strategically about tier pricing economics:
 
@@ -226,6 +230,7 @@ Map the quantity levels where operational costs jump:
 **The Test:** Ensure tier breaks align with operational realities, not just round numbers that sound appealing.
 
 ## The Margin Math: Working Backwards from Profitability
+---
 
 Many merchants approach tier pricing by asking "What discount will attract customers?" This is backwards. The economically sound approach works backwards from profitability requirements.
 
@@ -258,6 +263,7 @@ Instead of guessing at discounts, calculate the maximum discount mathematically 
 :::
 
 ## The Profitability-Attractiveness Tradeoff
+---
 
 Once you understand your profitability constraints, tier pricing becomes a negotiation between two competing objectives:
 
@@ -285,6 +291,7 @@ Since the optimization problem is complex, successful merchants often use an ite
 4. **Monitor Thresholds:** Continuously verify that operational assumptions (shipping costs, handling efficiency) remain valid at observed order quantities
 
 ## Common Strategic Mistakes and Why They Happen
+---
 
 Understanding why merchants make tier pricing mistakes reveals important lessons:
 
@@ -325,6 +332,7 @@ Just because a competitor offers certain tier discounts doesn't mean those disco
 **The Lesson:** Every sale must contribute to fixed cost coverage. Tier pricing that compresses margins so severely that fixed costs aren't covered is just moving money from your business to your customer.
 
 ## The Role of Product Characteristics
+---
 
 Not all products are equally suitable for tier pricing, and understanding why reveals important economic principles:
 
@@ -353,6 +361,7 @@ Not all products are equally suitable for tier pricing, and understanding why re
 **The Economics:** The shipping cost curve is non-linear, creating profit "cliffs" where increasing quantity suddenly destroys profitability.
 
 ## Strategic Implications for cobby Users
+---
 
 For merchants using cobby to synchronize tier pricing across systems, these economic principles have direct implications:
 
@@ -379,6 +388,7 @@ As products sell and order patterns emerge, the operational assumptions behind t
 **The Integration Advantage:** ERP systems track actual fulfillment costs. By analyzing actual costs vs. assumed costs in tier pricing, you can identify tiers that looked good in theory but fail in practice—then update tier structures in the ERP and let cobby propagate the corrections.
 
 ## Conclusion: The Economic Discipline
+---
 
 The difference between tier pricing that creates value and tier pricing that merely transfers value from merchant to customer comes down to economic discipline:
 

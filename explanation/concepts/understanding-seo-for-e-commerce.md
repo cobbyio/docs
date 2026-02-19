@@ -13,6 +13,7 @@ Search engine optimization (SEO) is fundamental to e-commerce success, yet many 
 :::
 
 ## The Core Philosophy: Customers First, Search Engines Second
+---
 
 Before diving into technical details, it's essential to understand a fundamental principle: your online store should be designed primarily for customers, not search engines. Good rankings should be achieved *alongside* a great customer experience, not at its expense.
 
@@ -21,6 +22,7 @@ Search engines have evolved to recognize and reward content that genuinely serve
 :::
 
 ## How Search Engines "Think"
+---
 
 Understanding how search engines process web pages helps explain why certain optimization practices work.
 
@@ -47,6 +49,7 @@ Artificially repeating keywords—even in hidden text or meta tags—triggers al
 This is why balanced use of synonyms and natural language matters—it signals authentic, user-focused content rather than content created purely to satisfy algorithms.
 
 ## Why Position Matters: The Document Hierarchy
+---
 
 Search engines don't treat all content positions equally. Understanding why certain positions carry more weight reveals the logic behind SEO best practices.
 
@@ -72,13 +75,13 @@ Search engines don't treat all content positions equally. Understanding why cert
 └─────────────────────────────────────────────────┘
 ```
 
-### 🔗 The URL as a First Signal
+### The URL as a First Signal
 
 The URL serves as an early indicator of page content. Before a search engine even processes your page content, the URL provides context. A URL containing relevant terms signals topical relevance immediately.
 
 **Why domain name selection matters:** Since the domain appears in every URL across your site, keywords in the domain contribute relevance to all associated pages.
 
-### 📝 Titles as Primary Identifiers
+### Titles as Primary Identifiers
 
 The page title holds special significance because it serves dual purposes:
 
@@ -89,7 +92,7 @@ The page title holds special significance because it serves dual purposes:
 
 This dual role explains why titles must balance keyword inclusion with compelling, customer-focused language.
 
-### 📰 Headlines as Content Structure
+### Headlines as Content Structure
 
 Headlines matter because they reflect how humans naturally organize information. When readers scan a page, they use headlines to understand content structure. Search engines mirror this behavior, weighting keywords in headlines more heavily than those in body text.
 
@@ -97,13 +100,14 @@ Headlines matter because they reflect how humans naturally organize information.
 SEO best practices often mirror what makes content genuinely useful for readers. This isn't coincidental—search engines are designed to reward content that serves users well.
 :::
 
-### ⬆️ Front-Loaded Content
+### Front-Loaded Content
 
 Search engines prioritize content appearing early on a page. This reflects user behavior—readers who don't find relevant information immediately tend to leave. By weighting early content more heavily, search engines favor pages that deliver value quickly.
 
 **For e-commerce:** Product descriptions should lead with the most important information. If a description is comprehensive and cannot be shortened, a summary of key features at the top serves both customers and search rankings.
 
 ## The Search Results Display: Understanding Snippets
+---
 
 When your page appears in search results, it's displayed as a "snippet"—typically consisting of a title, URL, and description text. Understanding how snippets work reveals why meta descriptions matter.
 
@@ -145,6 +149,7 @@ Search results are competitive. Users scanning a list of results make split-seco
 A well-crafted snippet that clearly communicates value will outperform a generic or auto-generated one, even if both pages rank equally. This is why investing time in meta descriptions pays dividends in actual traffic, not just rankings.
 
 ## The Duplicate Content Problem
+---
 
 When the same product is accessible via multiple URLs—common when products belong to multiple categories—search engines face a challenge: which URL should they index and rank?
 
@@ -176,6 +181,7 @@ Search engines will:
 This is a declarative approach—you're not blocking access to alternate URLs, but rather declaring which version should represent the content in search results.
 
 ## The Interconnected Nature of SEO
+---
 
 Individual SEO elements don't work in isolation. Consider how they interact:
 
@@ -209,6 +215,7 @@ When all elements align around the same target keywords, they create a coherent 
 :::
 
 ## Beyond Rankings: The Business Impact
+---
 
 SEO optimization affects more than search rankings. Consider the full impact:
 
@@ -224,6 +231,7 @@ SEO should be viewed as part of a broader customer experience strategy, not just
 :::
 
 ## Practical Implications for E-Commerce
+---
 
 Understanding these concepts changes how you approach SEO work:
 
@@ -236,11 +244,11 @@ Understanding these concepts changes how you approach SEO work:
 | 3️⃣ | **Write for Readers** | Create content serving customers; SEO benefits follow |
 | 4️⃣ | **Monitor & Adjust** | Search behavior changes; refine over time |
 
-:::info Ongoing Practice
+Ongoing Practice
 SEO optimization is not a one-time task but an ongoing practice of maintaining alignment between your content and what your customers are searching for. Search engine algorithms evolve, customer search behavior shifts, and competitors adjust their strategies—effective SEO requires continuous attention.
-:::
 
 ## Key Takeaways
+---
 
 | Concept | Understanding |
 |---------|--------------|
