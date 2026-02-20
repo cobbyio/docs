@@ -8,10 +8,12 @@ title: Third-Party Extension Integration
 cobby is designed to work seamlessly with the Magento/Adobe Commerce ecosystem, including third-party extensions. Understanding how cobby interacts with extensions helps you make informed decisions about compatibility and integration approaches.
 
 ## Compatibility Philosophy
+---
 
 Most third-party extensions work with cobby out of the box because cobby operates through Magento's standard data layer. However, some extensions require additional consideration due to how they extend or modify Magento's default behavior.
 
 ## Types of Integration Scenarios
+---
 
 ### Native Compatibility
 
@@ -41,6 +43,7 @@ Certain extensions need dedicated compatibility modules because they:
 An example is the Integernet_Solr extension for cobby 2.0, which has a dedicated [compatibility module on GitHub](https://github.com/dimajanzen/Solr_Compatibility_Cobby).
 
 ## Database-Direct Extensions
+---
 
 When a third-party extension writes directly to Magento's database (bypassing Magento's model layer), cobby needs to be notified of data changes. This notification mechanism exists because:
 
@@ -51,6 +54,7 @@ When a third-party extension writes directly to Magento's database (bypassing Ma
 The solution is simple: extensions can dispatch a cobby event to notify it of changes. This maintains data consistency while preserving the extension's architecture.
 
 ## Why Some Extensions Need Customization
+---
 
 Extensions that require customization to cobby itself typically:
 - Implement entirely new product types or entities
@@ -61,6 +65,7 @@ Extensions that require customization to cobby itself typically:
 In these cases, the integration is less about compatibility and more about extending cobby's feature set to support the extension's unique requirements.
 
 ## Architectural Considerations
+---
 
 ### Data Flow
 
@@ -82,6 +87,7 @@ For extensions that write directly to the database, the change notification patt
 - Users might overwrite extension-made changes unknowingly
 
 ## Extension Integration Questions
+---
 
 When evaluating whether an extension needs customization, consider:
 

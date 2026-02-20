@@ -117,6 +117,7 @@ During import:
 - Magento's rental type logic takes over
 
 ## Technical Considerations
+---
 
 ### Type Persistence
 
@@ -143,6 +144,7 @@ Type transformation adds minimal overhead because:
 - Scales with the number of affected products, not total catalog size
 
 ## When to Use Type Transformation
+---
 
 Use type transformation when:
 - You have custom product types not natively supported by cobby
@@ -157,6 +159,7 @@ Consider direct integration when:
 - Multiple stores share the same custom type implementation
 
 ## Extension Resources
+---
 
 Reference implementations are available for:
 - [Magento 1 custom product type support](https://github.com/mash2/cobby-magento1-custom-product-type)
@@ -165,6 +168,7 @@ Reference implementations are available for:
 These extensions demonstrate the transformation pattern and provide a foundation for your own custom type support.
 
 ## Related Topics
+---
 
 To understand how standard product types work in cobby:
 

@@ -10,6 +10,7 @@ import Storylane from '@site/src/components/Storylane'
 This guide shows you how to install and configure cobby for your Shopware 6 shop.
 
 ## Prerequisites
+---
 
 - A Shopware 6 shop with admin access
 - Admin login credentials for your Shopware backend
@@ -22,9 +23,8 @@ You can explore an interactive demo of the installation process:
 <Storylane src="https://app.storylane.io/share/ysullyv3kiin" />
 :::
 
----
-
 ## Step 1: Create a cobby Role in Shopware
+---
 
 First, create a dedicated role with the necessary permissions for cobby.
 
@@ -52,9 +52,8 @@ First, create a dedicated role with the necessary permissions for cobby.
 
 8. Click **Save**.
 
----
-
 ## Step 2: Create an Integration with the cobby Role
+---
 
 Now create an integration that cobby will use to connect to your shop.
 
@@ -82,9 +81,8 @@ Now create an integration that cobby will use to connect to your shop.
 You'll need these credentials to connect cobby to your shop. Store them securely - the Secret access key won't be shown again after you close this dialog.
 :::
 
----
-
 ## Step 3: Download and Install the cobby Extension
+---
 
 1. Download the cobby extension from [https://github.com/cobbyio/shopware6-plugin-extension/releases](https://github.com/cobbyio/shopware6-plugin-extension/releases).
 
@@ -106,9 +104,8 @@ You'll need these credentials to connect cobby to your shop. Store them securely
 Keep track of where the ZIP file is saved - you'll need to locate it during upload.
 :::
 
----
-
 ## Step 4: Register for the cobby Portal
+---
 
 :::note Optional Order
 You can complete this step before or after the Shopware configuration (Steps 1-3).
@@ -122,9 +119,8 @@ You can complete this step before or after the Shopware configuration (Steps 1-3
 
 4. Verify your email address and log in to the cobby portal.
 
----
-
 ## Step 5: Create a Workspace and Connect Your Shop
+---
 
 1. Log in to the cobby portal at [https://app.cobby.io](https://app.cobby.io).
 

@@ -19,6 +19,7 @@ import Storylane from '@site/src/components/Storylane';
 <YoutubeVideo id="9bEeSZ_vA8g" title="cobby Introduction - Getting Started Tutorial" />
 
 ## What You'll Learn
+---
 
 In this tutorial, you will:
 
@@ -34,9 +35,8 @@ In this tutorial, you will:
 
 **What you'll build:** You'll complete your first real product update, changing product information and successfully syncing it to your live shop.
 
----
-
 ## Prerequisites
+---
 
 Before starting this tutorial, you need:
 
@@ -53,9 +53,8 @@ If you haven't installed cobby yet, check our installation guides:
 - [Install cobby for Shopware 6](/how-to/installation/install-cobby-shopware-6)
 :::
 
----
-
 ## Part 1: Understanding What cobby Does
+---
 
 ### The Problem cobby Solves
 
@@ -109,9 +108,8 @@ cobby provides two distinct interfaces, each designed for a specific purpose:
 
 All changes sync in real-time, and you always see the current state of your products.
 
----
-
 ## Part 2: Connecting and Exploring the cobby Portal
+---
 
 The **cobby Portal** is the web-based administrative dashboard where you manage your workspace, users, and settings. Let's explore it first before working in Excel.
 
@@ -222,9 +220,8 @@ You've now seen the cobby Portal's administrative capabilities. We'll do the act
 
 **Remember:** The Portal is for **administrative functions** (managing connections, users, and settings), while Excel is for **operational tasks** (editing products).
 
----
-
 ## Part 3: Opening Excel and Connecting
+---
 
 Now let's move to Excel, where you'll do most of your work.
 
@@ -294,9 +291,8 @@ The Task Pane adapts to your current context, giving you relevant options exactl
 Check "Remember me" to avoid logging in every time you open Excel.
 :::
 
----
-
 ## Part 4: Loading and Exploring Products
+---
 
 ### Step 11: Load Your Products
 
@@ -433,9 +429,8 @@ Excel's standard formulas work great with cobby, but cobby also provides custom 
 
 You can use these cobby formulas alongside Excel's built-in functions (SUM, IF, VLOOKUP, etc.) to create powerful automated workflows.
 
----
-
 ## Part 5: Making Your First Edit
+---
 
 Now comes the exciting part - actually changing product data!
 
@@ -507,9 +502,8 @@ Before saving, let's see exactly what you changed:
 
 This is your safety check - you can confirm your changes are correct before they go live.
 
----
-
 ## Part 6: Saving Changes to Your Shop
+---
 
 ### Step 23: Save Your Changes
 
@@ -565,9 +559,8 @@ Now let's see how the Portal tracked your changes:
 
 This history is invaluable for team coordination and auditing—you can always see who changed what and when.
 
----
-
 ## Part 7: Understanding Excel vs. Portal
+---
 
 You've now worked in both the cobby Portal and Excel. Let's clarify when to use each:
 
@@ -605,9 +598,8 @@ This separation of concerns makes cobby more powerful:
 
 Most users open the Portal occasionally (weekly or monthly) but use Excel daily. Think of the Portal as your control center and Excel as your workshop.
 
----
-
 ## Part 8: Key Concepts to Remember
+---
 
 ### Product Status Colors
 
@@ -676,9 +668,8 @@ Don't forget cobby's custom formulas:
 - Combine them with Excel's built-in formulas
 - Great for automating repetitive tasks
 
----
-
 ## What You've Accomplished
+---
 
 Congratulations! In this tutorial, you've:
 
@@ -700,9 +691,8 @@ Congratulations! In this tutorial, you've:
 
 **You now understand the complete cobby workflow and architecture!**
 
----
-
 ## Next Steps
+---
 
 Now that you've completed the comprehensive onboarding and mastered both the cobby Portal and Excel, explore more cobby features:
 
@@ -726,9 +716,8 @@ Now that you've completed the comprehensive onboarding and mastered both the cob
 - **[Fix connection issues](/how-to/troubleshooting/fix-connection-issues)** - Resolve connectivity problems
 - **[Understanding error messages](/explanation/features/error-assistant)** - Interpret validation errors
 
----
-
 ## Quick Reference
+---
 
 Keep these shortcuts handy:
 

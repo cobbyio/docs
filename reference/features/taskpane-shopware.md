@@ -9,6 +9,7 @@ platform: shopware
 The cobby Task Pane in the Shopware environment is the central control panel displayed on the right side of the cobby interface. It provides workspace information, context-sensitive editing capabilities, and job monitoring across three tabs.
 
 ## Toolbar
+---
 
 ![Task Pane/Toolbar Shopware](/img/taskpane-shopware/taskpane-shopware-toolbar.png)
 
@@ -21,6 +22,7 @@ The dark blue toolbar at the top of the Task Pane contains five icons (from left
 - **Logout** — Logs out the current user.
 
 ## Tabs
+---
 
 ![Task Pane/Tabs Shopware](/img/taskpane-shopware/taskpane-shopware-tabs.png)
 
@@ -39,7 +41,9 @@ The Home tab displays workspace details for the currently connected shop:
 
 ### Editor
 
-![Task Pane/Editor Shopware](/img/taskpane-shopware/taskpane-shopware-editor.png)
+import Storylane from '@site/src/components/Storylane';
+
+<Storylane src="https://app.storylane.io/share/g9lytghhaevu" />
 
 The Editor tab provides a context-sensitive editing interface. The content displayed depends on which cell (column) is currently selected in the Excel sheet.
 

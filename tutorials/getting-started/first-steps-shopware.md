@@ -13,6 +13,7 @@ See the [Quick Start: Your First Product Edit (Magento)](/tutorials/getting-star
 :::
 
 ## What You'll Learn
+---
 
 In this tutorial, we will:
 
@@ -29,9 +30,8 @@ In this tutorial, we will:
 
 **Prerequisites:** You should have cobby installed and connected to your Shopware shop.
 
----
-
 ## Step 1: Open Excel and Select Your Workspace
+---
 
 ![Opening Excel and selecting workspace](/img/quick-start-shopware/pic1.png)
 
@@ -49,9 +49,8 @@ First, let's access cobby and connect to your Shopware shop:
 If you don't see the cobby PIM tab, cobby might not be installed correctly.
 :::
 
----
-
 ## Step 2: Explore the Home Screen and Access Product Loading
+---
 
 ![Home screen overview](/img/quick-start-shopware/pic2.png)
 
@@ -63,9 +62,8 @@ The **Home** tab shows your workspace information:
 
 **Why this matters:** Before you can edit products, you need to load them into Excel. The product loading dialog gives you control over which products and attributes you want to work with.
 
----
-
 ## Step 3: Configure Product Filters with Rules
+---
 
 ![Product loading with rules](/img/quick-start-shopware/pic3.png)
 
@@ -80,9 +78,8 @@ The product loading dialog opens with the **"Products"** tab active:
 
 **For this tutorial:** We'll load all products, so remove any existing rules.
 
----
-
 ## Step 4: Select Which Columns to Display
+---
 
 ![Column selection](/img/quick-start-shopware/pic4.png)
 
@@ -96,9 +93,8 @@ Before loading your products, you can choose which attributes (columns) to displ
 
 **What you'll see:** Excel begins loading your products with only the selected columns.
 
----
-
 ## Step 5: View Your Product Data
+---
 
 ![Product overview](/img/quick-start-shopware/pic5.png)
 
@@ -114,9 +110,8 @@ After a few moments, your products appear in Excel:
 **Product Status Column:**
 Notice the leftmost column shows colored status indicators. Right now, all products show green, which means they're synchronized with your shop. We'll learn more about this status column when we make changes in the next steps.
 
----
-
 ## Step 6: Edit a Product's Category Assignment
+---
 
 ![Editing product categories](/img/quick-start-shopware/pic6.png)
 
@@ -129,9 +124,8 @@ Now let's make your first edit by changing a product's category assignment:
 
 **Example:** In our tutorial, we're changing a product's category assignment to include it in multiple categories.
 
----
-
 ## Step 7: Understand Product Status Indicators
+---
 
 ![Product status indicator](/img/quick-start-shopware/pic7.png)
 
@@ -147,9 +141,8 @@ You just saw the product status change from green to yellow. Let's understand wh
 
 Now that your changes are marked as unsaved (yellow), let's save them to make them live in your shop.
 
----
-
 ## Step 8: Save Your Changes to Shopware
+---
 
 ![Saving products to Shopware](/img/quick-start-shopware/pic8.png)
 
@@ -172,9 +165,8 @@ Time to make your changes live in your Shopware shop:
 Your product data is now up to date everywhere. The changes are immediately visible in your Shopware shop, and the product is now assigned to the categories you selected.
 :::
 
----
-
 ## What You've Accomplished
+---
 
 Congratulations! You've completed your first product edit with cobby for Shopware. You now understand:
 
@@ -187,9 +179,8 @@ Congratulations! You've completed your first product edit with cobby for Shopwar
 
 **You've mastered the core cobby workflow:** Load → Edit → Save
 
----
-
 ## Next Steps
+---
 
 Now that you understand the basics, continue your learning journey:
 

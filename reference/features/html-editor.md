@@ -33,6 +33,7 @@ If you have finished, simply click on Apply to apply the changes. The HTML code 
 
 
 ## Why is the HTML editor useful?
+---
 cobby imports the product texts in HTML format, since they are processed in this format by the online stores.
 The representation as HTML code may seem confusing and complicated to users who may not feel comfortable working with HTML. They may also not know exactly what needs to be taken into account when editing so that the code continues to function without errors.
 
@@ -47,6 +48,7 @@ With the help of the HTML editor, you can immediately see how the text at hand w
 
 
 ## Working with the HTML editor
+---
 Using the cobby HTML editor, texts can be quickly and easily converted into HTML.
 There are two ways to use this feature:
 
@@ -78,6 +80,7 @@ After the new texts have been entered into cobby, the texts can be converted dir
 ![](/img/html-editor/pic5.gif)
 
 ## FAQ
+---
 
 ### Where can I find the button for HTML conversion?
 In the following image you can see where you can find the button for HTML conversion in cobby. It is located in the menu item "Tools".

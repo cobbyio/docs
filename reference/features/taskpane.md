@@ -11,10 +11,12 @@ import Storylane from '@site/src/components/Storylane';
 The cobby Task Pane is a right-side panel that provides advanced editing capabilities for complex data types and attributes. The panel enables management of product data that goes beyond standard table editing.
 
 ## Interactive Demo
+---
 
 <Storylane id="4ywhfebvoxhd" title="cobby Task Pane Demo" />
 
 ## Feature Set
+---
 
 The Task Pane comprises nine specialized functional areas for product data management.
 
@@ -205,6 +207,7 @@ The Task Pane comprises nine specialized functional areas for product data manag
 </details>
 
 ## Task Pane Activation
+---
 
 **Access:** cobby Excel Toolbar → Task Pane Button (Element 12)
 
@@ -219,6 +222,7 @@ The Task Pane comprises nine specialized functional areas for product data manag
 **Persistence:** Remains open until manually closed
 
 ## Mass Processing
+---
 
 The Task Pane supports mass operations for most functional areas.
 
@@ -240,6 +244,7 @@ The Task Pane supports mass operations for most functional areas.
 - Changes are applied to all selected products
 
 ## Technical Specifications
+---
 
 **Integration:** cobby Excel Add-in
 
@@ -257,6 +262,7 @@ The Task Pane supports mass operations for most functional areas.
 - Valid cobby license
 
 ## Data Flow
+---
 
 ```
 Excel Row (Selection) → Task Pane (Editing) → Excel Data (Update) → Save Products → Shop Database
@@ -269,6 +275,7 @@ Excel Row (Selection) → Task Pane (Editing) → Excel Data (Update) → Save P
 **Conflict Handling:** Last-write-wins with validation
 
 ## Usage Patterns
+---
 
 ### Context-Sensitive Activation
 

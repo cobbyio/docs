@@ -12,6 +12,7 @@ For conceptual understanding of how presets improve your workflow, see [Understa
 :::
 
 ## Preset Types
+---
 
 cobby provides two built-in presets and allows you to create unlimited custom presets for your specific workflows.
 
@@ -50,9 +51,8 @@ Custom presets are user-created presets with the following characteristics:
 - **Inheritance**: Can be created by loading an existing preset, modifying it, and saving under a new name
 - **Portability**: Can be exported and imported between cobby workspaces
 
----
-
 ## Preset Components
+---
 
 Each cobby preset can contain multiple configuration elements that together define your custom view.
 
@@ -110,9 +110,8 @@ When a help column is created:
   1. Manually disable data validation for the help column after creation
   2. Change Excel settings: File > Options > Advanced > Uncheck "Expand data range formats and formulas"
 
----
-
 ## Preset Operations
+---
 
 All preset operations in cobby are performed through the Excel toolbar or the cobby portal interface.
 
@@ -218,9 +217,8 @@ Learn more about the toolbar: [Excel Toolbar Reference](/reference/features/exce
 
 **Cross-Installation Compatibility**: Presets can be imported between workspaces connected to different Magento installations (column availability may vary based on attributes)
 
----
-
 ## Preset Management Interface
+---
 
 cobby provides a web-based interface in the cobby portal for managing presets, eliminating the need to work within Excel's spreadsheet interface.
 
@@ -269,9 +267,8 @@ cobby provides a web-based interface in the cobby portal for managing presets, e
 
 **Important**: Presets are stored in the cobby workspace (cloud), not in local Excel files
 
----
-
 ## Preset Scope
+---
 
 cobby presets can be configured to apply globally or vary per Magento attribute set.
 
@@ -306,6 +303,7 @@ cobby presets can be configured to apply globally or vary per Magento attribute 
 **Use case**: Complex catalogs where different product types (e.g., apparel vs. electronics) require different column configurations
 
 ## Technical Constraints
+---
 
 ### Mandatory Fields for Product Creation
 
@@ -344,9 +342,8 @@ When a preset is used for creating new products in cobby, the following Magento-
 
 **Synchronization**: Presets are synced across all devices where cobby is installed with the same workspace
 
----
-
 ## Related Documentation
+---
 
 **Understanding Presets**:
 - [Understanding Presets](/explanation/features/presets) - Conceptual guide explaining why and how presets improve workflows

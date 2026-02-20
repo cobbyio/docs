@@ -6,9 +6,8 @@ description: Understanding virtual products as non-physical items that exist onl
 
 Virtual products represent items that have no physical form—services, memberships, warranties, and other non-tangible offerings that customers purchase but never receive in a box. While technically a variant of simple products, virtual products play a distinct role in e-commerce by signaling to the system that shipping, weight, and physical handling are irrelevant.
 
----
-
 ## 📦 What Makes a Product Virtual
+---
 
 A virtual product is essentially a simple product with its physical nature stripped away. It has no weight, requires no shipping, and will never sit in a warehouse waiting to be packed. Examples include consulting hours, gym memberships, extended warranties, training sessions, and subscription renewals.
 
@@ -16,9 +15,8 @@ From a technical perspective, a virtual product inherits all the capabilities of
 
 This isn't just a cosmetic distinction. The virtual flag fundamentally changes how the e-commerce system treats the product throughout the customer journey.
 
----
-
 ## 🚫 Why Shipping Logic Matters
+---
 
 The primary reason virtual products exist as a separate type is to inform the shipping subsystem that it can be ignored entirely. When a customer adds only virtual products to their cart, the checkout flow knows not to request a shipping address, not to calculate shipping costs, and not to integrate with carrier APIs.
 
@@ -26,9 +24,8 @@ This creates a cleaner customer experience—why ask someone buying a consulting
 
 For businesses offering both physical and virtual products, the distinction becomes even more important. When a cart contains both types, the system can intelligently separate the fulfillment paths: physical items go to the warehouse, virtual items trigger digital delivery or service activation.
 
----
-
 ## 💡 Virtual vs Downloadable Products
+---
 
 A common point of confusion arises between virtual and downloadable products, since both are non-physical. The distinction centers on **file delivery**.
 
@@ -38,9 +35,8 @@ Downloadable products, by contrast, are specifically designed for digital files�
 
 If your product involves delivering a file to the customer, it's downloadable. If it's purely a service or access right without file transfer, it's virtual.
 
----
-
 ## 🎯 When Virtual Products Make Sense
+---
 
 Virtual products shine in several scenarios:
 
@@ -52,9 +48,8 @@ Virtual products shine in several scenarios:
 
 **Subscription renewals** for memberships, access rights, or recurring services are virtual by nature, as they grant ongoing access rather than delivering a tangible item.
 
----
-
 ## 💰 Business Impact of the Virtual Flag
+---
 
 Designating a product as virtual has real operational consequences. The checkout experience becomes faster and simpler when customers aren't prompted for unnecessary shipping information. Order processing becomes more efficient as fulfillment teams don't waste time looking for non-existent inventory.
 

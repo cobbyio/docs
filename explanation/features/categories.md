@@ -8,6 +8,7 @@ title: Categories
 Categories are the organizational backbone of any e-commerce catalog. Understanding how cobby handles categories - particularly the difference between replacing and adding categories - is crucial for maintaining catalog integrity at scale.
 
 ## What Are Categories in E-Commerce?
+---
 
 Categories serve multiple purposes in an e-commerce system:
 
@@ -27,6 +28,7 @@ Unlike physical stores where a product sits in one location, digital products ca
 This flexibility is powerful but creates complexity when managing products in bulk.
 
 ## Why Category Assignment Requires Special Handling
+---
 
 When you're assigning categories to products in bulk, a critical question arises: **Should the new categories replace the existing ones or be added to them?**
 
@@ -43,6 +45,7 @@ This seemingly simple question has significant implications:
 **Risk:** Accumulating unwanted category assignments over time
 
 ## How cobby's Category Mass Actions Work
+---
 
 cobby provides explicit control over this behavior through its mass action system, which operates differently than standard single-product editing.
 
@@ -81,6 +84,7 @@ After saving, the task pane displays all selected categories for each product. T
 - All intended categories are now assigned
 
 ## Why This Architecture Matters
+---
 
 ### Preventing Accidental Data Loss
 
@@ -105,6 +109,7 @@ The additive category assignment allows you to:
 Being able to assign hundreds of products to additional categories in seconds rather than minutes or hours transforms how you can manage your catalog. This speed is only safe because of the explicit controls cobby provides.
 
 ## Understanding the Separation Character
+---
 
 The pipe character (`|`) is used as a category separator because:
 
@@ -116,6 +121,7 @@ The pipe character (`|`) is used as a category separator because:
 When you see `Electronics | New Arrivals | Featured`, you're looking at three separate category assignments, not a hierarchical path.
 
 ## Common Misconceptions
+---
 
 ### "Yellow Status Means Error"
 **Reality:** Yellow status indicates pending changes, not errors. It's a safety feature that requires you to save explicitly.
@@ -127,6 +133,7 @@ When you see `Electronics | New Arrivals | Featured`, you're looking at three se
 **Reality:** Mass actions have different behavior and require explicit mode selection. This is intentional to prevent accidental bulk changes.
 
 ## Why Categories Need Special Attention
+---
 
 Categories are one of the few attributes where:
 

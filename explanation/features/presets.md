@@ -8,6 +8,7 @@ title: Presets
 Presets are one of cobby's most powerful features for customizing your product management workflow. They transform the Excel interface from a generic data grid into a personalized workspace tailored to your specific tasks. Understanding how presets work helps you leverage them for maximum efficiency.
 
 ## What Presets Really Are
+---
 
 At their core, presets are saved views of your product data. But they're more than just visual preferences—they're workflow templates that encapsulate:
 
@@ -19,6 +20,7 @@ At their core, presets are saved views of your product data. But they're more th
 Think of presets as different "modes" for Excel—each optimized for a specific task or role.
 
 ## The Built-In Presets
+---
 
 cobby provides two foundational presets that serve different purposes:
 
@@ -46,6 +48,7 @@ The reduced preset is cobby's intelligent default. It automatically shows:
 **The limitation**: If you need to populate a previously unused attribute, you must switch to the default preset to see it.
 
 ## Why Presets Transform Productivity
+---
 
 ### Task-Specific Optimization
 
@@ -111,6 +114,7 @@ Now, preset customization happens in the cobby portal with a clean, web-based in
 The web interface transforms preset management from a tedious task into a quick configuration step.
 
 ## Understanding Preset Composition
+---
 
 Presets can build on each other, creating a hierarchy of customizations:
 
@@ -124,6 +128,7 @@ Default Preset (everything)
 This composition means you don't start from scratch each time. You load an existing preset, make modifications, and save it as a new preset. This incremental approach is faster and maintains consistency.
 
 ## How Presets Enable Collaboration
+---
 
 In team environments, presets standardize workflows:
 
@@ -141,6 +146,7 @@ Each person loads their preset and sees exactly what they need. This:
 - Creates consistency (everyone uses the same view for the same task)
 
 ## The Role of Help Columns
+---
 
 Help columns extend presets beyond just showing/hiding existing data. They let you add custom columns that:
 
@@ -169,6 +175,7 @@ Now every product automatically generates the URL-friendly version. Copy the res
 Help columns transform Excel from a data entry tool into a data transformation tool.
 
 ## Presets for Product Creation
+---
 
 Presets can include pre-filled formulas that automatically populate data for new products:
 
@@ -182,6 +189,7 @@ Create a preset with formulas in these fields. When you add a new row (new produ
 This ensures consistency across products and eliminates repetitive typing.
 
 ## Understanding Preset Scope
+---
 
 Presets can be configured at different scopes:
 
@@ -191,6 +199,7 @@ Presets can be configured at different scopes:
 This flexibility lets you optimize for different product types. Apparel might need size/color columns prominent, while electronics need technical specification columns.
 
 ## The Performance Impact of Presets
+---
 
 Understanding the relationship between presets and performance helps you design efficient workflows:
 
@@ -205,6 +214,7 @@ For catalogs with 10,000+ products, the difference between showing 100 columns v
 **Best practice**: Create narrowly focused presets for routine tasks, even if you occasionally need the default preset for comprehensive work.
 
 ## Import and Export: Sharing Presets
+---
 
 Presets can be exported and imported between cobby workspaces. This enables:
 
@@ -219,6 +229,7 @@ Presets can be exported and imported between cobby workspaces. This enables:
 The export/import feature treats presets as portable configuration files, allowing you to manage them like code.
 
 ## Why Mandatory Fields Matter
+---
 
 When creating presets for product creation, understanding mandatory fields is critical:
 
@@ -237,6 +248,7 @@ This constraint guides preset design—create separate presets for:
 - **Product editing**: Hide fields that won't change
 
 ## The Strategic Value of Presets
+---
 
 Beyond day-to-day efficiency, presets provide strategic value:
 

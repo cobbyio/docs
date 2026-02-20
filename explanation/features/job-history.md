@@ -8,6 +8,7 @@ title: Job History and Status Icons
 The job history is cobby's real-time monitoring system that provides visibility into all data processing operations between cobby and Magento. Understanding how it works helps you maintain data integrity and quickly identify issues.
 
 ## What the Job History Represents
+---
 
 The job history is essentially a live activity log that tracks every operation you initiate in cobby. Each entry represents a discrete job—whether it's importing products, processing changes, or updating attributes. The history provides complete transparency into what's happening with your data at any moment.
 
@@ -21,6 +22,7 @@ Traditional e-commerce systems often lack visibility into data operations. You m
 - **Performance Insights**: Understand how long operations take
 
 ## Understanding Job Statuses
+---
 
 cobby uses five distinct job statuses to communicate what's happening with your data. Each status has a specific meaning and visual indicator.
 
@@ -99,6 +101,7 @@ When server errors occur, the job log contains the error message. Server logs (M
 **What this means**: Something needs to be fixed before the changes can be applied. Data validation errors can be fixed in cobby directly. Server errors require investigation of server logs or hosting configuration.
 
 ## Understanding Product Statuses
+---
 
 While job statuses track operations, product statuses track the synchronization state of individual products.
 
@@ -135,6 +138,7 @@ The "Show changes" feature reveals exactly which products differ. "Load products
 **What this means**: Excel is out of sync with Magento. This is normal during editing and after certain operations, but should be resolved by loading or saving changes.
 
 ## Why the Job History is Essential
+---
 
 ### Data Integrity
 
@@ -159,6 +163,7 @@ The job history provides complete visibility into how data flows through your sy
 - Document workflows
 
 ## The Role of Icons in Communication
+---
 
 cobby uses color and iconography intentionally to communicate status at a glance. This visual language allows you to:
 
@@ -169,6 +174,7 @@ cobby uses color and iconography intentionally to communicate status at a glance
 The icon system is designed to reduce cognitive load—you can understand the state of operations without deep investigation unless needed.
 
 ## How Job History Enables Workflows
+---
 
 Understanding the job history helps you build efficient workflows:
 
