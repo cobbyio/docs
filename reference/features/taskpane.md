@@ -1,11 +1,12 @@
 ---
 title: Task Pane (Magento)
 description: Complete reference documentation for the cobby Task Pane panel for advanced attribute management and data handling.
+platform: magento
 ---
 
 import Storylane from '@site/src/components/Storylane';
 
-# Task Pane
+# Task Pane (Magento)
 
 The cobby Task Pane is a right-side panel that provides advanced editing capabilities for complex data types and attributes. The panel enables management of product data that goes beyond standard table editing.
 
