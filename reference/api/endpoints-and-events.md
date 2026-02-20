@@ -8,10 +8,12 @@ title: API Endpoints and Events
 Complete technical reference for cobby's API endpoints and events. This reference is intended for developers creating custom Magento extensions based on cobby.
 
 ## Version History
+---
 
 Starting with cobby version 1.38.1.1, many requests changed to a leaner naming scheme. Custom extensions from previous versions should check for both old and new formats.
 
 ## Custom Change Notification Event
+---
 
 Use this event to notify cobby when your extension writes directly to Magento's database:
 
@@ -39,6 +41,7 @@ Mage::dispatchEvent('cobby_handle_changes', array(
 ```
 
 ## Event Types
+---
 
 ### Import Events
 
@@ -51,6 +54,7 @@ Mage::dispatchEvent('cobby_handle_changes', array(
 - Use to manipulate returned data rendered in cobby
 
 ## Attribute Set
+---
 
 ### Export Attribute Sets
 
@@ -61,6 +65,7 @@ Mage::dispatchEvent('cobby_handle_changes', array(
 **Events:** None
 
 ## Category
+---
 
 ### Export Category Tree
 
@@ -71,6 +76,7 @@ Mage::dispatchEvent('cobby_handle_changes', array(
 **Events:** None
 
 ## Attributes
+---
 
 ### Attribute Info
 
@@ -96,6 +102,7 @@ Mage::dispatchEvent('cobby_handle_changes', array(
 **Trigger Sequence:** For attributes with options (e.g., select attributes), both events trigger after export.
 
 ## Attribute Options
+---
 
 ### Export Attribute Options
 
@@ -122,6 +129,7 @@ Mage::dispatchEvent('cobby_handle_changes', array(
 | cobby_catalog_product_attribute_option_export_after | Use to modify or remove options |
 
 ## Configurable Product
+---
 
 ### Assign Configurable Product
 
@@ -132,6 +140,7 @@ Mage::dispatchEvent('cobby_handle_changes', array(
 **Events:** None
 
 ## Website
+---
 
 ### Export Websites
 
@@ -142,6 +151,7 @@ Mage::dispatchEvent('cobby_handle_changes', array(
 **Events:** None
 
 ## Stores
+---
 
 ### Export Store Views
 
@@ -152,6 +162,7 @@ Mage::dispatchEvent('cobby_handle_changes', array(
 **Events:** None
 
 ## Store Group
+---
 
 ### Export Store Groups
 
@@ -162,6 +173,7 @@ Mage::dispatchEvent('cobby_handle_changes', array(
 **Events:** None
 
 ## Config
+---
 
 ### Export Configuration
 
@@ -172,6 +184,7 @@ Mage::dispatchEvent('cobby_handle_changes', array(
 **Events:** None
 
 ## ACL
+---
 
 ### Export ACL
 
@@ -182,6 +195,7 @@ Mage::dispatchEvent('cobby_handle_changes', array(
 **Events:** None
 
 ## Customer Group
+---
 
 ### Export Customer Groups
 
@@ -192,6 +206,7 @@ Mage::dispatchEvent('cobby_handle_changes', array(
 **Events:** None
 
 ## Product
+---
 
 ### Update Product SKUs
 
@@ -427,6 +442,7 @@ Mage::dispatchEvent('cobby_handle_changes', array(
 | cobby_import_product_finished | Triggered after cobby finishes import |
 
 ## Indexer
+---
 
 ### Change Indexer Status
 
@@ -461,6 +477,7 @@ Mage::dispatchEvent('cobby_handle_changes', array(
 **Events:** None
 
 ## Queue
+---
 
 ### Export Queue
 
@@ -487,6 +504,7 @@ Mage::dispatchEvent('cobby_handle_changes', array(
 **Events:** None
 
 ## Translation
+---
 
 ### Get Translation
 
@@ -505,6 +523,7 @@ Mage::dispatchEvent('cobby_handle_changes', array(
 **Events:** None
 
 ## Debug
+---
 
 ### Export Debug Info
 
@@ -515,6 +534,7 @@ Mage::dispatchEvent('cobby_handle_changes', array(
 **Events:** None
 
 ## Related How-To Guides
+---
 
 - [Troubleshoot with Postman](/how-to/developers/troubleshoot-with-postman) - Test API requests and debug integration issues
 - [Use API Events](/how-to/developers/use-api-events) - Implement event notifications for custom extensions

@@ -8,6 +8,7 @@ title: Error Assistant
 The error assistant is cobby's intelligent error detection and guidance system. Rather than simply reporting that something failed, it provides structured information about what went wrong, why it matters, and how to address it. Understanding how it works helps you resolve issues quickly and prevents recurring errors.
 
 ## What the Error Assistant Represents
+---
 
 The error assistant is a specialized task pane that appears automatically when cobby detects validation errors during the save operation. It's not just an error message—it's a diagnostic interface that bridges the gap between detecting a problem and fixing it.
 
@@ -23,6 +24,7 @@ In traditional spreadsheet workflows, errors often aren't discovered until much 
 This proactive approach prevents data corruption and reduces troubleshooting time significantly.
 
 ## How the Error Assistant is Structured
+---
 
 The error assistant organizes information into three key components:
 
@@ -47,6 +49,7 @@ The eye icon is the most powerful feature—it instantly navigates you to the ex
 ![Error assistant interface](/img/error-assistant/pic1.png)
 
 ## Why Structured Error Reporting is Essential
+---
 
 ### Speed and Efficiency
 
@@ -85,6 +88,7 @@ Knowing that cobby validates data before sending it to Magento provides confiden
 - Data quality standards are enforced consistently
 
 ## How Error Detection Works
+---
 
 Understanding the error detection process helps you appreciate what the error assistant does:
 
@@ -111,6 +115,7 @@ Not all errors are the same. The error assistant distinguishes between:
 Understanding this classification helps you prioritize responses.
 
 ## The Difference Between Error Assistant Errors and Server Errors
+---
 
 This is a critical distinction:
 
@@ -133,6 +138,7 @@ These occur after data passes validation but fails in Magento:
 When you see a red job status but no error assistant, you're dealing with a server error that requires different troubleshooting approaches.
 
 ## Why the Error Code Library Exists
+---
 
 cobby maintains a comprehensive library of error codes with detailed explanations. This library serves multiple purposes:
 
@@ -163,6 +169,7 @@ The error library serves as living documentation of:
 - Best practices for data quality
 
 ## Error Categories and What They Reveal
+---
 
 The error library organizes errors into categories that reflect different aspects of product data:
 
@@ -184,6 +191,7 @@ These indicate integration issues or system-level problems
 Understanding these categories helps you identify patterns—if you frequently see configurable product errors, it suggests a need for better understanding of variant management.
 
 ## The Role of Error Assistant in Workflow Quality
+---
 
 The error assistant isn't just about fixing problems—it's about improving processes:
 
@@ -206,6 +214,7 @@ Recurring errors indicate opportunities for:
 The error assistant makes these patterns visible.
 
 ## Why Real-Time Validation is Superior to Batch Processing
+---
 
 Traditional import systems often validate entire batches and report all errors at once. cobby's real-time approach offers advantages:
 

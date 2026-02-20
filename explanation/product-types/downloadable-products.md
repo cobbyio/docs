@@ -12,9 +12,8 @@ Common examples include eBooks, software applications, music files, video conten
 
 The defining characteristic is the downloadable file or link associated with the product. Each downloadable product contains at least one link pointing to either a file stored on your server or an external URL where the content resides.
 
----
-
 ## 🔐 Why Downloadable Products Exist
+---
 
 Downloadable products solve a fundamental challenge in digital commerce: how to deliver files securely while maintaining control over access. Simply providing public download links would allow anyone to access your content without purchasing, undermining your business model.
 
@@ -24,9 +23,8 @@ Access control extends beyond initial verification. Downloadable products suppor
 
 The distinction from simple file hosting services is crucial: downloadable products integrate file delivery with your entire e-commerce workflow, connecting inventory, payments, customer accounts, and digital rights management into a cohesive system.
 
----
-
 ## ⚙️ How Downloadable Products Work
+---
 
 When you create a downloadable product, you associate one or more downloadable links with it. Each link represents a file customers will receive. These links can point to files stored on your server (uploaded through your e-commerce platform) or external URLs where content is hosted elsewhere.
 
@@ -36,9 +34,8 @@ After a customer completes a purchase, the platform generates secure, unique dow
 
 Downloadable products can be marked as "virtual," indicating they require no shipping address during checkout. However, the virtual attribute is optional—you might sell a physical product bundle that includes downloadable bonus content, requiring shipping for the physical component while also providing digital files.
 
----
-
 ## ✨ Key Features
+---
 
 The security model generates individual links per customer and order rather than using shared URLs. This per-customer generation enables tracking who downloaded what and when, supporting auditing and customer service investigations.
 
@@ -50,9 +47,8 @@ Multiple files per product accommodate complex digital offerings. Software might
 
 Sample downloads allow potential customers to preview content before purchasing. You can provide sample chapters of an eBook or demo versions of software as links customers access without buying, helping them make informed purchase decisions.
 
----
-
 ## 🔄 Downloadable vs Virtual Products
+---
 
 Downloadable and virtual products address different needs despite both being non-physical. Downloadable products provide files—tangible digital assets customers download and own. Virtual products represent services, subscriptions, warranties, or experiences that exist only as records in your system without associated files.
 
@@ -60,9 +56,8 @@ An online course might be a downloadable product if students download video lect
 
 These categories can combine. A downloadable product marked as virtual indicates digital content requiring no shipping—the most common configuration for purely digital goods. A downloadable product *not* marked virtual indicates a hybrid offering with both physical and digital components.
 
----
-
 ## 🎯 When to Use Downloadable Products
+---
 
 Use downloadable products whenever customers need to receive and keep digital files as part of their purchase. Software distributions, eBook sales, music downloads, digital course materials, design templates, stock photography, printable planners, and digital artwork all fit this model.
 
@@ -70,9 +65,8 @@ Don't use downloadable products for services without files—consulting, subscri
 
 The decision often depends on delivery method rather than content type. A video course delivered as MP4 downloads is a downloadable product; the same course delivered through streaming-only web access is virtual.
 
----
-
 ## 💡 Why This Design Matters
+---
 
 The downloadable product architecture balances security, control, and customer experience. Security mechanisms prevent unauthorized access and limit piracy without creating friction for legitimate customers. Per-customer link generation means leaked URLs only compromise individual orders rather than exposing content globally.
 

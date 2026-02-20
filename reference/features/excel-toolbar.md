@@ -10,14 +10,17 @@ import Storylane from '@site/src/components/Storylane';
 The cobby Excel toolbar provides the primary interface for managing product data synchronization between Excel and your e-commerce platform. The toolbar consists of 12 distinct elements, each serving specific data management functions.
 
 ## Interactive Demo
+---
 
 <Storylane id="um3edarr12li" title="cobby Excel Toolbar Interactive Demo" />
 
 ## Toolbar Overview
+---
 
 ![cobby Excel Toolbar](/img/excel-toolbar/toolbar-overview.jpg)
 
 ## Toolbar Elements
+---
 
 <details>
 <summary><strong>1. Job Log</strong></summary>

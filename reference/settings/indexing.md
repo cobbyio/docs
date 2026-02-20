@@ -10,10 +10,12 @@ title: Resynchronization
 Resynchronization (resync) is the process of updating cobby's internal cache with structural changes from the Magento database. It rebuilds the metadata index that cobby uses to map Magento attributes, storeviews, and attribute sets to Excel columns.
 
 ## Purpose
+---
 
 Resynchronization is required when Magento's structural configuration changes in ways that affect cobby's data schema. It does **not** sync product data—only the structure definition.
 
 ## Synchronization Triggers
+---
 
 ### Attribute-Related Changes
 
@@ -68,6 +70,7 @@ Resynchronization is required when Magento's structural configuration changes in
 | Installation or update of cobby extension | Yes | Version-specific schema updates |
 
 ## What Does NOT Require Resync
+---
 
 - Product data changes (name, price, description, etc.)
 - Inventory quantity updates
@@ -80,6 +83,7 @@ Resynchronization is required when Magento's structural configuration changes in
 **Note:** Product data syncs automatically through cobby's standard Excel synchronization process.
 
 ## Resync Process
+---
 
 ### Initiation
 
@@ -109,6 +113,7 @@ Resynchronization is required when Magento's structural configuration changes in
 - Server response time
 
 ## Effect on Active Excel Sessions
+---
 
 | Scenario | Behavior | Recommended Action |
 |----------|----------|-------------------|
@@ -117,6 +122,7 @@ Resynchronization is required when Magento's structural configuration changes in
 | Mid-upload during resync | Upload completes normally | Structural changes appear after next load |
 
 ## Validation
+---
 
 After resync, verify the following in Excel:
 
@@ -127,6 +133,7 @@ After resync, verify the following in Excel:
 - Column order reflects attribute group positions
 
 ## Technical Notes
+---
 
 - Resync is idempotent (safe to run multiple times)
 - Does not modify Magento data

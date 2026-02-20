@@ -17,6 +17,7 @@ See the [Quick Start: Your First Product Edit (Shopware)](/tutorials/getting-sta
 :::
 
 ## What You'll Learn
+---
 
 In this tutorial, we will:
 
@@ -31,9 +32,8 @@ In this tutorial, we will:
 
 **Prerequisites:** You should have cobby installed and connected to your shop.
 
----
-
 ## Step 1: Switch to the cobby Menu
+---
 
 ![](/img/first-steps/first-steps-2.png)
 
@@ -49,9 +49,8 @@ First, let's find cobby in Excel:
 If you don't see the cobby tab, cobby might not be installed correctly. Check our [troubleshooting guide](/how-to/troubleshooting/fix-cobby-not-showing-in-excel).
 :::
 
----
-
 ## Step 2: Load Your Products
+---
 
 ![](/img/first-steps/load-products_icon.png)
 
@@ -71,9 +70,8 @@ Now we'll bring your shop's products into Excel:
 Depending on your product catalog size, this may take longer. Large catalogs with thousands of products might take a minute or two.
 :::
 
----
-
 ## Step 3: Edit a Product Name
+---
 
 Let's make our first change! We'll rename a product:
 
@@ -90,9 +88,8 @@ Let's make our first change! We'll rename a product:
 
 **What you'll see:** As soon as you press Enter, the very first column (Product Status) will change color!
 
----
-
 ## Step 4: Understand Product Status
+---
 
 ![](/img/first-steps/first-steps-5.png)
 
@@ -108,9 +105,8 @@ The **Product Status** column (the first column) uses colors to show you what's 
 Want more details about statuses? Check the [Job History reference](/explanation/features/job-history).
 :::
 
----
-
 ## Step 5: View Your Changes
+---
 
 ![](/img/first-steps/show-changes_icon.png)
 
@@ -129,9 +125,8 @@ Before saving, let's review what we changed:
 
 This is your safety check - you can confirm your changes before they go live!
 
----
-
 ## Step 6: Save Changes to Your Shop
+---
 
 ![](/img/first-steps/save-products_icon.png)
 
@@ -152,9 +147,8 @@ Time to make your changes live:
 Congratulations! You've just completed your first product edit with cobby. The entire load → edit → save workflow is the foundation of all cobby work.
 :::
 
----
-
 ## Understanding cobby Columns
+---
 
 Now that you've completed your first edit, let's explore the most important columns you'll work with:
 
@@ -176,9 +170,8 @@ Contains the product description. Use the integrated HTML editor to edit rich te
 ### 🎯 Presets
 The columns you see depend on your current **preset**. Presets let you create custom views showing only the attributes you need.
 
----
-
 ## What You've Accomplished
+---
 
 In this tutorial, you've learned:
 
@@ -190,9 +183,8 @@ In this tutorial, you've learned:
 - How to save changes back to your shop
 - What the main cobby columns represent
 
----
-
 ## Next Steps
+---
 
 Now that you understand the basics, you can:
 

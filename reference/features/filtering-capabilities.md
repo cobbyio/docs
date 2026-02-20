@@ -11,6 +11,7 @@ import Storylane from '@site/src/components/Storylane';
 cobby provides two distinct filtering mechanisms for managing product data: the cobby filter and the Excel filter. These filters operate at different stages of the data workflow and serve complementary purposes.
 
 ## Key Distinction
+---
 
 | Filter Type | Application Stage | Primary Purpose |
 |-------------|------------------|-----------------|
@@ -22,6 +23,7 @@ The fundamental difference between these two filtering mechanisms lies in their 
 <Storylane src="https://app.storylane.io/share/hq3e5doraaww" />
 
 ## cobby Filter
+---
 
 :::info Pre-Load Filter
 The cobby filter applies **before** data transfer from Magento to Excel, determining which products are retrieved. This reduces data volume, memory usage, and load time.
@@ -100,9 +102,8 @@ The keyboard navigation system applies to all dropdown lists and input fields wi
 
 Pre-loading filtration significantly reduces data transfer requirements. For example, filtering 10,000 products to 100 matching items transfers only 100 rows from Magento, rather than transferring all 10,000 rows and hiding 9,900 of them in Excel.
 
----
-
 ## Excel Filter
+---
 
 :::info Post-Load Filter
 The Excel filter applies **after** data is loaded into Excel, controlling which rows are visible. All data remains in memory, enabling instant filter switching without data reload.
@@ -132,9 +133,8 @@ Individual column filters can be removed via the filter icon in the column heade
 
 Excel filters preserve original data order and content while hiding non-matching rows. All data remains loaded in memory regardless of filter state, meaning Excel filters do not reduce memory consumption or load time. The primary advantage is instant filter switching for data analysis without requiring data reload.
 
----
-
 ## How the Filters Work Together
+---
 
 The cobby filter and Excel filter serve complementary roles in product data management:
 

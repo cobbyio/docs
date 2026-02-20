@@ -8,6 +8,7 @@ title: Product History
 The product history is cobby's comprehensive audit trail that tracks every change made to your products over time. It's more than just a log—it's a forensic tool for understanding data evolution and a safety net for data recovery.
 
 ## What Product History Captures
+---
 
 Every time a product changes, cobby records a snapshot of that change in the product history. This creates a complete timeline showing:
 
@@ -27,6 +28,7 @@ For each change, you can drill down to see granular details:
 ![Product history interface](/img/product-history/pic-3.png)
 
 ## Why Product History Matters
+---
 
 ### Audit Trail and Accountability
 
@@ -58,6 +60,7 @@ When something seems wrong with product data, the product history helps you inve
 - **Compare states**: See old vs. new values to understand what actually changed
 
 ## How Product History Enables Better Operations
+---
 
 ### Data Confidence
 
@@ -94,6 +97,7 @@ Over time, the product history reveals patterns:
 These insights help optimize workflows and identify areas for process improvement.
 
 ## The Relationship Between Product History and Job History
+---
 
 These two features work together but serve different purposes:
 
@@ -103,6 +107,7 @@ These two features work together but serve different purposes:
 A single job can affect multiple products, creating multiple product history entries. The transaction ID links them together, allowing you to see both the operation that ran and the specific product changes it made.
 
 ## Understanding Product Versions
+---
 
 Each change creates a new product version. This versioning system means:
 
@@ -114,6 +119,7 @@ Each change creates a new product version. This versioning system means:
 Version tracking is essential for understanding product data maturity—a product with 50 versions has been heavily edited and refined, while one with 3 versions is relatively stable.
 
 ## Data Retention and Lifecycle
+---
 
 Product history is retained for a specific period, creating a rolling window of recoverable history. Understanding this helps you:
 
@@ -125,6 +131,7 @@ Product history is retained for a specific period, creating a rolling window of 
 The retention period balances data protection with storage efficiency.
 
 ## Why Search and Filtering are Critical
+---
 
 With thousands of products changing over time, the raw history would be overwhelming. Search and filtering make it useful:
 
@@ -137,6 +144,7 @@ These filters transform a massive dataset into actionable information.
 ![Product history detail view](/img/product-history/pic-1.png)
 
 ## The Role of History in Multi-User Environments
+---
 
 When multiple people or systems modify products, the product history becomes essential for:
 

@@ -10,6 +10,7 @@ import YoutubeVideo from '@site/src/components/YoutubeVideo';
 This guide shows you how to install and configure cobby for your Magento 1 shop.
 
 ## Prerequisites
+---
 
 - cobby account (register at [app.cobby.io](https://app.cobby.io/))
 - Admin access to your Magento 1 backend
@@ -27,9 +28,8 @@ Watch our step-by-step video guide for the complete setup process:
 
 <YoutubeVideo id="ATfWX5ZoEeY" title="Magento 1 - Portal Setup Guide" />
 
----
-
 ## Step 1: Create Your Workspace in the cobby Portal
+---
 
 1. Log in to the cobby portal at [app.cobby.io](https://app.cobby.io/).
 
@@ -49,9 +49,8 @@ Watch our step-by-step video guide for the complete setup process:
 Each workspace can only be connected to one shop and one license. If you have multiple shops (e.g., staging and production) or are migrating from Magento 1 to Magento 2, you'll need to create separate workspaces for each.
 :::
 
----
-
 ## Step 2: Select Your Shop System and Download the Extension
+---
 
 1. Select **Magento Version 1** as your shop system.
 
@@ -59,9 +58,8 @@ Each workspace can only be connected to one shop and one license. If you have mu
 
 2. Click the **download button** to download the cobby extension for Magento 1.
 
----
-
 ## Step 3: Prepare Your Magento Installation
+---
 
 1. Log in to your Magento Admin Panel.
 
@@ -77,9 +75,8 @@ Each workspace can only be connected to one shop and one license. If you have mu
 Having the cache enabled during installation helps ensure the extension installs correctly.
 :::
 
----
-
 ## Step 4: Upload the Extension Files to Your Server
+---
 
 1. Unzip the downloaded cobby extension archive on your computer.
 
@@ -100,9 +97,8 @@ Having the cache enabled during installation helps ensure the extension installs
 Uploading the `app/etc` directory last greatly reduces the chance of SQL scripts not running correctly during installation.
 :::
 
----
-
 ## Step 5: Activate the Extension in Magento
+---
 
 1. Log out of the Magento Admin Panel.
 
@@ -126,9 +122,8 @@ Uploading the `app/etc` directory last greatly reduces the chance of SQL scripts
 Opening the frontend ensures that all database updates are executed properly.
 :::
 
----
-
 ## Step 6: Complete the Installation
+---
 
 1. If you use the Magento compiler, go back to **System** → **Tools** → **Compilation**.
 
@@ -148,9 +143,8 @@ Opening the frontend ensures that all database updates are executed properly.
 
    ![](/img/installation-guide-cobby-for-magento-1/pic5.png)
 
----
-
 ## Step 7: Create an API Role for cobby
+---
 
 1. In the Magento Admin Panel, go to **System** → **Web Services** → **SOAP/XML-RPC - Roles**.
 
@@ -172,9 +166,8 @@ Opening the frontend ensures that all database updates are executed properly.
 
    ![](/img/magento-1-setup/picture-7.png)
 
----
-
 ## Step 8: Create an API User for cobby
+---
 
 1. Go to **System** → **Web Services** → **SOAP/XML-RPC - Users**.
 
@@ -202,9 +195,8 @@ Opening the frontend ensures that all database updates are executed properly.
 
    ![](/img/magento-1-setup/picture-10.png)
 
----
-
 ## Step 9: Connect Your Shop to the cobby Portal
+---
 
 1. Return to the cobby portal.
 
@@ -217,9 +209,8 @@ Opening the frontend ensures that all database updates are executed properly.
 
 3. Click **Save**.
 
----
-
 ## Step 10: Save the Magento Configuration
+---
 
 1. Go to **System** → **Configuration** in your Magento Admin Panel.
 
@@ -233,9 +224,8 @@ The green text confirms that cobby is properly configured in Magento 1!
 
    ![](/img/magento-1-setup/picture-13.png)
 
----
-
 ## Step 11: Wait for Synchronization
+---
 
 1. Return to the cobby portal.
 
@@ -243,9 +233,8 @@ The green text confirms that cobby is properly configured in Magento 1!
 
 3. Once complete, the status changes to **Active**.
 
----
-
 ## Step 12: Download and Install the cobby Excel Plugin
+---
 
 1. In the cobby portal, go to the menu on the left and open the dropdown menu by clicking on the little arrow next to your selected workspace.
 
@@ -267,9 +256,8 @@ The green text confirms that cobby is properly configured in Magento 1!
 
    ![](/img/install-cobby-excel-plugin/picture-3.png)
 
----
-
 ## Step 13: Load Your Products in Excel
+---
 
 1. Open **Microsoft Excel**.
 
@@ -279,9 +267,8 @@ The green text confirms that cobby is properly configured in Magento 1!
 
    ![](/img/install-cobby-excel-plugin/picture-4.png)
 
----
-
 ## Next Steps
+---
 
 - Edit product data in Excel
 - Set up category management
