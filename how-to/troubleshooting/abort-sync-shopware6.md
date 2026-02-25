@@ -49,13 +49,12 @@ Your Shopware 6 shop shows an **Indexing** state in the cobby Portal and the syn
 Aborting a sync will stop the current indexing process. Any incomplete data synchronization will need to be re-triggered manually.
 :::
 
-### 4. Resume Normal Operations
+### 4. Continue Normal Operations
 
 After aborting, you can:
 
-1. **Resume the sync** — Click **Actions** → **Resume** to restart the synchronization.
-2. **Run a Resync** — If data seems inconsistent, perform a full resynchronization.
-3. **Continue working** — If the shop state shows **Active**, you can continue using cobby normally.
+1. **Run a Resync** — Click **Actions** → **Resync** to re-synchronize your shop data.
+2. **Continue working** — If the shop state shows **Active**, you can continue using cobby normally.
 
 ## When to Use This Feature
 
